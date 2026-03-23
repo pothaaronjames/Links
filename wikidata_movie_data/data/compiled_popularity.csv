@@ -1,0 +1,501 @@
+rank,name,qid,pageviews_12mo,sitelinks,source_movie_count,total_film_count,age_years,films_per_active_year,popularity_score,source_movies,enwiki_title
+1,Bruce Lee,Q16397,11457975,161,3,33,33,1.9412,0.867196,Enter the Dragon | Fist of Fury | Way of the Dragon,Bruce Lee
+2,Scarlett Johansson,Q34436,6833151,155,10,58,42,2.2308,0.853400,Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Black Widow | Captain America: Civil War | Captain America: The Winter Soldier | Captain Marvel | Iron Man 2 | The Avengers | The Jungle Book,Scarlett Johansson
+3,Bruce Willis,Q2680,6657291,117,13,117,71,2.1273,0.839542,Armageddon | Charlie's Angels: Full Throttle | Death Becomes Her | Die Hard | Die Hard 2 | Die Hard with a Vengeance | Live Free or Die Hard | Look Who's Talking | Ocean's Twelve | Pulp Fiction | The Sixth Sense | The Verdict | Unbreakable,Bruce Willis
+4,Robert De Niro,Q36949,4840211,137,10,128,83,1.9104,0.828566,Cape Fear | Heat | Joker | Meet the Fockers | Meet the Parents | Sleepers | Taxi Driver | The Deer Hunter | The Godfather Part II | The Untouchables,Robert De Niro
+5,Keanu Reeves,Q43416,6685125,124,8,72,62,1.5652,0.827716,Bram Stoker's Dracula | John Wick: Chapter 4 | Point Break | Something's Gotta Give | Speed | The Matrix | The Matrix Reloaded | The Matrix Revolutions,Keanu Reeves
+6,Jackie Chan,Q36970,3550991,160,4,118,72,2.1071,0.827643,Enter the Dragon | Fist of Fury | Rush Hour 2 | The Cannonball Run,Jackie Chan
+7,Robin Williams,Q83338,5156790,161,9,73,63,1.5532,0.827614,"Dead Poets Society | Good Morning, Vietnam | Hook | Jumanji | Mrs. Doubtfire | Night at the Museum | Night at the Museum: Battle of the Smithsonian | Popeye | The Birdcage",Robin Williams
+8,Val Kilmer,Q191084,10101745,85,5,70,66,1.4000,0.824040,Batman Forever | Heat | Top Gun | Top Gun: Maverick | Willow,Val Kilmer
+9,Brad Pitt,Q35332,5814879,147,10,65,63,1.3830,0.823695,Bullet Train | Deadpool 2 | Interview with the Vampire | Mr. & Mrs. Smith | Ocean's Eleven | Ocean's Twelve | Seven | Sleepers | Troy | World War Z,Brad Pitt
+10,Nicolas Cage,Q42869,3486561,119,7,111,62,2.4130,0.822552,Face/Off | Longlegs | Moonstruck | National Treasure | National Treasure: Book of Secrets | Peggy Sue Got Married | The Rock,Nicolas Cage
+11,Nicole Kidman,Q37459,4789883,131,4,72,59,1.6744,0.820453,Aquaman | Babygirl | Batman Forever | The Golden Compass,Nicole Kidman
+12,Tom Cruise,Q37079,7793664,126,19,52,64,1.0833,0.819108,A Few Good Men | Born on the Fourth of July | Endless Love | Interview with the Vampire | Jerry Maguire | Minority Report | Mission: Impossible | Mission: Impossible 2 | Mission: Impossible III | Mission: Impossible – Fallout | Mission: Impossible – Ghost Protocol | Mission: Impossible – Rogue Nation | Rain Man | The Color of Money | The Firm | The Last Samurai | Top Gun | Top Gun: Maverick | War of the Worlds,Tom Cruise
+13,Arnold Schwarzenegger,Q2685,5760460,153,12,75,79,1.1905,0.818832,Commando | Conan the Barbarian | Eraser | Kindergarten Cop | Last Action Hero | Predator | Terminator 2: Judgment Day | Terminator 3: Rise of the Machines | The Terminator | Total Recall | True Lies | Twins,Arnold Schwarzenegger
+14,Diane Keaton,Q102642,11366346,98,6,58,79,0.9206,0.817797,Annie Hall | Love and Death | Something's Gotta Give | The Godfather | The Godfather Part II | The Godfather Part III,Diane Keaton
+15,Angelina Jolie,Q13909,4567530,171,5,45,51,1.2857,0.817493,Eternals | Lara Croft: Tomb Raider | Maleficent | Mr. & Mrs. Smith | Wanted,Angelina Jolie
+16,Liam Neeson,Q58444,5352360,97,11,105,74,1.8103,0.816820,"Batman Begins | Clash of the Titans | Honest Thief | Love Actually | Schindler's List | Star Wars: Episode I – The Phantom Menace | Star Wars: Episode II – Attack of the Clones | The Chronicles of Narnia: Prince Caspian | The Chronicles of Narnia: The Lion, the Witch and the Wardrobe | The Chronicles of Narnia: The Voyage of the Dawn Treader | The Dark Knight Rises",Liam Neeson
+17,Johnny Depp,Q37175,3724222,146,11,81,63,1.7234,0.816535,Alice in Wonderland | Charlie and the Chocolate Factory | Fantastic Beasts and Where to Find Them | Fantastic Beasts: The Crimes of Grindelwald | Fantastic Beasts: The Secrets of Dumbledore | Pirates of the Caribbean: At World's End | Pirates of the Caribbean: Dead Man's Chest | Pirates of the Caribbean: Dead Men Tell no Tales | Pirates of the Caribbean: On Stranger Tides | Pirates of the Caribbean: The Curse of the Black Pearl | Platoon,Johnny Depp
+18,Dakota Fanning,Q115541,3558258,86,6,42,32,2.6250,0.815436,The Equalizer 3 | The Twilight Saga: Breaking Dawn – Part 1 | The Twilight Saga: Breaking Dawn – Part 2 | The Twilight Saga: Eclipse | The Twilight Saga: New Moon | War of the Worlds,Dakota Fanning
+19,Natalie Portman,Q37876,3840115,134,6,51,45,1.7586,0.815361,Heat | Star Wars: Episode I – The Phantom Menace | Star Wars: Episode II – Attack of the Clones | Star Wars: Episode III – Revenge of the Sith | Thor: Love and Thunder | Thor: The Dark World,Natalie Portman
+20,Millie Bobby Brown,Q25936414,10749580,76,2,7,22,1.1667,0.814839,Godzilla vs. Kong | Godzilla: King of the Monsters,Millie Bobby Brown
+21,Timothée Chalamet,Q19877770,7715303,84,3,21,31,1.4000,0.813649,Dune | Interstellar | Marty Supreme,Timothée Chalamet
+22,Matt Damon,Q175535,3682734,113,12,79,56,1.9750,0.812813,Deadpool 2 | Interstellar | Ocean's Eleven | Ocean's Twelve | Oppenheimer | Saving Private Ryan | The Bourne Supremacy | The Bourne Ultimatum | The Departed | The Martian | Thor: Love and Thunder | Thor: Ragnarok,Matt Damon
+23,Leonardo DiCaprio,Q38111,5664147,148,6,38,52,1.0556,0.812416,Catch Me If You Can | Inception | One Battle After Another | The Departed | The Revenant | Titanic,Leonardo DiCaprio
+24,Ben Affleck,Q483118,4344090,110,7,64,54,1.6842,0.810549,Armageddon | Batman v Superman: Dawn of Justice | Justice League | Pearl Harbor | Shakespeare in Love | Suicide Squad | The Flash,Ben Affleck
+25,James Franco,Q306403,2853019,82,6,90,48,2.8125,0.809105,Dawn of the Planet of the Apes | Oz the Great and Powerful | Rise of the Planet of the Apes | Spider-Man | Spider-Man 2 | Spider-Man 3,James Franco
+26,Jennifer Lawrence,Q189490,4657380,117,6,28,36,1.4000,0.807435,The Hunger Games | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2 | X-Men: Apocalypse | X-Men: Days of Future Past,Jennifer Lawrence
+27,Kristen Stewart,Q126599,2601279,102,6,47,36,2.3500,0.804624,The Twilight Saga: Breaking Dawn – Part 1 | The Twilight Saga: Breaking Dawn – Part 2 | The Twilight Saga: Eclipse | The Twilight Saga: New Moon | Twilight | Underwater,Kristen Stewart
+28,Lady Gaga,Q19848,5640653,196,2,14,40,0.5833,0.804177,Joker: Folie à Deux | Men in Black 3,Lady Gaga
+29,Robert Downey Jr.,Q165219,3426578,111,12,79,61,1.7556,0.804005,Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Captain America: Civil War | Iron Man | Iron Man 2 | Iron Man 3 | Oppenheimer | Sherlock Holmes | Sherlock Holmes: A Game of Shadows | Spider-Man: Homecoming | The Avengers,Robert Downey Jr.
+30,Sylvester Stallone,Q40026,4164481,123,14,87,80,1.3594,0.803963,Cliffhanger | Death Race 2000 | Escape to Victory | First Blood | Guardians of the Galaxy Vol. 2 | Guardians of the Galaxy Vol. 3 | Last Action Hero | Men in Black | Rambo: First Blood Part II | Rocky | Rocky III | Rocky IV | The Specialist | Twins,Sylvester Stallone
+31,Dwayne Johnson,Q10738,4896852,111,9,49,54,1.2895,0.803940,Black Adam | Fast & Furious 6 | Fast Five | Furious 7 | Hobbs & Shaw | Jumanji: The Next Level | Jumanji: Welcome to the Jungle | The Fate of the Furious | The Mummy Returns,Dwayne Johnson
+32,Charlize Theron,Q80046,4160866,117,4,49,51,1.4000,0.803273,Doctor Strange in the Multiverse of Madness | F9 | Hancock | The Fate of the Furious,Charlize Theron
+33,Keira Knightley,Q42581,3550862,106,6,43,41,1.7200,0.802663,Love Actually | Pirates of the Caribbean: At World's End | Pirates of the Caribbean: Dead Man's Chest | Pirates of the Caribbean: Dead Men Tell no Tales | Pirates of the Caribbean: The Curse of the Black Pearl | Star Wars: Episode I – The Phantom Menace,Keira Knightley
+34,Charlie Sheen,Q103939,6152982,82,4,60,61,1.3333,0.802382,Apocalypse Now | Ferris Bueller's Day Off | Platoon | Red Dawn,Charlie Sheen
+35,Christopher Lee,Q180338,2266338,110,12,177,93,2.2987,0.801265,Airport '77 | Alice in Wonderland | Charlie and the Chocolate Factory | Star Wars: Episode II – Attack of the Clones | Star Wars: Episode III – Revenge of the Sith | The Golden Compass | The Hobbit: An Unexpected Journey | The Hobbit: The Battle of the Five Armies | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers | The Man with the Golden Gun,Christopher Lee
+36,Tom Hanks,Q2263,3827112,133,15,68,70,1.2593,0.800681,Angels & Demons | Apollo 13 | Big | Cast Away | Catch Me If You Can | Elvis | Forrest Gump | Philadelphia | Saving Private Ryan | Sleepless in Seattle | Splash | The Da Vinci Code | The Green Mile | The Polar Express | You've Got Mail,Tom Hanks
+37,Robert Redford,Q59215,8132361,97,7,57,89,0.7808,0.799652,A Bridge Too Far | All the President's Men | Avengers: Endgame | Captain America: The Winter Soldier | Indecent Proposal | Jeremiah Johnson | Out of Africa,Robert Redford
+38,Kirsten Dunst,Q76478,3076342,100,5,53,44,1.8929,0.799587,Interview with the Vampire | Jumanji | Spider-Man | Spider-Man 2 | Spider-Man 3,Kirsten Dunst
+39,Ryan Reynolds,Q192682,4234585,88,7,55,50,1.6176,0.799449,Bullet Train | Deadpool | Deadpool & Wolverine | Deadpool 2 | Detective Pikachu | Free Guy | Hobbs & Shaw,Ryan Reynolds
+40,Anne Hathaway,Q36301,4056797,112,4,38,44,1.3571,0.799411,Alice in Wonderland | Interstellar | The Dark Knight Rises | The Devil Wears Prada,Anne Hathaway
+41,Zoe Saldaña,Q190162,4782862,81,10,49,48,1.5312,0.798444,Avatar | Avatar: The Way of Water | Avengers: Endgame | Avengers: Infinity War | Guardians of the Galaxy | Guardians of the Galaxy Vol. 2 | Guardians of the Galaxy Vol. 3 | Pirates of the Caribbean: The Curse of the Black Pearl | Star Trek | Star Trek Into Darkness,Zoe Saldaña
+42,Emma Stone,Q147077,4043015,112,2,29,38,1.3182,0.798095,The Amazing Spider-Man | The Amazing Spider-Man 2,Emma Stone
+43,Bradley Cooper,Q205707,3898263,134,6,40,51,1.1429,0.797862,American Sniper | Guardians of the Galaxy Vol. 3 | The Hangover | The Hangover Part II | Thor: Love and Thunder | Wedding Crashers,Bradley Cooper
+44,Michael Caine,Q123351,3126580,109,11,126,93,1.6364,0.796780,A Bridge Too Far | Batman Begins | Dressed to Kill | Escape to Victory | Inception | Interstellar | Tenet | The Dark Knight | The Dark Knight Rises | The Man Who Would Be King | Too Late the Hero,Michael Caine
+45,Kate Winslet,Q202765,3562343,132,2,43,51,1.2286,0.796774,Avatar: The Way of Water | Titanic,Kate Winslet
+46,John Cena,Q44437,6685554,95,3,30,49,0.9091,0.796611,Barbie | F9 | The Suicide Squad,John Cena
+47,Pierce Brosnan,Q81520,4404638,103,7,72,73,1.2632,0.796398,Black Adam | Die Another Day | GoldenEye | Mamma Mia! | Mrs. Doubtfire | The World Is Not Enough | Tomorrow Never Dies,Pierce Brosnan
+48,Mckenna Grace,Q20752077,3203518,43,4,16,20,3.2000,0.796276,Captain Marvel | Ghostbusters: Afterlife | Ghostbusters: Frozen Empire | Ready Player One,Mckenna Grace
+49,Gwyneth Paltrow,Q34460,3222793,128,12,51,54,1.3421,0.795472,Avengers: Endgame | Avengers: Infinity War | Captain America: Civil War | Hook | Iron Man | Iron Man 2 | Iron Man 3 | Marty Supreme | Seven | Shakespeare in Love | Spider-Man: Homecoming | The Avengers,Gwyneth Paltrow
+50,George Clooney,Q23844,3957589,128,4,54,65,1.1020,0.795324,Gravity | Ocean's Eleven | Ocean's Twelve | The Perfect Storm,George Clooney
+51,Julia Roberts,Q40523,3592773,128,8,52,59,1.2093,0.795311,Erin Brockovich | Hook | My Best Friend's Wedding | Notting Hill | Ocean's Eleven | Ocean's Twelve | Pretty Woman | Runaway Bride,Julia Roberts
+52,Meryl Streep,Q873,3495140,131,6,74,77,1.2131,0.795287,Death Becomes Her | Kramer vs. Kramer | Mamma Mia! | Out of Africa | The Deer Hunter | The Devil Wears Prada,Meryl Streep
+53,Tom Holland,Q2023710,3273065,117,7,20,30,1.4286,0.795260,Avengers: Endgame | Avengers: Infinity War | Captain America: Civil War | Spider-Man: Far From Home | Spider-Man: Homecoming | Spider-Man: No Way Home | Uncharted,Tom Holland
+54,Morgan Freeman,Q48337,2855655,127,12,106,89,1.4521,0.793991,Batman Begins | Bruce Almighty | Deep Impact | Driving Miss Daisy | Outbreak | Robin Hood: Prince of Thieves | Seven | The Dark Knight | The Dark Knight Rises | Unforgiven | Wanted | War of the Worlds,Morgan Freeman
+55,Samuel L. Jackson,Q172678,2143498,98,20,140,78,2.2581,0.793991,A Time to Kill | Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Captain America: The Winter Soldier | Captain Marvel | Coming to America | Die Hard with a Vengeance | Iron Man | Iron Man 2 | Jurassic Park | Patriot Games | Pulp Fiction | Spider-Man: Far From Home | Star Wars: Episode I – The Phantom Menace | Star Wars: Episode II – Attack of the Clones | Star Wars: Episode III – Revenge of the Sith | The Avengers | The Marvels | Unbreakable,Samuel L. Jackson
+56,Cate Blanchett,Q80966,2639360,128,9,63,57,1.5366,0.793801,Cinderella | Indiana Jones and the Kingdom of the Crystal Skull | The Hobbit: An Unexpected Journey | The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers | Thor: Ragnarok,Cate Blanchett
+57,Winona Ryder,Q101797,4467920,97,4,48,55,1.2308,0.793645,Beetlejuice | Beetlejuice Beetlejuice | Bram Stoker's Dracula | Star Trek,Winona Ryder
+58,Emma Watson,Q39476,3889386,142,8,19,36,0.9500,0.793216,Beauty and the Beast | Harry Potter and the Chamber of Secrets | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix | Harry Potter and the Philosopher's Stone | Harry Potter and the Prisoner of Azkaban,Emma Watson
+59,Chris Pratt,Q503706,4070727,128,10,31,47,1.0000,0.792807,Avengers: Endgame | Avengers: Infinity War | Guardians of the Galaxy | Guardians of the Galaxy Vol. 2 | Guardians of the Galaxy Vol. 3 | Jurassic World | Jurassic World Dominion | Jurassic World: Fallen Kingdom | Thor: Love and Thunder | Wanted,Chris Pratt
+60,Demi Moore,Q43044,4505828,111,5,49,64,1.0208,0.791947,A Few Good Men | Charlie's Angels: Full Throttle | Disclosure | Ghost | Indecent Proposal,Demi Moore
+61,Willem Dafoe,Q188772,2142804,84,10,133,71,2.4182,0.791636,Aquaman | Beetlejuice Beetlejuice | Born on the Fourth of July | Clear and Present Danger | Platoon | Spider-Man | Spider-Man 2 | Spider-Man 3 | Spider-Man: No Way Home | The English Patient,Willem Dafoe
+62,Helen Mirren,Q349391,3728058,101,7,86,81,1.3231,0.791374,2010: The Year We Make Contact | Barbie | F9 | Hobbs & Shaw | National Treasure: Book of Secrets | Shazam! Fury of the Gods | The Fate of the Furious,Helen Mirren
+63,Mark Wahlberg,Q164119,3414579,98,6,57,55,1.4615,0.791140,Planet of the Apes | The Departed | The Perfect Storm | Transformers: Age of Extinction | Transformers: The Last Knight | Uncharted,Mark Wahlberg
+64,Gene Hackman,Q150943,5787783,86,10,79,95,1.0000,0.790887,A Bridge Too Far | Enemy of the State | Superman | Superman II | The Birdcage | The Firm | The French Connection | The Poseidon Adventure | Unforgiven | Young Frankenstein,Gene Hackman
+65,Michael Madsen,Q220584,3426376,60,3,112,68,2.1538,0.790650,"Die Another Day | The Chronicles of Narnia: The Lion, the Witch and the Wardrobe | WarGames",Michael Madsen
+66,Philip Seymour Hoffman,Q180560,2833353,93,5,54,47,1.7419,0.790001,Mission: Impossible III | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2 | Twister,Philip Seymour Hoffman
+67,Gary Oldman,Q83492,3476131,102,13,69,68,1.3269,0.789279,Air Force One | Batman Begins | Bram Stoker's Dracula | Dawn of the Planet of the Apes | Hannibal | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Order of the Phoenix | Harry Potter and the Prisoner of Azkaban | JFK | Oppenheimer | The Dark Knight | The Dark Knight Rises,Gary Oldman
+68,Matthew McConaughey,Q188955,3886200,92,4,54,57,1.3171,0.789226,A Time to Kill | Deadpool & Wolverine | Interstellar | The Gentlemen,Matthew McConaughey
+69,Chris Evans,Q178348,3039379,99,12,44,45,1.5172,0.788823,Ant-Man | Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Captain America: Civil War | Captain America: The Winter Soldier | Captain Marvel | Deadpool & Wolverine | Fantastic Four | Spider-Man: Homecoming | The Avengers | Thor: The Dark World,Chris Evans (actor)
+70,Jason Statham,Q169963,4069724,95,6,52,59,1.2093,0.788727,F9 | Fast & Furious 6 | Furious 7 | Hobbs & Shaw | The Fate of the Furious | The Meg,Jason Statham
+71,Susan Sarandon,Q133050,2555437,102,2,109,80,1.7031,0.788633,Enchanted | Fame,Susan Sarandon
+72,John Travolta,Q80938,3213219,115,6,70,72,1.2500,0.788473,Carrie | Face/Off | Grease | Look Who's Talking | Pulp Fiction | Saturday Night Fever,John Travolta
+73,Al Pacino,Q41163,3682899,132,8,66,86,0.9429,0.788195,Dick Tracy | Dog Day Afternoon | Heat | Scarface | Serpico | The Godfather | The Godfather Part II | The Godfather Part III,Al Pacino
+74,Jack Black,Q483907,3453098,81,5,64,57,1.5610,0.787253,Enemy of the State | Jumanji: The Next Level | Jumanji: Welcome to the Jungle | King Kong | Waterworld,Jack Black
+75,Emily Blunt,Q193517,3626203,95,2,35,43,1.2963,0.787228,Oppenheimer | The Devil Wears Prada,Emily Blunt
+76,Sandra Bullock,Q40791,3378001,127,5,48,62,1.0435,0.787164,A Time to Kill | Bullet Train | Gravity | Speed | The Blind Side,Sandra Bullock
+77,Alec Baldwin,Q170572,3075025,88,7,83,68,1.5962,0.787049,Beetlejuice | Mission: Impossible – Fallout | Mission: Impossible – Rogue Nation | Notting Hill | Pearl Harbor | The Departed | The Hunt for Red October,Alec Baldwin
+78,Harrison Ford,Q81328,3793152,116,18,69,84,1.0147,0.787028,Air Force One | Apocalypse Now | Blade Runner | Clear and Present Danger | Indiana Jones and the Kingdom of the Crystal Skull | Indiana Jones and the Last Crusade | Indiana Jones and the Temple of Doom | Patriot Games | Presumed Innocent | Raiders of the Lost Ark | Star Wars: Episode IV – A New Hope | Star Wars: Episode V – The Empire Strikes Back | Star Wars: Episode VI – Return of the Jedi | Star Wars: Episode VII – The Force Awakens | The Call of the Wild | The Fugitive | What Lies Beneath | Witness,Harrison Ford
+79,Mel Gibson,Q42229,3208455,119,9,63,70,1.1667,0.787004,Braveheart | Casper | Lethal Weapon | Lethal Weapon 2 | Lethal Weapon 3 | Lethal Weapon 4 | Ransom | Signs | What Women Want,Mel Gibson
+80,Tom Hardy,Q208026,4463729,88,5,37,49,1.1212,0.786364,Inception | The Dark Knight Rises | The Revenant | Venom | Venom: Let There Be Carnage,Tom Hardy
+81,Stellan Skarsgård,Q208667,3660604,64,11,104,75,1.7627,0.786032,Angels & Demons | Avengers: Age of Ultron | Cinderella | Dune | Mamma Mia! | Pirates of the Caribbean: At World's End | Pirates of the Caribbean: Dead Man's Chest | The Avengers | The Hunt for Red October | Thor: Love and Thunder | Thor: The Dark World,Stellan Skarsgård
+82,Cillian Murphy,Q202589,4098714,88,5,41,50,1.2059,0.786012,Batman Begins | Inception | Oppenheimer | The Dark Knight | The Dark Knight Rises,Cillian Murphy
+83,Jim Carrey,Q40504,3330727,127,10,49,64,1.0208,0.785847,Ace Ventura: When Nature Calls | Batman Forever | Bruce Almighty | Dr. Seuss' How the Grinch Stole Christmas | Dumb and Dumber | Liar Liar | Peggy Sue Got Married | Sonic the Hedgehog 2 | The Mask | The Truman Show,Jim Carrey
+84,Madonna,Q1744,3843646,189,2,27,68,0.5192,0.785695,Dick Tracy | Die Another Day,Madonna
+85,Anton Yelchin,Q314133,1742044,55,3,37,27,3.3636,0.785650,Star Trek | Star Trek Into Darkness | The Smurfs,Anton Yelchin
+86,Shia LaBeouf,Q180942,3205717,87,6,36,40,1.5000,0.785460,"Charlie's Angels: Full Throttle | I, Robot | Indiana Jones and the Kingdom of the Crystal Skull | Transformers | Transformers: Dark of the Moon | Transformers: Revenge of the Fallen",Shia LaBeouf
+87,Nicholas Hoult,Q298347,3017823,76,5,37,37,1.7619,0.785296,Clash of the Titans | Deadpool 2 | Superman | X-Men: Apocalypse | X-Men: Days of Future Past,Nicholas Hoult
+88,Jack Nicholson,Q39792,3365481,127,10,72,89,0.9863,0.784999,A Few Good Men | As Good as It Gets | Batman | Broadcast News | Chinatown | Five Easy Pieces | One Flew Over the Cuckoo's Nest | Something's Gotta Give | The Departed | The Shining,Jack Nicholson
+89,Drew Barrymore,Q676094,2829537,100,4,51,51,1.4571,0.784832,Batman Forever | Charlie's Angels | Charlie's Angels: Full Throttle | E.T. the Extra-Terrestrial,Drew Barrymore
+90,Ralph Fiennes,Q28493,4322302,79,10,59,64,1.2292,0.784688,28 Years Later | Clash of the Titans | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Order of the Phoenix | Schindler's List | Skyfall | Spectre | The English Patient,Ralph Fiennes
+91,Monica Bellucci,Q81819,2689795,107,6,65,62,1.4130,0.784205,Beetlejuice Beetlejuice | Bram Stoker's Dracula | Spectre | The Matrix Reloaded | The Matrix Revolutions | The Passion of the Christ,Monica Bellucci
+92,Robert Pattinson,Q36767,3268683,91,8,33,40,1.3750,0.784194,Harry Potter and the Goblet of Fire | Tenet | The Batman | The Twilight Saga: Breaking Dawn – Part 1 | The Twilight Saga: Breaking Dawn – Part 2 | The Twilight Saga: Eclipse | The Twilight Saga: New Moon | Twilight,Robert Pattinson
+93,Megan Fox,Q80069,3152218,112,3,28,40,1.1667,0.784076,Bad Boys II they become more rebellious | Transformers | Transformers: Revenge of the Fallen,Megan Fox
+94,Ewan McGregor,Q165518,2602123,87,7,67,55,1.7179,0.783734,Angels & Demons | Beauty and the Beast | Birds of Prey and the Fantabulous Emancipation of One Harley Quinn | Star Wars: Episode I – The Phantom Menace | Star Wars: Episode II – Attack of the Clones | Star Wars: Episode III – Revenge of the Sith | Star Wars: Episode VII – The Force Awakens,Ewan McGregor
+95,Martin Sheen,Q184572,3821267,72,8,102,86,1.4571,0.783633,Apocalypse Now | Catch Me If You Can | Gandhi | JFK | The Amazing Spider-Man | The Amazing Spider-Man 2 | The Cassandra Crossing | The Departed,Martin Sheen
+96,Sean Connery,Q4573,2833945,143,13,74,90,1.0000,0.783603,A Bridge Too Far | Diamonds Are Forever | From Russia with Love | Indiana Jones and the Last Crusade | Murder on the Orient Express | Never Say Never Again | Robin Hood: Prince of Thieves | The Hunt for Red October | The Man Who Would Be King | The Name of the Rose | The Rock | The Untouchables | Time Bandits,Sean Connery
+97,Julianne Moore,Q80405,2154962,107,6,84,66,1.6800,0.783521,Hannibal | Jurassic World Dominion | The Fugitive | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2 | The Lost World: Jurassic Park,Julianne Moore
+98,Joey King,Q112536,1676219,76,3,29,27,2.6364,0.783252,Bullet Train | Oz the Great and Powerful | The Dark Knight Rises,Joey King
+99,Woody Harrelson,Q201279,2622346,78,9,89,65,1.8163,0.782477,2012 | Austin Powers: The Spy Who Shagged Me | Indecent Proposal | The Hunger Games | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2 | Venom | Venom: Let There Be Carnage,Woody Harrelson
+100,Marlon Brando,Q34012,3193563,157,4,48,80,0.7500,0.781981,Apocalypse Now | Superman | Superman Returns | The Godfather,Marlon Brando
+101,Jake Gyllenhaal,Q133313,3033104,83,2,45,46,1.5000,0.781655,Spider-Man: Far From Home | The Day After Tomorrow,Jake Gyllenhaal
+102,Antonio Banderas,Q41548,1857410,98,6,97,66,1.9400,0.781360,Babygirl | Interview with the Vampire | Philadelphia | The Mask of Zorro | The New Mutants | Uncharted,Antonio Banderas
+103,Will Smith,Q40096,3419187,132,14,35,58,0.8333,0.781306,"Aladdin | Bad Boys II they become more rebellious | Bad Boys for Life | Enemy of the State | Hancock | Hitch | I Am Legend | I, Robot | Independence Day | Men in Black | Men in Black 3 | Men in Black II | Suicide Squad | The Pursuit of Happyness",Will Smith
+104,Catherine O'Hara,Q233365,8513271,66,5,36,72,0.6429,0.781182,Beetlejuice | Beetlejuice Beetlejuice | Dick Tracy | Home Alone | Home Alone 2: Lost in New York,Catherine O'Hara
+105,Ben Stiller,Q47100,3044607,85,5,65,61,1.4444,0.781080,Meet the Fockers | Meet the Parents | Night at the Museum | Night at the Museum: Battle of the Smithsonian | There's Something About Mary,Ben Stiller
+106,Denzel Washington,Q42101,3330753,112,2,57,72,1.0179,0.781024,Philadelphia | The Equalizer 3,Denzel Washington
+107,Margot Robbie,Q1924847,3295484,91,4,25,36,1.2500,0.780631,Barbie | Birds of Prey and the Fantabulous Emancipation of One Harley Quinn | Suicide Squad | The Suicide Squad,Margot Robbie
+108,Woody Allen,Q25089,3123481,157,3,55,91,0.7333,0.780478,Annie Hall | Bananas | Love and Death,Woody Allen
+109,Christina Ricci,Q184103,2139860,89,3,55,46,1.8333,0.780336,Addams Family Values | Casper | The Addams Family,Christina Ricci
+110,Christian Bale,Q45772,2730130,98,4,49,52,1.3611,0.779905,Batman Begins | The Dark Knight | The Dark Knight Rises | Thor: Love and Thunder,Christian Bale
+111,Jodie Foster,Q41351,2948407,117,3,51,64,1.0625,0.779726,Alice Doesn't Live Here Anymore | Taxi Driver | The Silence of the Lambs,Jodie Foster
+112,Alfred Hitchcock,Q7374,2887119,182,2,42,81,0.6462,0.779445,Family Plot | Frenzy,Alfred Hitchcock
+113,Donald Sutherland,Q103784,1907747,96,11,134,89,1.8356,0.778991,A Time to Kill | Animal House | Disclosure | JFK | Kelly's Heroes | Ordinary People | Outbreak | The Hunger Games | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2,Donald Sutherland
+114,Kevin Costner,Q11930,2967463,109,8,61,71,1.1091,0.778903,Batman v Superman: Dawn of Justice | Dances with Wolves | JFK | Man of Steel | Robin Hood: Prince of Thieves | The Bodyguard | The Untouchables | Waterworld,Kevin Costner
+115,Chris Hemsworth,Q54314,3159597,92,10,33,43,1.2222,0.778598,Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Doctor Strange | Star Trek | Star Trek Into Darkness | The Avengers | Thor: Love and Thunder | Thor: Ragnarok | Thor: The Dark World,Chris Hemsworth
+116,Orlando Bloom,Q44467,3210715,96,11,38,49,1.1515,0.778473,Gran Turismo | Pirates of the Caribbean: At World's End | Pirates of the Caribbean: Dead Man's Chest | Pirates of the Caribbean: Dead Men Tell no Tales | Pirates of the Caribbean: The Curse of the Black Pearl | The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers | Troy,Orlando Bloom
+117,Anthony Hopkins,Q65932,2430304,117,10,90,89,1.2329,0.778266,A Bridge Too Far | Bram Stoker's Dracula | Dr. Seuss' How the Grinch Stole Christmas | Hannibal | Mission: Impossible 2 | The Mask of Zorro | The Silence of the Lambs | Thor: Ragnarok | Thor: The Dark World | Transformers: The Last Knight,Anthony Hopkins
+118,Stanley Tucci,Q223117,3108984,61,8,87,66,1.7400,0.777624,Beauty and the Beast | The Devil Wears Prada | The Hunger Games | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2 | Transformers: Age of Extinction | Transformers: The Last Knight,Stanley Tucci
+119,Anna Kendrick,Q67701,2657120,74,5,42,41,1.6800,0.777450,The Twilight Saga: Breaking Dawn – Part 1 | The Twilight Saga: Breaking Dawn – Part 2 | The Twilight Saga: Eclipse | The Twilight Saga: New Moon | Twilight,Anna Kendrick
+120,Josh Brolin,Q41396,3676378,63,8,61,58,1.4524,0.777087,Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Deadpool 2 | Dune | Guardians of the Galaxy | Men in Black 3 | The Goonies,Josh Brolin
+121,Daniel Craig,Q4547,3053145,105,7,44,58,1.0476,0.776437,Casino Royale | Lara Croft: Tomb Raider | Quantum of Solace | Skyfall | Spectre | Star Wars: Episode VII – The Force Awakens | The Golden Compass,Daniel Craig
+122,Daniel Radcliffe,Q38119,2405231,112,8,26,37,1.2381,0.776411,Harry Potter and the Chamber of Secrets | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix | Harry Potter and the Philosopher's Stone | Harry Potter and the Prisoner of Azkaban,Daniel Radcliffe
+123,Halle Berry,Q1033016,2633757,119,7,47,60,1.0682,0.776393,Die Another Day | Never Let Go | The Flintstones | X-Men | X-Men: Days of Future Past | X-Men: The Last Stand | X2,Halle Berry
+124,Steven Spielberg,Q8877,3695566,169,6,28,80,0.4375,0.776081,Gremlins | Indiana Jones and the Temple of Doom | Jaws | Men in Black | The Blues Brothers | The Lost World: Jurassic Park,Steven Spielberg
+125,Cameron Diaz,Q44380,2864786,107,5,41,54,1.0789,0.775879,Charlie's Angels | Charlie's Angels: Full Throttle | My Best Friend's Wedding | The Mask | There's Something About Mary,Cameron Diaz
+126,Billy Bob Thornton,Q202735,4877252,63,3,59,71,1.0727,0.775498,Armageddon | Indecent Proposal | Love Actually,Billy Bob Thornton
+127,Sam Rockwell,Q316446,3321558,62,4,64,58,1.5238,0.774796,Charlie's Angels | Iron Man 2 | Teenage Mutant Ninja Turtles | The Green Mile,Sam Rockwell
+128,Channing Tatum,Q212064,2953623,67,4,47,46,1.5667,0.774557,Bullet Train | Deadpool & Wolverine | Free Guy | War of the Worlds,Channing Tatum
+129,Jamie Lee Curtis,Q106997,3766199,80,4,55,68,1.0577,0.774353,A Fish Called Wanda | Escape from New York | Halloween | True Lies,Jamie Lee Curtis
+130,Macaulay Culkin,Q103578,5583049,78,2,21,46,0.7000,0.774289,Home Alone | Home Alone 2: Lost in New York,Macaulay Culkin
+131,Andrew Garfield,Q23891,2735251,124,3,25,43,0.9259,0.774240,Spider-Man: No Way Home | The Amazing Spider-Man | The Amazing Spider-Man 2,Andrew Garfield
+132,Javier Bardem,Q134895,2653684,83,4,58,57,1.4146,0.774239,Dune | Pirates of the Caribbean: Dead Men Tell no Tales | Skyfall | The Little Mermaid,Javier Bardem
+133,Jude Law,Q160432,2309009,89,5,57,54,1.5000,0.774198,Captain Marvel | Fantastic Beasts: The Crimes of Grindelwald | Fantastic Beasts: The Secrets of Dumbledore | Sherlock Holmes | Sherlock Holmes: A Game of Shadows,Jude Law
+134,Steve Buscemi,Q104061,1902769,74,2,108,69,2.0377,0.774079,Armageddon | Pulp Fiction,Steve Buscemi
+135,Whoopi Goldberg,Q49001,2020700,106,3,79,71,1.4364,0.773982,Ghost | Sister Act | The Color Purple,Whoopi Goldberg
+136,Kevin Spacey,Q25144,2991884,90,5,59,67,1.1569,0.773628,A Time to Kill | American Beauty | Outbreak | Seven | Superman Returns,Kevin Spacey
+137,Russell Crowe,Q129817,2057972,125,6,55,62,1.1957,0.773409,A Beautiful Mind | Gladiator | Kraven the Hunter | Man of Steel | Thor: Love and Thunder | Unhinged,Russell Crowe
+138,Idris Elba,Q342604,2743387,85,8,50,54,1.3158,0.773370,Avengers: Age of Ultron | Avengers: Infinity War | Hobbs & Shaw | The Jungle Book | The Suicide Squad | Thor: Love and Thunder | Thor: Ragnarok | Thor: The Dark World,Idris Elba
+139,Hugh Jackman,Q129591,2838417,106,9,43,58,1.0238,0.773265,Deadpool & Wolverine | Deadpool 2 | Logan | Van Helsing | X-Men | X-Men: Apocalypse | X-Men: Days of Future Past | X-Men: The Last Stand | X2,Hugh Jackman
+140,Zendaya,Q189489,3999308,96,4,11,30,0.7857,0.773261,Dune | Spider-Man: Far From Home | Spider-Man: Homecoming | Spider-Man: No Way Home,Zendaya
+141,Paul Walker,Q213864,2427151,99,3,30,40,1.2500,0.772498,Fast & Furious 6 | Fast Five | Furious 7,Paul Walker
+142,Mark Ruffalo,Q41422,2726593,86,8,55,59,1.2791,0.772438,Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Captain Marvel | Iron Man 3 | Shang-Chi and the Legend of the Ten Rings | The Avengers | Thor: Ragnarok,Mark Ruffalo
+143,Carrie Fisher,Q108941,2515963,109,9,48,60,1.0909,0.772191,Charlie's Angels: Full Throttle | Hook | Star Wars: Episode IV – A New Hope | Star Wars: Episode IX – The Rise of Skywalker | Star Wars: Episode V – The Empire Strikes Back | Star Wars: Episode VI – Return of the Jedi | Star Wars: Episode VII – The Force Awakens | Star Wars: Episode VIII – The Last Jedi | The Blues Brothers,Carrie Fisher
+144,Rose Byrne,Q228717,3049801,56,3,52,47,1.6774,0.772080,Star Wars: Episode II – Attack of the Clones | Troy | X-Men: Apocalypse,Rose Byrne
+145,Kevin Bacon,Q3454165,3102386,68,5,72,68,1.3846,0.771665,A Few Good Men | Animal House | Apollo 13 | JFK | Sleepers,Kevin Bacon
+146,Sigourney Weaver,Q102124,2274587,121,9,65,77,1.0656,0.771517,Alien | Alien 3 | Aliens | Annie Hall | Avatar | Avatar: The Way of Water | Ghostbusters | Ghostbusters II | Ghostbusters: Afterlife,Sigourney Weaver
+147,Elliot Page,Q173399,2743427,83,3,29,39,1.2609,0.770764,Inception | X-Men: Days of Future Past | X-Men: The Last Stand,Elliot Page
+148,Eddie Murphy,Q43874,3069468,108,8,42,65,0.8571,0.770712,48 Hrs. | Another 48 Hrs. | Beverly Hills Cop | Beverly Hills Cop II | Beverly Hills Cop III | Coming to America | Dr. Dolittle | The Nutty Professor,Eddie Murphy
+149,Joaquin Phoenix,Q185140,2814005,91,4,40,52,1.1111,0.770247,Gladiator | Joker | Joker: Folie à Deux | Signs,Joaquin Phoenix
+150,Vanessa Kirby,Q6159535,5395351,55,2,21,38,0.9545,0.769974,Hobbs & Shaw | Mission: Impossible – Fallout,Vanessa Kirby
+151,Elijah Wood,Q483771,1699243,85,6,53,45,1.8276,0.769960,Back to the Future Part II | Deep Impact | The Hobbit: An Unexpected Journey | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers,Elijah Wood
+152,Michelle Williams,Q156796,2685620,70,3,44,46,1.4667,0.769840,Oz the Great and Powerful | Venom | Venom: Let There Be Carnage,Michelle Williams (actress)
+153,Amber Heard,Q229166,2200562,83,2,36,40,1.5000,0.769811,Aquaman | Justice League,Amber Heard
+154,Jason Momoa,Q315271,4966398,74,4,23,47,0.7419,0.769744,Aquaman | Batman v Superman: Dawn of Justice | Dune | Justice League,Jason Momoa
+155,Aaron Taylor-Johnson,Q45923,3364058,54,7,30,36,1.5000,0.769447,28 Years Later | Avengers: Age of Ultron | Bullet Train | Captain America: The Winter Soldier | Godzilla | Kraven the Hunter | Tenet,Aaron Taylor-Johnson
+156,Colin Farrell,Q172035,2193082,75,4,55,50,1.6176,0.769183,Fantastic Beasts and Where to Find Them | Minority Report | The Batman | The Gentlemen,Colin Farrell
+157,Emma Thompson,Q168724,2752208,85,7,60,67,1.1765,0.769053,Beauty and the Beast | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Order of the Phoenix | Harry Potter and the Prisoner of Azkaban | I Am Legend | Love Actually | Men in Black 3,Emma Thompson
+158,Henry Cavill,Q295498,3562311,80,6,26,43,0.9630,0.768930,Batman v Superman: Dawn of Justice | Black Adam | Deadpool & Wolverine | Justice League | Man of Steel | Mission: Impossible – Fallout,Henry Cavill
+159,Florence Pugh,Q22277803,3885188,62,2,16,30,1.1429,0.768886,Black Widow | Oppenheimer,Florence Pugh
+160,Helena Bonham Carter,Q170428,2605145,85,8,54,60,1.2273,0.768675,Alice in Wonderland | Charlie and the Chocolate Factory | Cinderella | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix | Planet of the Apes,Helena Bonham Carter
+161,Benedict Cumberbatch,Q244674,2052969,88,10,50,50,1.4706,0.768591,Avengers: Endgame | Avengers: Infinity War | Doctor Strange | Doctor Strange in the Multiverse of Madness | Spider-Man: No Way Home | Star Trek Into Darkness | The Hobbit: An Unexpected Journey | The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug | Thor: Ragnarok,Benedict Cumberbatch
+162,Paul Newman,Q41871,2646625,110,4,62,83,0.9254,0.768507,Slap Shot | The Color of Money | The Towering Inferno | The Verdict,Paul Newman
+163,Gal Gadot,Q185654,3242604,94,8,22,41,0.8800,0.768407,Batman v Superman: Dawn of Justice | F9 | Fast & Furious 6 | Fast Five | Furious 7 | Justice League | Wonder Woman | Wonder Woman 1984,Gal Gadot
+164,Dennis Hopper,Q102711,1474074,80,3,120,74,2.0690,0.768300,Apocalypse Now | Speed | Waterworld,Dennis Hopper
+165,Rowan Atkinson,Q23760,4182622,121,4,24,71,0.4364,0.768035,Bean | Four Weddings and a Funeral | Love Actually | Never Say Never Again,Rowan Atkinson
+166,Michael Douglas,Q119798,3078774,98,11,58,82,0.8788,0.768009,Ant-Man | Ant-Man and the Wasp | Ant-Man and the Wasp: Quantumania | Avengers: Endgame | Basic Instinct | Black Rain | Coma | Disclosure | Fatal Attraction | Romancing the Stone | The Jewel of the Nile,Michael Douglas
+167,Finn Wolfhard,Q26308335,3346863,57,4,11,24,1.3750,0.767602,Ghostbusters: Afterlife | Ghostbusters: Frozen Empire | It | It: Chapter Two,Finn Wolfhard
+168,Rachel McAdams,Q190386,2978011,91,5,31,48,0.9688,0.767347,Doctor Strange | Doctor Strange in the Multiverse of Madness | Sherlock Holmes | Sherlock Holmes: A Game of Shadows | Wedding Crashers,Rachel McAdams
+169,Eric Roberts,Q207969,1401556,52,2,156,70,2.8889,0.767305,The Dark Knight | The Specialist,Eric Roberts
+170,Brie Larson,Q29328,1812446,88,4,33,37,1.5714,0.766851,Avengers: Endgame | Captain Marvel | Shang-Chi and the Legend of the Ten Rings | The Marvels,Brie Larson
+171,Ben Kingsley,Q173158,2162285,85,5,93,83,1.3881,0.766780,Gandhi | Iron Man 3 | Schindler's List | Shang-Chi and the Legend of the Ten Rings | The Jungle Book,Ben Kingsley
+172,Stephen Graham,Q442547,5873320,40,3,41,53,1.1081,0.766711,Pirates of the Caribbean: Dead Men Tell no Tales | Pirates of the Caribbean: On Stranger Tides | Venom: Let There Be Carnage,Stephen Graham
+173,Jennifer Connelly,Q103343,2733269,88,3,43,56,1.0750,0.766684,A Beautiful Mind | Hulk | Top Gun: Maverick,Jennifer Connelly
+174,John Goodman,Q215072,1853634,100,2,79,74,1.3621,0.766398,The Flintstones | Transformers: Age of Extinction,John Goodman
+175,Paul Rudd,Q276525,2166850,78,8,60,57,1.4634,0.765864,Ant-Man | Ant-Man and the Wasp | Ant-Man and the Wasp: Quantumania | Avengers: Endgame | Captain America: Civil War | Ghostbusters: Afterlife | Ghostbusters: Frozen Empire | Night at the Museum,Paul Rudd
+176,Kate Beckinsale,Q179414,2588443,82,2,44,53,1.1892,0.765861,Pearl Harbor | Van Helsing,Kate Beckinsale
+177,Elizabeth Olsen,Q234644,2796838,79,8,24,37,1.1429,0.765797,Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Captain America: Civil War | Captain America: The Winter Soldier | Doctor Strange in the Multiverse of Madness | F9 | Godzilla,Elizabeth Olsen
+178,Anthony Perkins,Q193146,3625016,64,2,48,60,1.0909,0.765757,Murder on the Orient Express | The Black Hole,Anthony Perkins
+179,Brendan Fraser,Q193555,2442171,83,3,52,58,1.2381,0.765746,The Mummy | The Mummy Returns | The Mummy: Tomb of the Dragon Emperor,Brendan Fraser
+180,Amy Adams,Q481832,1856082,96,6,50,52,1.3889,0.765724,Batman v Superman: Dawn of Justice | Catch Me If You Can | Enchanted | Justice League | Man of Steel | Night at the Museum: Battle of the Smithsonian,Amy Adams
+181,Danny DeVito,Q26806,2376675,88,9,79,82,1.1970,0.765606,Batman Returns | Beetlejuice Beetlejuice | Jumanji: The Next Level | Last Action Hero | Men in Black | One Flew Over the Cuckoo's Nest | Romancing the Stone | The Jewel of the Nile | Twins,Danny DeVito
+182,Owen Wilson,Q161916,2437271,77,6,55,58,1.3095,0.765112,Armageddon | Meet the Fockers | Meet the Parents | Night at the Museum | Night at the Museum: Battle of the Smithsonian | Wedding Crashers,Owen Wilson
+183,Jeff Goldblum,Q106706,2369025,74,14,80,74,1.3793,0.764707,Annie Hall | Death Wish | Guardians of the Galaxy Vol. 2 | Independence Day | Jurassic Park | Jurassic World Dominion | Jurassic World: Fallen Kingdom | Nashville | The Big Chill | The Fly | The Lost World: Jurassic Park | Thor: Love and Thunder | Thor: Ragnarok | Wicked,Jeff Goldblum
+184,Christopher Walken,Q185051,2006891,75,8,105,83,1.5672,0.764516,A View to a Kill | Annie Hall | Batman Returns | Catch Me If You Can | Pulp Fiction | The Deer Hunter | The Jungle Book | Wedding Crashers,Christopher Walken
+185,Rachel Weisz,Q134077,2392799,90,4,45,56,1.1250,0.764316,Black Widow | Oz the Great and Powerful | The Mummy | The Mummy Returns,Rachel Weisz
+186,Christopher Plummer,Q190523,1798759,103,4,98,92,1.2895,0.764166,A Beautiful Mind | National Treasure | Star Trek VI: The Undiscovered Country | The Man Who Would Be King,Christopher Plummer
+187,John Candy,Q218532,3934154,46,7,37,44,1.3214,0.763978,Cool Runnings | Home Alone | JFK | Little Shop of Horrors | National Lampoon's Vacation | Splash | The Blues Brothers,John Candy
+188,Bill Murray,Q29250,2390731,86,13,70,76,1.1667,0.763971,Ant-Man and the Wasp: Quantumania | Charlie's Angels | Ghostbusters | Ghostbusters II | Ghostbusters: Afterlife | Ghostbusters: Frozen Empire | Groundhog Day | Little Shop of Horrors | Space Jam | Space Jam: A New Legacy | The Jungle Book | Tootsie | What About Bob?,Bill Murray
+189,Michelle Pfeiffer,Q159778,2346337,99,6,53,68,1.0192,0.763513,Ant-Man and the Wasp | Ant-Man and the Wasp: Quantumania | Avengers: Endgame | Batman Returns | Scarface | What Lies Beneath,Michelle Pfeiffer
+190,Jean-Claude Van Damme,Q308840,1901056,93,2,65,66,1.3000,0.762708,Double Impact | Last Action Hero,Jean-Claude Van Damme
+191,Josh Duhamel,Q19794,2204522,116,4,34,54,0.8947,0.762607,Transformers | Transformers: Dark of the Moon | Transformers: Revenge of the Fallen | Transformers: The Last Knight,Josh Duhamel
+192,Catherine Zeta-Jones,Q47664,3169680,101,2,28,57,0.6829,0.762344,Ocean's Twelve | The Mask of Zorro,Catherine Zeta-Jones
+193,Joseph Gordon-Levitt,Q177311,1703664,69,3,53,45,1.8276,0.762263,Inception | Star Wars: Episode VIII – The Last Jedi | The Dark Knight Rises,Joseph Gordon-Levitt
+194,Isabela Merced,Q20830731,3760622,45,3,12,25,1.3333,0.761865,Alien: Romulus | Superman | Transformers: The Last Knight,Isabela Merced
+195,Sharon Stone,Q62975,1699188,97,5,70,68,1.3462,0.761562,Basic Instinct | Last Action Hero | Sliver | The Specialist | Total Recall,Sharon Stone
+196,Kurt Russell,Q103157,2893318,74,7,62,75,1.0508,0.761469,Escape from New York | F9 | Forrest Gump | Furious 7 | Guardians of the Galaxy Vol. 2 | Stargate | The Fate of the Furious,Kurt Russell
+197,Malcolm McDowell,Q117392,1580377,81,2,112,83,1.6716,0.761425,A Clockwork Orange | Blue Thunder,Malcolm McDowell
+198,Michael B. Jordan,Q3308007,3812773,59,2,21,37,1.0000,0.761413,Black Panther | Space Jam: A New Legacy,Michael B. Jordan
+199,Robert Duvall,Q171736,1994114,92,5,96,95,1.2152,0.761382,Apocalypse Now | Deep Impact | Network | The Godfather | The Godfather Part II,Robert Duvall
+200,Burt Reynolds,Q202148,2240486,74,5,88,82,1.3333,0.761253,Bean | Deliverance | Sharky's Machine | Smokey and the Bandit | The Cannonball Run,Burt Reynolds
+201,Kathy Bates,Q544465,2092155,85,3,77,78,1.2419,0.761049,Dick Tracy | The Blind Side | Titanic,Kathy Bates
+202,Laura Dern,Q220901,2379574,71,4,56,59,1.3023,0.760975,Jurassic Park | Jurassic Park III | Jurassic World Dominion | Star Wars: Episode VIII – The Last Jedi,Laura Dern
+203,Dennis Quaid,Q200768,2428089,61,2,82,72,1.4643,0.760918,Jaws 3-D | The Day After Tomorrow,Dennis Quaid
+204,Diane Kruger,Q57118,1921528,80,3,48,50,1.4118,0.760861,National Treasure | National Treasure: Book of Secrets | Troy,Diane Kruger
+205,Elizabeth Banks,Q219373,2109221,68,8,54,52,1.5000,0.760799,Catch Me If You Can | Spider-Man | Spider-Man 2 | Spider-Man 3 | The Hunger Games | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2,Elizabeth Banks
+206,Jon Voight,Q167520,2190526,101,10,71,88,0.9861,0.760544,Deliverance | Enemy of the State | Fantastic Beasts and Where to Find Them | Heat | Lara Croft: Tomb Raider | Mission: Impossible | National Treasure | National Treasure: Book of Secrets | Pearl Harbor | Transformers,Jon Voight
+207,Josh Hutcherson,Q217004,1781994,65,5,32,34,1.7778,0.760424,The Hunger Games | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2 | The Polar Express,Josh Hutcherson
+208,Parker Posey,Q204586,3393354,47,3,57,58,1.3571,0.760408,Sleepless in Seattle | Superman Returns | You've Got Mail,Parker Posey
+209,Gerard Butler,Q169982,2439185,70,4,52,57,1.2683,0.760294,300 | Greenland | How to Train Your Dragon | Tomorrow Never Dies,Gerard Butler
+210,John Malkovich,Q172261,1593132,76,3,97,73,1.7018,0.760141,In the Line of Fire | Opus | Transformers: Dark of the Moon,John Malkovich
+211,Bill Skarsgård,Q862460,3449117,48,4,26,36,1.3000,0.760036,Deadpool 2 | It | It: Chapter Two | John Wick: Chapter 4,Bill Skarsgård
+212,John Cusack,Q106175,1757798,65,2,78,60,1.7727,0.759790,2012 | Broadcast News,John Cusack
+213,Kiefer Sutherland,Q103946,1890584,77,2,63,60,1.4318,0.759425,A Few Good Men | A Time to Kill,Kiefer Sutherland
+214,Peter Dinklage,Q310937,2026407,91,5,47,57,1.1463,0.759309,Avengers: Infinity War | The Chronicles of Narnia: Prince Caspian | The Hunger Games: The Ballad of Songbirds and Snakes | Wicked | X-Men: Days of Future Past,Peter Dinklage
+215,Sean Astin,Q189351,2438266,57,5,58,55,1.4872,0.759209,Alvin and the Chipmunks: The Squeakquel | The Goonies | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers,Sean Astin
+216,Leslie Nielsen,Q82786,2254540,78,4,81,84,1.1912,0.758958,Airplane! | The Naked Gun 2½: The Smell of Fear | The Naked Gun: From the Files of Police Squad! | The Poseidon Adventure,Leslie Nielsen
+217,Michael J. Fox,Q395274,3497414,86,4,32,65,0.6531,0.758675,Back to the Future | Back to the Future Part II | Back to the Future Part III | Stuart Little,Michael J. Fox
+218,Rami Malek,Q375590,3146861,81,6,23,45,0.7931,0.758348,Bohemian Rhapsody | Night at the Museum | Night at the Museum: Battle of the Smithsonian | Oppenheimer | The Twilight Saga: Breaking Dawn – Part 1 | The Twilight Saga: Breaking Dawn – Part 2,Rami Malek
+219,Laurence Fishburne,Q193048,1586525,76,10,80,65,1.6327,0.758136,Ant-Man and the Wasp | Apocalypse Now | Batman v Superman: Dawn of Justice | John Wick: Chapter 4 | Man of Steel | Mission: Impossible III | The Color Purple | The Matrix | The Matrix Reloaded | The Matrix Revolutions,Laurence Fishburne
+220,Oscar Isaac,Q336788,2608869,59,5,41,47,1.3226,0.758095,Dune | Star Wars: Episode IX – The Rise of Skywalker | Star Wars: Episode VII – The Force Awakens | Star Wars: Episode VIII – The Last Jedi | X-Men: Apocalypse,Oscar Isaac
+221,Tommy Lee Jones,Q170587,2477649,82,8,64,80,1.0000,0.757786,Batman Forever | JFK | Love Story | Men in Black | Men in Black 3 | Men in Black II | The Fugitive | Under Siege,Tommy Lee Jones
+222,Richard Gere,Q48410,2275972,87,2,62,77,1.0164,0.757450,Pretty Woman | Runaway Bride,Richard Gere
+223,David Harbour,Q391359,4052271,54,5,32,51,0.9143,0.757237,Black Widow | Gran Turismo | Quantum of Solace | Suicide Squad | War of the Worlds,David Harbour
+224,Vera Farmiga,Q264840,2221653,70,4,47,53,1.2703,0.756908,Godzilla: King of the Monsters | The Conjuring: Last Rites | The Conjuring: The Devil Made Me Do It | The Departed,Vera Farmiga
+225,Zoë Kravitz,Q227129,2924946,55,2,27,38,1.2273,0.756709,Fantastic Beasts: The Crimes of Grindelwald | The Batman,Zoë Kravitz
+226,Mike Tyson,Q79031,3020595,110,2,23,60,0.5227,0.756617,The Hangover | The Hangover Part II,Mike Tyson
+227,Chris Pine,Q23466,1314397,116,5,38,46,1.2667,0.756329,Batman v Superman: Dawn of Justice | Star Trek | Star Trek Into Darkness | Wonder Woman | Wonder Woman 1984,Chris Pine
+228,Vince Vaughn,Q107730,2246798,61,4,56,56,1.4000,0.756165,Jurassic World Dominion | Mr. & Mrs. Smith | The Lost World: Jurassic Park | Wedding Crashers,Vince Vaughn
+229,Henry Fonda,Q19155,1211155,97,3,97,77,1.5902,0.756136,Midway | My Name is Nobody | Too Late the Hero,Henry Fonda
+230,Hugh Grant,Q163286,2273795,85,6,50,66,1.0000,0.755961,Bridget Jones's Diary | Four Weddings and a Funeral | Heretic | Love Actually | Notting Hill | The Gentlemen,Hugh Grant
+231,Alain Delon,Q106529,1041261,137,2,97,89,1.3288,0.755911,Borsalino | The Concorde ... Airport '79,Alain Delon
+232,James Marsden,Q485901,2247643,59,7,53,53,1.4324,0.755897,Enchanted | Sonic the Hedgehog 2 | Superman Returns | X-Men | X-Men: Days of Future Past | X-Men: The Last Stand | X2,James Marsden
+233,Jessica Chastain,Q229313,1902113,79,3,42,49,1.2727,0.755771,Interstellar | It: Chapter Two | The Martian,Jessica Chastain
+234,Michael Shannon,Q41449,1748611,47,7,76,52,2.1111,0.755771,Bad Boys II they become more rebellious | Batman v Superman: Dawn of Justice | Bullet Train | Groundhog Day | Man of Steel | Pearl Harbor | The Flash,Michael Shannon
+235,Marion Cotillard,Q8927,1123396,89,2,63,51,1.8000,0.755704,Inception | The Dark Knight Rises,Marion Cotillard
+236,Renée Zellweger,Q122614,2349387,93,2,35,57,0.8537,0.755104,Bridget Jones's Diary | Jerry Maguire,Renée Zellweger
+237,Will Ferrell,Q218503,1844465,78,3,56,59,1.3023,0.755084,Austin Powers: The Spy Who Shagged Me | Barbie | Wedding Crashers,Will Ferrell
+238,J. K. Simmons,Q150482,1631641,65,7,93,71,1.6909,0.754900,Ghostbusters: Afterlife | Justice League | Spider-Man | Spider-Man 2 | Spider-Man 3 | Spider-Man: Far From Home | Spider-Man: No Way Home,J. K. Simmons
+239,Sean Bean,Q191104,1898753,71,8,70,67,1.3725,0.754790,GoldenEye | National Treasure | Patriot Games | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers | The Martian | Troy,Sean Bean
+240,Benicio del Toro,Q193668,2253118,73,6,49,59,1.1395,0.754755,Avengers: Infinity War | Guardians of the Galaxy | Licence to Kill | One Battle After Another | Star Wars: Episode VIII – The Last Jedi | Thor: The Dark World,Benicio del Toro
+241,Alan Rickman,Q106481,2467770,93,12,43,70,0.7963,0.754672,Alice in Wonderland | Die Hard | Harry Potter and the Chamber of Secrets | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix | Harry Potter and the Philosopher's Stone | Harry Potter and the Prisoner of Azkaban | Love Actually | Robin Hood: Prince of Thieves,Alan Rickman
+242,Kevin Hart,Q618352,1636863,62,3,54,47,1.7419,0.754599,Hobbs & Shaw | Jumanji: The Next Level | Jumanji: Welcome to the Jungle,Kevin Hart
+243,Michael Fassbender,Q57147,2267601,71,3,38,49,1.1515,0.754353,300 | X-Men: Apocalypse | X-Men: Days of Future Past,Michael Fassbender
+244,Jason Isaacs,Q214223,2662666,52,7,62,63,1.3191,0.754046,Armageddon | Harry Potter and the Chamber of Secrets | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix,Jason Isaacs
+245,Ed Harris,Q104791,1560536,76,9,90,76,1.5000,0.753830,A Beautiful Mind | Apollo 13 | Coma | Gravity | National Treasure: Book of Secrets | The Firm | The Rock | The Truman Show | Top Gun: Maverick,Ed Harris
+246,Robin Wright,Q272972,2371667,69,5,49,60,1.1136,0.753674,Forrest Gump | Justice League | Unbreakable | Wonder Woman | Wonder Woman 1984,Robin Wright
+247,Justin Long,Q298672,1733901,47,3,65,48,2.0312,0.753601,Alvin and the Chipmunks | Alvin and the Chipmunks: The Squeakquel | Live Free or Die Hard,Justin Long
+248,Marisa Tomei,Q191828,2068686,64,5,62,62,1.3478,0.753334,Captain America: Civil War | Spider-Man: Far From Home | Spider-Man: Homecoming | Spider-Man: No Way Home | What Women Want,Marisa Tomei
+249,Rachel Zegler,Q61693947,5855105,50,2,5,25,0.5556,0.753132,Shazam! Fury of the Gods | The Hunger Games: The Ballad of Songbirds and Snakes,Rachel Zegler
+250,Ingrid Bergman,Q43247,1425215,121,2,52,67,1.0196,0.752652,Murder on the Orient Express | Space Jam: A New Legacy,Ingrid Bergman
+251,Jeff Bridges,Q174843,1880342,83,3,69,77,1.1311,0.752596,Iron Man | Thunderbolt and Lightfoot | Tron,Jeff Bridges
+252,Jesse Eisenberg,Q219512,1686109,67,2,41,43,1.5185,0.752509,Batman v Superman: Dawn of Justice | Justice League,Jesse Eisenberg
+253,Maggie Smith,Q172653,2222121,97,11,59,90,0.7973,0.752419,Clash of the Titans | Harry Potter and the Chamber of Secrets | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix | Harry Potter and the Philosopher's Stone | Harry Potter and the Prisoner of Azkaban | Hook | Murder by Death | Sister Act,Maggie Smith
+254,Bryan Cranston,Q23547,2504722,86,2,43,70,0.7963,0.752291,Godzilla | Saving Private Ryan,Bryan Cranston
+255,Paul Giamatti,Q208649,1811253,58,7,69,59,1.6047,0.752182,Dr. Dolittle | My Best Friend's Wedding | Planet of the Apes | Saving Private Ryan | The Amazing Spider-Man 2 | The Hangover Part II | The Truman Show,Paul Giamatti
+256,Patrick Swayze,Q49004,2559523,81,4,34,57,0.8293,0.752149,Dirty Dancing | Ghost | Point Break | Red Dawn,Patrick Swayze
+257,Vin Diesel,Q178166,2269443,105,9,30,59,0.6977,0.752091,Bloodshot | F9 | Fast & Furious 6 | Fast Five | Furious 7 | Guardians of the Galaxy Vol. 3 | Saving Private Ryan | The Fate of the Furious | Thor: Love and Thunder,Vin Diesel
+258,Forest Whitaker,Q182763,1327571,77,5,80,65,1.6327,0.752046,"Black Panther | Good Morning, Vietnam | Platoon | Rogue One: A Star Wars Story | The Color of Money",Forest Whitaker
+259,Léa Seydoux,Q231096,1441957,64,2,44,41,1.7600,0.751572,Mission: Impossible – Ghost Protocol | Spectre,Léa Seydoux
+260,Colin Firth,Q162492,1548198,84,5,65,66,1.3000,0.751320,Bridget Jones's Diary | Love Actually | Mamma Mia! | Shakespeare in Love | The English Patient,Colin Firth
+261,Dolph Lundgren,Q181678,1739920,71,3,72,69,1.3585,0.751141,A View to a Kill | Aquaman | Rocky IV,Dolph Lundgren
+262,Haley Joel Osment,Q489856,2077239,56,2,31,38,1.4091,0.750355,Forrest Gump | The Sixth Sense,Haley Joel Osment
+263,Dustin Hoffman,Q42930,1804892,106,12,62,89,0.8493,0.750107,All the President's Men | Dick Tracy | Hook | Kramer vs. Kramer | Little Big Man | Marathon Man | Meet the Fockers | Outbreak | Papillon | Rain Man | Sleepers | Tootsie,Dustin Hoffman
+264,Jennifer Coolidge,Q230278,2809495,60,2,48,65,0.9796,0.750034,American Pie 2 | Austin Powers: The Spy Who Shagged Me,Jennifer Coolidge
+265,John Turturro,Q244234,1562462,57,6,92,69,1.7358,0.749593,The Batman | The Color of Money | Transformers | Transformers: Dark of the Moon | Transformers: Revenge of the Fallen | Transformers: The Last Knight,John Turturro
+266,Liv Tyler,Q168763,2131573,81,4,31,49,0.9394,0.749574,Armageddon | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers,Liv Tyler
+267,Sebastian Stan,Q455898,2023630,57,7,39,44,1.3929,0.749565,Ant-Man | Avengers: Endgame | Avengers: Infinity War | Black Panther | Captain America: Civil War | Captain America: The Winter Soldier | The Martian,Sebastian Stan
+268,Tilda Swinton,Q200534,1484514,71,5,75,66,1.5000,0.749445,"Avengers: Endgame | Doctor Strange | The Chronicles of Narnia: Prince Caspian | The Chronicles of Narnia: The Lion, the Witch and the Wardrobe | The Chronicles of Narnia: The Voyage of the Dawn Treader",Tilda Swinton
+269,Bill Paxton,Q110374,1828642,65,7,62,62,1.3478,0.749359,Aliens | Apollo 13 | Commando | The Terminator | Titanic | True Lies | Twister,Bill Paxton
+270,Anna Faris,Q4491,2517017,68,2,32,50,0.9412,0.749241,Alvin and the Chipmunks: The Squeakquel | Scary Movie,Anna Faris
+271,Kate Mara,Q231249,2155062,57,2,35,43,1.2963,0.748944,Iron Man 2 | The Martian,Kate Mara
+272,John Leguizamo,Q295233,1352822,70,2,81,66,1.6200,0.748838,Die Hard 2 | Dr. Dolittle,John Leguizamo
+273,Christopher Lloyd,Q109324,1993522,63,8,89,88,1.2361,0.747896,Addams Family Values | Back to the Future | Back to the Future Part II | Back to the Future Part III | One Flew Over the Cuckoo's Nest | Star Trek III: The Search for Spock | The Addams Family | Who Framed Roger Rabbit,Christopher Lloyd
+274,Michael Clarke Duncan,Q483148,1676155,92,3,39,55,1.0000,0.747666,Armageddon | Planet of the Apes | The Green Mile,Michael Clarke Duncan
+275,Christian Slater,Q204590,1302741,56,4,80,57,1.9512,0.747640,Interview with the Vampire | Robin Hood: Prince of Thieves | Star Trek VI: The Undiscovered Country | The Name of the Rose,Christian Slater
+276,Irrfan Khan,Q360927,1214661,67,4,66,53,1.7838,0.747561,Jurassic World | Life of Pi | Slumdog Millionaire | The Amazing Spider-Man,Irrfan Khan
+277,Eva Green,Q191644,1943671,87,2,27,46,0.9000,0.747374,Casino Royale | The Golden Compass,Eva Green
+278,Steve McQueen,Q159347,2052337,79,3,32,50,0.9412,0.747306,Papillon | The Getaway | The Towering Inferno,Steve McQueen
+279,Anil Kapoor,Q313956,1064030,61,2,114,70,2.1111,0.747123,Mission: Impossible – Ghost Protocol | Slumdog Millionaire,Anil Kapoor
+280,Dave Bautista,Q44158,2377840,67,8,39,57,0.9512,0.746957,Avengers: Endgame | Avengers: Infinity War | Dune | Guardians of the Galaxy | Guardians of the Galaxy Vol. 2 | Guardians of the Galaxy Vol. 3 | Spectre | Thor: Love and Thunder,Dave Bautista
+281,Sam Worthington,Q82085,1581627,73,3,44,50,1.2941,0.746679,Avatar | Avatar: The Way of Water | Clash of the Titans,Sam Worthington
+282,Lucy Liu,Q188375,1785516,80,8,44,58,1.0476,0.746451,Charlie's Angels | Charlie's Angels: Full Throttle | Jerry Maguire | Presence | Shazam! Fury of the Gods | Spider-Man | Spider-Man 2 | Spider-Man 3,Lucy Liu
+283,Glenn Close,Q372311,2034554,82,7,56,79,0.8889,0.746427,101 Dalmatians | Air Force One | Fatal Attraction | Guardians of the Galaxy | Guardians of the Galaxy Vol. 2 | Hook | The Big Chill,Glenn Close
+284,Olga Kurylenko,Q164730,1493773,69,2,44,47,1.4194,0.746265,Black Widow | Quantum of Solace,Olga Kurylenko
+285,Jamie Foxx,Q171905,1545566,82,2,50,59,1.1628,0.745959,Spider-Man: No Way Home | The Amazing Spider-Man 2,Jamie Foxx
+286,James Caan,Q95043,1795986,72,5,75,82,1.1364,0.745763,A Bridge Too Far | Dick Tracy | Eraser | The Godfather | The Godfather Part II,James Caan
+287,Bryce Dallas Howard,Q229775,2450797,60,8,29,45,1.0000,0.745725,A Beautiful Mind | Dr. Seuss' How the Grinch Stole Christmas | Jurassic World | Jurassic World Dominion | Jurassic World: Fallen Kingdom | Spider-Man 3 | The Twilight Saga: Breaking Dawn – Part 2 | The Twilight Saga: Eclipse,Bryce Dallas Howard
+288,Glen Powell,Q5567967,4041765,38,2,21,38,0.9545,0.745615,The Dark Knight Rises | Top Gun: Maverick,Glen Powell
+289,Mary Elizabeth Winstead,Q207873,2183063,58,2,30,42,1.1538,0.745490,Birds of Prey and the Fantabulous Emancipation of One Harley Quinn | Live Free or Die Hard,Mary Elizabeth Winstead
+290,Josh Hartnett,Q303957,2020977,59,3,39,48,1.2188,0.745400,Oppenheimer | Pearl Harbor | Trap,Josh Hartnett
+291,Michelle Yeoh,Q214289,1817658,76,6,50,64,1.0417,0.744985,A Haunting in Venice | Guardians of the Galaxy Vol. 2 | Shang-Chi and the Legend of the Ten Rings | The Mummy: Tomb of the Dragon Emperor | Tomorrow Never Dies | Wicked,Michelle Yeoh
+292,Diane Lane,Q255070,1783890,62,4,58,61,1.2889,0.744866,Batman v Superman: Dawn of Justice | Justice League | Man of Steel | The Perfect Storm,Diane Lane
+293,Daryl Hannah,Q207596,1888856,60,2,63,66,1.2600,0.744847,Blade Runner | Splash,Daryl Hannah
+294,Juliette Lewis,Q230523,1653777,59,2,53,53,1.4324,0.744571,Cape Fear | Opus,Juliette Lewis
+295,Juno Temple,Q234434,1481435,48,2,39,37,1.8571,0.744344,Maleficent | The Dark Knight Rises,Juno Temple
+296,Heather Graham,Q224026,1265230,58,3,72,56,1.8000,0.744107,Austin Powers: The Spy Who Shagged Me | The Hangover | Twins,Heather Graham
+297,Jeremy Irons,Q171745,1558816,88,4,63,78,1.0161,0.743897,Batman v Superman: Dawn of Justice | Die Hard with a Vengeance | Justice League | The Flash,Jeremy Irons
+298,William Hurt,Q105825,1433096,73,6,74,72,1.3214,0.743884,Avengers: Infinity War | Black Widow | Body Heat | Broadcast News | Captain America: Civil War | The Big Chill,William Hurt
+299,Matthew Broderick,Q28755,2070674,66,3,49,64,1.0208,0.743796,Ferris Bueller's Day Off | Godzilla | WarGames,Matthew Broderick
+300,Guy Pearce,Q223745,1696525,59,2,59,59,1.3721,0.743717,Bloodshot | Iron Man 3,Guy Pearce
+301,Ian McKellen,Q170510,1961660,91,13,53,87,0.7465,0.743375,Beauty and the Beast | Last Action Hero | The Da Vinci Code | The Hobbit: An Unexpected Journey | The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers | X-Men | X-Men: Days of Future Past | X-Men: The Last Stand | X2,Ian McKellen
+302,Ron Jeremy,Q503013,1608312,51,2,92,73,1.6140,0.743271,Bruce Almighty | The Godfather Part III,Ron Jeremy
+303,Sam Neill,Q214309,1838868,59,6,79,79,1.2540,0.743040,Jurassic Park | Jurassic Park III | Jurassic World Dominion | The Hunt for Red October | Thor: Love and Thunder | Thor: Ragnarok,Sam Neill
+304,Will Poulter,Q1319882,2032735,57,3,20,33,1.1765,0.742956,Guardians of the Galaxy Vol. 3 | The Chronicles of Narnia: The Voyage of the Dawn Treader | The Revenant,Will Poulter
+305,Mary Steenburgen,Q108935,2328999,56,2,59,73,1.0351,0.742519,Back to the Future Part III | Philadelphia,Mary Steenburgen
+306,Harvey Keitel,Q191132,1114483,66,6,123,87,1.7324,0.742491,Alice Doesn't Live Here Anymore | National Treasure | National Treasure: Book of Secrets | Pulp Fiction | Sister Act | Taxi Driver,Harvey Keitel
+307,John Lithgow,Q311271,2040254,64,5,67,81,1.0308,0.742453,2010: The Year We Make Contact | All That Jazz | Cliffhanger | Interstellar | Rise of the Planet of the Apes,John Lithgow
+308,Barry Keoghan,Q28542230,2004370,40,2,29,34,1.6111,0.742320,Eternals | The Batman,Barry Keoghan
+309,Simon Pegg,Q238464,1271096,107,9,39,56,0.9750,0.742217,Mission: Impossible III | Mission: Impossible – Fallout | Mission: Impossible – Ghost Protocol | Mission: Impossible – Rogue Nation | Ready Player One | Star Trek | Star Trek Into Darkness | Star Wars: Episode VII – The Force Awakens | The Chronicles of Narnia: The Voyage of the Dawn Treader,Simon Pegg
+310,Ava Gardner,Q164487,1286519,88,2,61,68,1.1731,0.742168,Earthquake | The Cassandra Crossing,Ava Gardner
+311,Meg Ryan,Q167498,2128043,77,3,39,65,0.7959,0.742126,Sleepless in Seattle | Top Gun | You've Got Mail,Meg Ryan
+312,Rebecca Ferguson,Q4947838,2866128,58,3,21,43,0.7778,0.741823,Dune | Mission: Impossible – Fallout | Mission: Impossible – Rogue Nation,Rebecca Ferguson
+313,Steve Zahn,Q491775,1466759,67,2,57,59,1.3256,0.741668,Stuart Little | You've Got Mail,Steve Zahn
+314,Judi Dench,Q28054,1752903,96,10,57,92,0.7500,0.741369,Casino Royale | Die Another Day | GoldenEye | Pirates of the Caribbean: On Stranger Tides | Quantum of Solace | Shakespeare in Love | Skyfall | Spectre | The World Is Not Enough | Tomorrow Never Dies,Judi Dench
+315,Michael Keaton,Q138005,1739850,80,6,55,75,0.9322,0.741348,Batman | Batman Returns | Beetlejuice | Beetlejuice Beetlejuice | Spider-Man: Homecoming | The Flash,Michael Keaton
+316,Dan Aykroyd,Q105221,1636605,59,10,77,74,1.3276,0.741036,Casper | Driving Miss Daisy | Ghostbusters | Ghostbusters II | Ghostbusters: Afterlife | Ghostbusters: Frozen Empire | Indiana Jones and the Temple of Doom | Pearl Harbor | Spies Like Us | The Blues Brothers,Dan Aykroyd
+317,James McAvoy,Q193659,1575480,68,6,37,47,1.1935,0.740683,"Deadpool 2 | It: Chapter Two | The Chronicles of Narnia: The Lion, the Witch and the Wardrobe | Wanted | X-Men: Apocalypse | X-Men: Days of Future Past",James McAvoy
+318,Kelly Preston,Q236842,2271952,56,2,42,58,1.0000,0.740361,Jerry Maguire | Twins,Kelly Preston
+319,Ving Rhames,Q310315,1825893,50,8,70,67,1.3725,0.740291,Guardians of the Galaxy Vol. 2 | Mission: Impossible | Mission: Impossible 2 | Mission: Impossible III | Mission: Impossible – Fallout | Mission: Impossible – Ghost Protocol | Mission: Impossible – Rogue Nation | Pulp Fiction,Ving Rhames
+320,Tom Hiddleston,Q295803,2306134,79,5,19,45,0.6552,0.740218,Avengers: Endgame | Avengers: Infinity War | The Avengers | Thor: Ragnarok | Thor: The Dark World,Tom Hiddleston
+321,Charlton Heston,Q80739,1121323,93,7,83,85,1.2029,0.740139,Airport 1975 | Beneath the Planet of the Apes | Earthquake | Midway | Planet of the Apes | Soylent Green | True Lies,Charlton Heston
+322,Tom Felton,Q105682,1301672,64,9,34,39,1.4783,0.740097,Harry Potter and the Chamber of Secrets | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix | Harry Potter and the Philosopher's Stone | Harry Potter and the Prisoner of Azkaban | Rise of the Planet of the Apes,Tom Felton
+323,Christopher Reeve,Q174311,2754661,77,3,19,52,0.5278,0.740095,Superman | Superman II | Superman III,Christopher Reeve
+324,John Hurt,Q200405,1058205,64,6,107,77,1.7541,0.739997,Alien | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Philosopher's Stone | Indiana Jones and the Kingdom of the Crystal Skull | Midnight Express,John Hurt
+325,Liam Hemsworth,Q32045,1982669,63,4,20,36,1.0000,0.739718,The Hunger Games | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2,Liam Hemsworth
+326,Vincent D'Onofrio,Q320052,1909989,46,3,71,67,1.3922,0.739450,JFK | Jurassic World | Men in Black,Vincent D'Onofrio
+327,Taylor Lautner,Q23359,1265145,115,5,15,34,0.8333,0.739428,The Twilight Saga: Breaking Dawn – Part 1 | The Twilight Saga: Breaking Dawn – Part 2 | The Twilight Saga: Eclipse | The Twilight Saga: New Moon | Twilight,Taylor Lautner
+328,Gregory Peck,Q108366,1463424,96,2,61,87,0.8592,0.739031,Cape Fear | The Omen,Gregory Peck
+329,Dean Martin,Q215359,1672922,79,2,57,78,0.9194,0.738953,Airport | The Cannonball Run,Dean Martin
+330,Eva Mendes,Q170606,1865067,77,2,30,52,0.8333,0.738731,Fast Five | Hitch,Eva Mendes
+331,Mads Mikkelsen,Q294647,1581348,69,5,50,61,1.1111,0.738626,Casino Royale | Clash of the Titans | Doctor Strange | Fantastic Beasts: The Secrets of Dumbledore | Rogue One: A Star Wars Story,Mads Mikkelsen
+332,Casey Affleck,Q270730,1443547,68,5,43,51,1.2286,0.738586,American Pie 2 | Interstellar | Ocean's Eleven | Ocean's Twelve | Oppenheimer,Casey Affleck
+333,Robert Mitchum,Q16472,960755,74,2,104,80,1.6250,0.738416,Cape Fear | Midway,Robert Mitchum
+334,Laurence Olivier,Q55245,1176986,93,4,72,82,1.0909,0.738198,A Bridge Too Far | Clash of the Titans | Marathon Man | Romeo and Juliet,Laurence Olivier
+335,Nick Jonas,Q201656,2182554,73,2,13,34,0.7222,0.738072,Jumanji: The Next Level | Jumanji: Welcome to the Jungle,Nick Jonas
+336,Andie MacDowell,Q208558,2163687,63,2,45,68,0.8654,0.737963,Four Weddings and a Funeral | Groundhog Day,Andie MacDowell
+337,Felicity Jones,Q234447,1649898,67,2,29,43,1.0741,0.737830,Rogue One: A Star Wars Story | The Amazing Spider-Man 2,Felicity Jones
+338,Sally Field,Q187033,2009730,91,5,38,80,0.5938,0.737727,Forrest Gump | Mrs. Doubtfire | Smokey and the Bandit | The Amazing Spider-Man | The Amazing Spider-Man 2,Sally Field
+339,Jet Li,Q159577,954531,118,2,49,63,1.0426,0.737720,Lethal Weapon 4 | The Mummy: Tomb of the Dragon Emperor,Jet Li
+340,Tim Curry,Q52392,3090800,63,3,34,80,0.5312,0.737019,Charlie's Angels | Home Alone 2: Lost in New York | The Hunt for Red October,Tim Curry
+341,William Shatner,Q16297,2223885,78,5,49,95,0.6203,0.736877,Star Trek II: The Wrath of Khan | Star Trek III: The Search for Spock | Star Trek IV: The Voyage Home | Star Trek VI: The Undiscovered Country | Star Trek: The Motion Picture,William Shatner
+342,Richard Harris,Q106775,1640280,69,7,57,72,1.0179,0.736748,Gladiator | Harry Potter and the Chamber of Secrets | Harry Potter and the Philosopher's Stone | Orca | Patriot Games | The Cassandra Crossing | Unforgiven,Richard Harris
+343,Hugh Laurie,Q49017,2162730,83,2,30,67,0.5882,0.736744,101 Dalmatians | Stuart Little,Hugh Laurie
+344,Michael Sheen,Q298276,2010011,52,4,45,57,1.0976,0.736489,Alice in Wonderland | The Twilight Saga: Breaking Dawn – Part 1 | The Twilight Saga: Breaking Dawn – Part 2 | The Twilight Saga: New Moon,Michael Sheen
+345,Amrish Puri,Q333443,724973,55,2,139,73,2.4386,0.736260,Gandhi | Indiana Jones and the Temple of Doom,Amrish Puri
+346,Rebecca Hall,Q230534,1721113,56,2,33,44,1.1786,0.736224,Godzilla vs. Kong | Iron Man 3,Rebecca Hall
+347,Vincent Cassel,Q193504,1206131,58,2,69,60,1.5682,0.736165,Ocean's Twelve | Underwater,Vincent Cassel
+348,Brendan Gleeson,Q206659,1738394,57,7,63,71,1.1455,0.736156,Braveheart | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Goblet of Fire | Harry Potter and the Order of the Phoenix | Joker: Folie à Deux | Mission: Impossible 2 | Troy,Brendan Gleeson
+349,Stephen Fry,Q192912,2091744,64,6,44,69,0.8302,0.735940,A Fish Called Wanda | Alice in Wonderland | Chariots of Fire | Sherlock Holmes: A Game of Shadows | The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug,Stephen Fry
+350,Judy Greer,Q236189,1181201,42,5,72,51,2.0571,0.735875,Ant-Man | Ant-Man and the Wasp | Dawn of the Planet of the Apes | Jurassic World | What Women Want,Judy Greer
+351,Anjelica Huston,Q190998,1730761,67,3,57,75,0.9661,0.735775,Addams Family Values | One Flew Over the Cuckoo's Nest | The Addams Family,Anjelica Huston
+352,Luke Wilson,Q107769,1400723,46,2,65,55,1.6667,0.735767,Charlie's Angels | Charlie's Angels: Full Throttle,Luke Wilson
+353,Brian Cox,Q34975,1656634,48,7,89,80,1.3906,0.735729,Braveheart | Rise of the Planet of the Apes | The Bourne Supremacy | The Bourne Ultimatum | Troy | X-Men: Days of Future Past | X2,Brian Cox (actor)
+354,Bobby Cannavale,Q428819,1911222,43,3,54,56,1.3500,0.735706,Ant-Man | Ant-Man and the Wasp | Jumanji: Welcome to the Jungle,Bobby Cannavale
+355,Steve Martin,Q16473,2328520,63,2,48,81,0.7385,0.735636,Little Shop of Horrors | The Muppet Movie,Steve Martin
+356,Jamie Campbell Bower,Q313283,3359690,49,4,14,38,0.6364,0.735498,Harry Potter and the Deathly Hallows – Part 1 | The Twilight Saga: Breaking Dawn – Part 1 | The Twilight Saga: Breaking Dawn – Part 2 | The Twilight Saga: New Moon,Jamie Campbell Bower
+357,Michelle Rodriguez,Q184219,1201551,82,6,36,48,1.1250,0.735405,Avatar | F9 | Fast & Furious 6 | Fast Five | Furious 7 | The Fate of the Furious,Michelle Rodriguez
+358,Keith David,Q370918,1468818,39,4,98,70,1.8148,0.735279,Armageddon | Mr. & Mrs. Smith | Platoon | There's Something About Mary,Keith David
+359,Billy Zane,Q205435,1003209,56,3,81,60,1.8409,0.735273,Back to the Future | Back to the Future Part II | Titanic,Billy Zane
+360,Kris Kristofferson,Q208681,1848906,63,3,68,88,0.9444,0.735126,Alice Doesn't Live Here Anymore | Convoy | Planet of the Apes,Kris Kristofferson
+361,Chiwetel Ejiofor,Q317343,1292898,63,5,44,49,1.3333,0.734954,2012 | Doctor Strange | Doctor Strange in the Multiverse of Madness | Love Actually | The Martian,Chiwetel Ejiofor
+362,Alan Cumming,Q316629,2103952,45,3,52,61,1.1556,0.734762,GoldenEye | X-Men: The Last Stand | X2,Alan Cumming
+363,Richard Attenborough,Q51506,1681831,77,2,62,91,0.8267,0.734653,Jurassic Park | The Lost World: Jurassic Park,Richard Attenborough
+364,Adam Brody,Q294372,2226032,46,3,33,47,1.0645,0.734574,American Pie 2 | Mr. & Mrs. Smith | Shazam! Fury of the Gods,Adam Brody
+365,William H. Macy,Q224159,1386203,61,2,76,76,1.2667,0.734252,Air Force One | Jurassic Park III,William H. Macy
+366,Maggie Q,Q614774,2304260,55,3,26,47,0.8387,0.734202,Live Free or Die Hard | Mission: Impossible III | Rush Hour 2,Maggie Q
+367,Angela Bassett,Q232120,1786318,66,5,47,68,0.9038,0.734081,Black Panther | Black Panther: Wakanda Forever | Kindergarten Cop | Mission: Impossible – Fallout | Mr. & Mrs. Smith,Angela Bassett
+368,Dick Van Dyke,Q310295,5170662,50,3,23,101,0.2706,0.734080,Dick Tracy | Night at the Museum | Night at the Museum: Battle of the Smithsonian,Dick Van Dyke
+369,Leslie Bibb,Q239453,3126522,43,2,28,52,0.7778,0.733928,Iron Man | Iron Man 2,Leslie Bibb
+370,Hayley Atwell,Q234959,2382973,58,5,21,44,0.7500,0.733883,Ant-Man | Avengers: Age of Ultron | Captain America: The Winter Soldier | Cinderella | Doctor Strange in the Multiverse of Madness,Hayley Atwell
+371,Melissa McCarthy,Q229048,1571264,71,4,38,56,0.9500,0.733783,Charlie's Angels | Charlie's Angels: Full Throttle | The Little Mermaid | Thor: Love and Thunder,Melissa McCarthy
+372,Morena Baccarin,Q231091,2575156,54,4,23,47,0.7419,0.733758,Deadpool | Deadpool & Wolverine | Deadpool 2 | Greenland,Morena Baccarin
+373,Elisha Cuthbert,Q188500,1203353,117,2,20,44,0.7143,0.733428,Love Actually | Spider-Man 3,Elisha Cuthbert
+374,Carla Gugino,Q228871,1299271,60,3,52,55,1.3333,0.733318,Batman v Superman: Dawn of Justice | Man of Steel | Night at the Museum,Carla Gugino
+375,Chevy Chase,Q310926,2613894,52,3,50,83,0.7463,0.733085,Last Action Hero | National Lampoon's Vacation | Spies Like Us,Chevy Chase
+376,Corey Feldman,Q375419,2335112,36,2,48,55,1.2308,0.732819,Gremlins | The Goonies,Corey Feldman
+377,Eric Bana,Q4440,2296953,64,3,28,58,0.6667,0.732705,Hulk | Star Trek | Troy,Eric Bana
+378,Tony Todd,Q351849,2478753,41,3,55,70,1.0185,0.732675,Platoon | The Rock | Transformers: Revenge of the Fallen,Tony Todd
+379,Patrick Wilson,Q351290,1452337,52,5,50,53,1.3514,0.732657,Ant-Man | Aquaman | Batman v Superman: Dawn of Justice | The Conjuring: Last Rites | The Conjuring: The Devil Made Me Do It,Patrick Wilson
+380,Karen Gillan,Q231237,1437600,66,9,25,39,1.0870,0.732628,Avengers: Endgame | Avengers: Infinity War | Guardians of the Galaxy | Guardians of the Galaxy Vol. 2 | Guardians of the Galaxy Vol. 3 | Jumanji: The Next Level | Jumanji: Welcome to the Jungle | The Call of the Wild | Thor: Love and Thunder,Karen Gillan
+381,Michael Peña,Q359488,1167449,49,3,58,50,1.7059,0.732429,Ant-Man | Ant-Man and the Wasp | The Martian,Michael Peña
+382,William Holden,Q95002,831656,72,2,77,63,1.6383,0.732427,Network | The Towering Inferno,William Holden
+383,Richard Dreyfuss,Q181799,1504447,66,3,65,79,1.0317,0.732389,Close Encounters of the Third Kind | Jaws | What About Bob?,Richard Dreyfuss
+384,Giovanni Ribisi,Q224081,1107615,60,3,54,52,1.5000,0.732358,Avatar | Avatar: The Way of Water | Saving Private Ryan,Giovanni Ribisi
+385,Sam Elliott,Q311314,3117290,46,2,45,82,0.6818,0.732350,Hulk | The Golden Compass,Sam Elliott
+386,Adam Driver,Q4678990,1561808,59,3,30,43,1.1111,0.732332,Star Wars: Episode IX – The Rise of Skywalker | Star Wars: Episode VII – The Force Awakens | Star Wars: Episode VIII – The Last Jedi,Adam Driver
+387,Kerry Washington,Q232104,1474729,65,2,35,49,1.0606,0.732092,Fantastic Four | Mr. & Mrs. Smith,Kerry Washington
+388,Ashley Judd,Q228645,1757226,65,2,37,58,0.8810,0.732041,A Time to Kill | Heat,Ashley Judd
+389,Robert Patrick,Q272977,1441515,50,6,72,68,1.3846,0.731929,Charlie's Angels: Full Throttle | Die Hard 2 | Honest Thief | Last Action Hero | Terminator 2: Judgment Day | Wayne's World,Robert Patrick
+390,Domhnall Gleeson,Q456047,1823873,50,6,30,43,1.1111,0.731906,Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Star Wars: Episode IX – The Rise of Skywalker | Star Wars: Episode VII – The Force Awakens | Star Wars: Episode VIII – The Last Jedi | The Revenant,Domhnall Gleeson
+391,Tom Sizemore,Q349852,1351474,42,6,78,62,1.6957,0.731852,Born on the Fourth of July | Enemy of the State | Heat | Pearl Harbor | Point Break | Saving Private Ryan,Tom Sizemore
+392,Tim Robbins,Q95048,1434123,69,3,53,68,1.0192,0.731839,Austin Powers: The Spy Who Shagged Me | Top Gun | War of the Worlds,Tim Robbins
+393,Cuba Gooding Jr.,Q136209,1106751,65,6,58,58,1.3810,0.731824,A Few Good Men | As Good as It Gets | Coming to America | Jerry Maguire | Outbreak | Pearl Harbor,Cuba Gooding Jr.
+394,Kristen Wiig,Q231382,1528324,58,2,42,53,1.1351,0.731705,The Martian | Wonder Woman 1984,Kristen Wiig
+395,Nick Nolte,Q188018,1242857,71,4,78,85,1.1304,0.731453,48 Hrs. | Another 48 Hrs. | Cape Fear | Hulk,Nick Nolte
+396,Roger Moore,Q134333,1336603,96,7,55,90,0.7432,0.731083,A View to a Kill | Live and Let Die | Moonraker | Octopussy | The Cannonball Run | The Man with the Golden Gun | The Spy Who Loved Me,Roger Moore
+397,Terence Stamp,Q77298,2209651,48,4,66,87,0.9296,0.731047,Star Wars: Episode I – The Phantom Menace | Superman | Superman II | Wanted,Terence Stamp
+398,Laura Linney,Q223281,1731537,57,2,46,62,1.0000,0.730992,Love Actually | The Truman Show,Laura Linney
+399,Kim Basinger,Q131380,1413126,91,2,42,73,0.7368,0.730872,Batman | Never Say Never Again,Kim Basinger
+400,Olivia Munn,Q236475,2751699,49,2,21,46,0.7000,0.730856,Iron Man 2 | X-Men: Apocalypse,Olivia Munn
+401,Viola Davis,Q229181,1308374,78,4,43,61,0.9556,0.730740,Black Adam | Suicide Squad | The Hunger Games: The Ballad of Songbirds and Snakes | The Suicide Squad,Viola Davis
+402,Tobey Maguire,Q165524,1339814,89,4,28,51,0.8000,0.730627,Spider-Man | Spider-Man 2 | Spider-Man 3 | Spider-Man: No Way Home,Tobey Maguire
+403,Burt Lancaster,Q160528,893754,84,2,83,81,1.2769,0.730318,Airport | The Cassandra Crossing,Burt Lancaster
+404,Pete Davidson,Q18097962,2621533,37,2,17,33,1.0000,0.730295,The Home | The Suicide Squad,Pete Davidson
+405,John Cleese,Q25014,1459847,76,9,61,87,0.8592,0.730199,A Fish Called Wanda | Charlie's Angels: Full Throttle | Die Another Day | Harry Potter and the Chamber of Secrets | Harry Potter and the Philosopher's Stone | Monty Python and the Holy Grail | Monty Python's The Meaning of Life | The World Is Not Enough | Time Bandits,John Cleese
+406,Kristin Scott Thomas,Q208590,1229623,57,3,68,66,1.3600,0.730187,Four Weddings and a Funeral | Mission: Impossible | The English Patient,Kristin Scott Thomas
+407,Kenneth Branagh,Q55294,1815254,68,5,38,66,0.7600,0.730172,A Haunting in Venice | Chariots of Fire | Harry Potter and the Chamber of Secrets | Oppenheimer | Tenet,Kenneth Branagh
+408,Annette Bening,Q190602,1589958,72,2,43,68,0.8269,0.730081,American Beauty | Captain Marvel,Annette Bening
+409,Helen Hunt,Q170574,1432763,76,5,41,63,0.8723,0.730013,As Good as It Gets | Cast Away | Peggy Sue Got Married | Twister | What Women Want,Helen Hunt
+410,Danny Glover,Q192165,960012,57,9,107,80,1.6719,0.729922,2012 | Escape from Alcatraz | Jumanji: The Next Level | Lethal Weapon | Lethal Weapon 2 | Lethal Weapon 3 | Lethal Weapon 4 | The Color Purple | Witness,Danny Glover
+411,Jeffrey Wright,Q343059,1874340,48,7,48,61,1.0667,0.729878,Casino Royale | Presumed Innocent | Quantum of Solace | The Batman | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2,Jeffrey Wright
+412,Ezra Miller,Q508049,1708892,53,7,19,34,1.0556,0.729760,Batman v Superman: Dawn of Justice | Fantastic Beasts and Where to Find Them | Fantastic Beasts: The Crimes of Grindelwald | Fantastic Beasts: The Secrets of Dumbledore | Justice League | Suicide Squad | The Flash,Ezra Miller
+413,Andy Serkis,Q206922,1295612,80,12,42,62,0.9130,0.729753,Avengers: Age of Ultron | Black Panther | Dawn of the Planet of the Apes | King Kong | Rise of the Planet of the Apes | Star Wars: Episode VII – The Force Awakens | Star Wars: Episode VIII – The Last Jedi | The Batman | The Hobbit: An Unexpected Journey | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers,Andy Serkis
+414,Stan Lee,Q181900,1431181,99,28,50,96,0.6250,0.729740,Ant-Man | Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Black Panther | Captain America: Civil War | Captain America: The Winter Soldier | Captain Marvel | Deadpool | Doctor Strange | Fantastic Four | Guardians of the Galaxy | Guardians of the Galaxy Vol. 2 | Hulk | Iron Man | Iron Man 2 | Spider-Man | Spider-Man 2 | Spider-Man 3 | Spider-Man: Homecoming | The Amazing Spider-Man | The Amazing Spider-Man 2 | Thor: Ragnarok | Thor: The Dark World | Venom | X-Men | X-Men: Apocalypse | X-Men: The Last Stand,Stan Lee
+415,Paul Reubens,Q720581,2993681,59,5,25,71,0.4545,0.729724,Batman Returns | Cheech and Chong's Next Movie | Dr. Dolittle | The Blues Brothers | The Smurfs,Paul Reubens
+416,George Lucas,Q38222,1681315,131,5,19,82,0.2879,0.729576,Beverly Hills Cop III | Hook | Indiana Jones and the Temple of Doom | Men in Black | Star Wars: Episode III – Revenge of the Sith,George Lucas
+417,Rupert Grint,Q19190,1187256,87,7,20,38,0.9091,0.729519,Harry Potter and the Chamber of Secrets | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Goblet of Fire | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix | Harry Potter and the Philosopher's Stone | Harry Potter and the Prisoner of Azkaban,Rupert Grint
+418,Minnie Driver,Q229056,1832940,53,2,39,56,0.9750,0.729489,GoldenEye | Sleepers,Minnie Driver
+419,Mark Hamill,Q210447,1861486,71,6,40,75,0.6780,0.729300,Star Wars: Episode IV – A New Hope | Star Wars: Episode IX – The Rise of Skywalker | Star Wars: Episode V – The Empire Strikes Back | Star Wars: Episode VI – Return of the Jedi | Star Wars: Episode VII – The Force Awakens | Star Wars: Episode VIII – The Last Jedi,Mark Hamill
+420,Donald Pleasence,Q314914,540586,75,2,125,76,2.0833,0.729193,Escape from New York | Halloween,Donald Pleasence
+421,Paul Bettany,Q242707,1473586,62,6,40,55,1.0256,0.729079,A Beautiful Mind | Avengers: Age of Ultron | Avengers: Infinity War | Captain America: Civil War | Iron Man | The Da Vinci Code,Paul Bettany
+422,Jena Malone,Q233368,1079402,45,4,47,42,1.8077,0.729018,Batman v Superman: Dawn of Justice | The Hunger Games: Catching Fire | The Hunger Games: Mockingjay – Part 1 | The Hunger Games: Mockingjay – Part 2,Jena Malone
+423,Rob Lowe,Q296505,1816440,53,2,44,62,0.9565,0.728483,Austin Powers: The Spy Who Shagged Me | Wayne's World,Rob Lowe
+424,Rutger Hauer,Q213574,683813,68,2,108,75,1.8305,0.728095,Batman Begins | Blade Runner,Rutger Hauer
+425,Ron Perlman,Q220698,1132645,53,3,89,76,1.4833,0.728090,Fantastic Beasts and Where to Find Them | Monster Hunter | The Name of the Rose,Ron Perlman
+426,James Earl Jones,Q203960,1521251,62,8,74,93,0.9610,0.727937,Clear and Present Danger | Coming to America | Conan the Barbarian | Night at the Museum: Battle of the Smithsonian | Patriot Games | Star Wars: Episode III – Revenge of the Sith | Star Wars: Episode IV – A New Hope | The Hunt for Red October,James Earl Jones
+427,Hayden Christensen,Q192812,1877004,62,3,22,45,0.7586,0.727907,Star Wars: Episode II – Attack of the Clones | Star Wars: Episode III – Revenge of the Sith | Star Wars: Episode VI – Return of the Jedi,Hayden Christensen
+428,Chadwick Boseman,Q5066520,1964696,80,4,14,44,0.5000,0.727737,Avengers: Endgame | Avengers: Infinity War | Black Panther | Captain America: Civil War,Chadwick Boseman
+429,Geraldine Chaplin,Q230636,909428,55,2,113,82,1.7121,0.727664,Jurassic World: Fallen Kingdom | Nashville,Geraldine Chaplin
+430,Jennifer Tilly,Q495549,1695489,46,2,60,68,1.1538,0.727552,Liar Liar | Stuart Little,Jennifer Tilly
+431,Ian McShane,Q234141,1233751,88,2,55,84,0.8088,0.727509,John Wick: Chapter 4 | Pirates of the Caribbean: On Stranger Tides,Ian McShane
+432,Kelsey Grammer,Q196560,2254752,60,3,34,71,0.6182,0.727506,Transformers: Age of Extinction | X-Men: Days of Future Past | X-Men: The Last Stand,Kelsey Grammer
+433,Tessa Thompson,Q271500,1771506,56,3,24,43,0.8889,0.727091,Avengers: Endgame | Thor: Love and Thunder | Thor: Ragnarok,Tessa Thompson
+434,Carl Reiner,Q287793,2124704,90,2,28,98,0.3415,0.727050,Ocean's Eleven | Ocean's Twelve,Carl Reiner
+435,Seth Green,Q186757,1285789,50,4,49,52,1.3611,0.727001,Austin Powers: The Spy Who Shagged Me | Enemy of the State | Guardians of the Galaxy | Space Jam: A New Legacy,Seth Green
+436,Ernest Borgnine,Q102551,760762,75,5,119,95,1.5063,0.726995,Convoy | Escape from New York | The Black Hole | The Poseidon Adventure | Willard,Ernest Borgnine
+437,Frances McDormand,Q204299,1306957,83,2,42,69,0.7925,0.726798,Something's Gotta Give | Transformers: Dark of the Moon,Frances McDormand
+438,Callum Turner,Q18162913,3230439,30,2,18,36,0.9000,0.726631,Fantastic Beasts: The Crimes of Grindelwald | Fantastic Beasts: The Secrets of Dumbledore,Callum Turner
+439,Bruce Dern,Q357001,1262495,50,2,101,90,1.3649,0.726439,Black Sunday | Family Plot,Bruce Dern
+440,Tim Roth,Q203804,933257,63,2,71,65,1.4490,0.726379,Planet of the Apes | Pulp Fiction,Tim Roth
+441,Ron Howard,Q103646,2358740,69,2,25,72,0.4464,0.726360,A Beautiful Mind | Dr. Seuss' How the Grinch Stole Christmas,Ron Howard
+442,Eddie Redmayne,Q28288,1457853,77,3,21,44,0.7500,0.726313,Fantastic Beasts and Where to Find Them | Fantastic Beasts: The Crimes of Grindelwald | Fantastic Beasts: The Secrets of Dumbledore,Eddie Redmayne
+443,Mel Brooks,Q104266,2859338,78,2,19,100,0.2262,0.726236,High Anxiety | The Muppet Movie,Mel Brooks
+444,Keri Russell,Q229426,2868849,44,3,22,50,0.6471,0.726145,Dawn of the Planet of the Apes | Mission: Impossible III | Star Wars: Episode IX – The Rise of Skywalker,Keri Russell
+445,Octavia Spencer,Q229254,837580,64,2,62,56,1.5500,0.725862,A Time to Kill | Spider-Man,Octavia Spencer
+446,Patrick Stewart,Q16296,1460528,80,6,49,86,0.7000,0.725737,Doctor Strange in the Multiverse of Madness | Logan | X-Men | X-Men: Days of Future Past | X-Men: The Last Stand | X2,Patrick Stewart
+447,Jean Reno,Q43697,720396,82,3,87,78,1.4032,0.725316,Godzilla | Mission: Impossible | The Da Vinci Code,Jean Reno
+448,Logan Lerman,Q221068,1145904,57,2,23,34,1.2778,0.725050,Bullet Train | What Women Want,Logan Lerman
+449,Tim Burton,Q56008,2313514,95,2,11,68,0.2115,0.724936,Men in Black 3 | The Muppet Movie,Tim Burton
+450,Cary Elwes,Q311093,1471190,43,3,63,64,1.3125,0.724897,Bram Stoker's Dracula | Liar Liar | Twister,Cary Elwes
+451,O. J. Simpson,Q44473,3854629,60,4,11,77,0.1803,0.724749,The Cassandra Crossing | The Naked Gun 2½: The Smell of Fear | The Naked Gun: From the Files of Police Squad! | The Towering Inferno,O. J. Simpson
+452,John C. Reilly,Q223110,908855,62,2,65,61,1.4444,0.724672,Guardians of the Galaxy | The Perfect Storm,John C. Reilly
+453,Nathan Fillion,Q342549,2760406,55,4,18,55,0.4615,0.724460,Deadpool & Wolverine | Saving Private Ryan | Superman | The Suicide Squad,Nathan Fillion
+454,Daniel Brühl,Q58592,717811,57,2,60,48,1.8750,0.724427,Captain America: Civil War | The Bourne Ultimatum,Daniel Brühl
+455,Jon Favreau,Q295964,1378421,61,12,43,60,0.9773,0.724281,Avengers: Endgame | Batman Forever | Deadpool & Wolverine | Deep Impact | Iron Man | Iron Man 2 | Iron Man 3 | Something's Gotta Give | Spider-Man: Far From Home | Spider-Man: Homecoming | Spider-Man: No Way Home | The Jungle Book,Jon Favreau
+456,Sarah Silverman,Q229013,1635195,51,2,39,56,0.9750,0.723846,Space Jam: A New Legacy | There's Something About Mary,Sarah Silverman
+457,Juliette Binoche,Q106275,598436,83,2,72,62,1.5652,0.723585,Godzilla | The English Patient,Juliette Binoche
+458,Faye Dunaway,Q168721,1063144,75,4,69,85,1.0000,0.723219,Chinatown | Little Big Man | Network | The Towering Inferno,Faye Dunaway
+459,Hugo Weaving,Q42204,1104528,64,11,56,66,1.1200,0.722875,The Hobbit: An Unexpected Journey | The Hobbit: The Battle of the Five Armies | The Lord of the Rings: The Fellowship of the Ring | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers | The Matrix | The Matrix Reloaded | The Matrix Revolutions | Transformers | Transformers: Dark of the Moon | Transformers: Revenge of the Fallen,Hugo Weaving
+460,Kat Dennings,Q231751,1650149,59,2,19,40,0.7917,0.722636,Thor: Love and Thunder | Thor: The Dark World,Kat Dennings
+461,Timothy Spall,Q287824,1002613,52,7,78,69,1.4717,0.722546,Alice in Wonderland | Enchanted | Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Goblet of Fire | Harry Potter and the Half-Blood Prince | Harry Potter and the Prisoner of Azkaban | The Last Samurai,Timothy Spall
+462,Graham Greene,Q311169,2303790,43,4,44,73,0.7719,0.722421,Dances with Wolves | Die Hard with a Vengeance | The Green Mile | The Twilight Saga: New Moon,Graham Greene (actor)
+463,Kaya Scodelario,Q229651,1472657,50,2,19,34,1.0556,0.722104,Clash of the Titans | Pirates of the Caribbean: Dead Men Tell no Tales,Kaya Scodelario
+464,Justin Theroux,Q316596,1998285,43,4,35,55,0.8974,0.722061,Beetlejuice Beetlejuice | Charlie's Angels: Full Throttle | Joker | Star Wars: Episode VIII – The Last Jedi,Justin Theroux
+465,Max von Sydow,Q203215,704640,68,6,116,91,1.5467,0.721650,Conan the Barbarian | Escape to Victory | Minority Report | Never Say Never Again | Star Wars: Episode VII – The Force Awakens | The Exorcist,Max von Sydow
+466,Jim Caviezel,Q200841,1469514,60,3,36,58,0.8571,0.721548,Sound of Freedom | The Passion of the Christ | The Rock,Jim Caviezel
+467,Chris Rock,Q4109,1054040,66,3,49,61,1.0889,0.721238,Beverly Hills Cop II | Dr. Dolittle | Lethal Weapon 4,Chris Rock
+468,Linda Hamilton,Q208214,2308968,61,2,24,70,0.4444,0.720880,Terminator 2: Judgment Day | The Terminator,Linda Hamilton
+469,Elisabeth Shue,Q207852,1303044,65,2,41,63,0.8723,0.720675,Back to the Future Part II | Back to the Future Part III,Elisabeth Shue
+470,Patrick Dempsey,Q212518,1563426,60,3,34,60,0.7727,0.720509,Enchanted | Outbreak | Transformers: Dark of the Moon,Patrick Dempsey
+471,Thomas Haden Church,Q311615,1284825,69,2,41,66,0.8200,0.720356,Spider-Man 3 | Spider-Man: No Way Home,Thomas Haden Church
+472,David Thewlis,Q212790,1207483,52,7,55,63,1.1702,0.720111,Harry Potter and the Deathly Hallows – Part 1 | Harry Potter and the Deathly Hallows – Part 2 | Harry Potter and the Half-Blood Prince | Harry Potter and the Order of the Phoenix | Harry Potter and the Prisoner of Azkaban | Justice League | Wonder Woman,David Thewlis
+473,Luis Gómez,Q347395,1090623,43,3,82,70,1.5185,0.719948,Black Rain | Crocodile Dundee II | Scarface,Luis Guzmán
+474,Alfred Molina,Q296028,986357,55,5,76,73,1.3333,0.719909,Angels & Demons | Raiders of the Lost Ark | Spider-Man 2 | Spider-Man: No Way Home | The Da Vinci Code,Alfred Molina
+475,Jack Lemmon,Q94123,924941,80,2,59,76,0.9833,0.719892,Airport '77 | JFK,Jack Lemmon
+476,Jonathan Pryce,Q312702,1485625,47,4,66,79,1.0476,0.719856,Pirates of the Caribbean: At World's End | Pirates of the Caribbean: Dead Man's Chest | Pirates of the Caribbean: The Curse of the Black Pearl | Tomorrow Never Dies,Jonathan Pryce
+477,"""Weird Al"" Yankovic",Q8349,1827359,92,2,15,67,0.2941,0.719739,The Naked Gun 2½: The Smell of Fear | The Naked Gun: From the Files of Police Squad!,"""Weird Al"" Yankovic"
+478,Mike Myers,Q185724,1602421,87,4,20,63,0.4255,0.719711,Austin Powers: The Spy Who Shagged Me | Bohemian Rhapsody | Space Jam: A New Legacy | Wayne's World,Mike Myers
+479,Jennifer Morrison,Q199929,1049984,67,3,32,47,1.0323,0.719692,Mr. & Mrs. Smith | Star Trek | Star Trek Into Darkness,Jennifer Morrison
+480,Cobie Smulders,Q200566,1297471,69,5,22,44,0.7857,0.719358,Avengers: Age of Ultron | Avengers: Infinity War | Captain America: The Winter Soldier | Spider-Man: Far From Home | The Avengers,Cobie Smulders
+481,Ted Danson,Q381203,2389621,49,2,35,79,0.5556,0.719301,Body Heat | Saving Private Ryan,Ted Danson
+482,Elliott Gould,Q314805,1073200,50,5,95,88,1.3194,0.719057,A Bridge Too Far | Nashville | Ocean's Eleven | Ocean's Twelve | The Muppet Movie,Elliott Gould
+483,Bill Hader,Q14537,1589798,42,4,34,48,1.0625,0.718711,It: Chapter Two | Men in Black 3 | Night at the Museum: Battle of the Smithsonian | Star Trek Into Darkness,Bill Hader
+484,Joe Pesci,Q20178,1875396,69,6,31,83,0.4627,0.718694,Home Alone | Home Alone 2: Lost in New York | JFK | Lethal Weapon 2 | Lethal Weapon 3 | Lethal Weapon 4,Joe Pesci
+485,Priscilla Presley,Q234773,3812068,58,2,7,81,0.1077,0.718537,The Naked Gun 2½: The Smell of Fear | The Naked Gun: From the Files of Police Squad!,Priscilla Presley
+486,Bill Nighy,Q207179,1249498,52,5,66,77,1.0820,0.718407,Detective Pikachu | Harry Potter and the Deathly Hallows – Part 1 | Love Actually | Pirates of the Caribbean: At World's End | Pirates of the Caribbean: Dead Man's Chest,Bill Nighy
+487,Don Cheadle,Q272019,920426,66,12,53,62,1.1522,0.718368,Avengers: Age of Ultron | Avengers: Endgame | Avengers: Infinity War | Captain America: Civil War | Captain Marvel | Iron Man 2 | Iron Man 3 | Ocean's Eleven | Ocean's Twelve | Rush Hour 2 | Space Jam: A New Legacy | The Avengers,Don Cheadle
+488,Connie Nielsen,Q231951,1491891,45,4,47,61,1.0444,0.718289,Gladiator | Justice League | Wonder Woman | Wonder Woman 1984,Connie Nielsen
+489,Luke Evans,Q722001,1212770,51,8,35,47,1.1290,0.718182,Beauty and the Beast | Clash of the Titans | Fast & Furious 6 | Furious 7 | The Fate of the Furious | The Hobbit: An Unexpected Journey | The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug,Luke Evans
+490,Dan Stevens,Q958385,1411651,46,2,30,44,1.0714,0.718000,Beauty and the Beast | The Call of the Wild,Dan Stevens
+491,Brad Dourif,Q329734,968514,56,3,76,76,1.2667,0.717833,One Flew Over the Cuckoo's Nest | The Lord of the Rings: The Return of the King | The Lord of the Rings: The Two Towers,Brad Dourif
+492,Martin Freeman,Q309486,1225856,64,7,34,55,0.8718,0.717822,Black Panther | Black Panther: Wakanda Forever | Captain America: Civil War | Love Actually | The Hobbit: An Unexpected Journey | The Hobbit: The Battle of the Five Armies | The Hobbit: The Desolation of Smaug,Martin Freeman
+493,Lupita Nyong'o,Q3840847,1518256,77,6,14,43,0.5185,0.717670,Black Panther | Black Panther: Wakanda Forever | Star Wars: Episode IX – The Rise of Skywalker | Star Wars: Episode VII – The Force Awakens | Star Wars: Episode VIII – The Last Jedi | The Jungle Book,Lupita Nyong'o
+494,Rita Ora,Q229760,1604201,79,2,9,36,0.4500,0.717361,Fast & Furious 6 | Fifty Shades of Grey,Rita Ora
+495,F. Murray Abraham,Q181936,1168926,63,6,65,87,0.9155,0.717129,All the President's Men | Amadeus | Last Action Hero | Scarface | Serpico | The Name of the Rose,F. Murray Abraham
+496,Peter Stormare,Q295148,1013216,42,4,88,73,1.5439,0.717076,Armageddon | Bad Boys II they become more rebellious | Minority Report | The Lost World: Jurassic Park,Peter Stormare
+497,Jack Quaid,Q1139078,2509242,36,2,13,34,0.7222,0.716981,Oppenheimer | The Hunger Games,Jack Quaid
+498,Ben Whishaw,Q342617,1066863,51,2,37,46,1.2333,0.716869,Skyfall | Spectre,Ben Whishaw
+499,Jim Belushi,Q107933,1043995,58,2,62,72,1.1071,0.716693,Last Action Hero | Little Shop of Horrors,Jim Belushi
+500,Joan Cusack,Q272946,1136335,60,3,47,64,0.9792,0.716605,Addams Family Values | Broadcast News | Runaway Bride,Joan Cusack

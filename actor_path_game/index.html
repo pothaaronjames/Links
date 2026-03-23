@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links &mdash; Actor Path Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <h1 class="logo">🎬 Links</h1>
+        <p class="tagline">Connect the actors through the movies</p>
+      </div>
+      <div class="header-actions">
+        <div class="timer-display" id="timerDisplay">
+          <span class="timer-label">Time</span>
+          <span class="timer-value" id="timerValue">1:00</span>
+        </div>
+        
+        <div class="button-group">
+          <span class="button-group-label">Difficulty</span>
+          <div class="button-options">
+            <button class="btn-option active" data-difficulty="all" id="diffBtn-all">All</button>
+            <button class="btn-option" data-difficulty="easy" id="diffBtn-easy">Easy</button>
+            <button class="btn-option" data-difficulty="medium" id="diffBtn-medium">Medium</button>
+            <button class="btn-option" data-difficulty="hard" id="diffBtn-hard">Hard</button>
+          </div>
+        </div>
+        
+        <div class="button-group">
+          <span class="button-group-label">Actor Pool</span>
+          <div class="button-options">
+            <button class="btn-option active" data-actor-mode="all" id="actorBtn-all">All</button>
+            <button class="btn-option" data-actor-mode="featured" id="actorBtn-featured">Featured</button>
+          </div>
+        </div>
+        
+        <button class="btn btn--ghost" id="howToPlayBtn">How to Play</button>
+        <button class="btn btn--ghost" id="newGameBtn">New Game</button>
+      </div>
+    </header>
+
+    <!-- How to play modal -->
+    <div class="modal-overlay hidden" id="howToPlayModal">
+      <div class="modal modal--setup">
+        <button class="modal__close" id="closeModalBtn">&times;</button>
+        <h2>How to Play</h2>
+        <div class="instructions-section">
+          <h3>Each Round</h3>
+          <ol class="instructions">
+            <li>You are given a <strong>Start Actor</strong> and an <strong>End Actor</strong>.</li>
+            <li>Your goal is to connect them through a chain of <strong>shared movies</strong>.</li>
+            <li>Each step, enter a movie that the <em>current actor</em> appeared in.</li>
+            <li>Then pick another actor from that movie to continue the chain.</li>
+              <li>Each round has a <strong>1-minute timer</strong>, so move quickly.</li>
+              <li>Reach the End Actor in as few steps as possible!</li>
+          </ol>
+        </div>
+        <div class="instructions-section">
+          <h3>Each Game</h3>
+          <p>A game consists of <strong>5 rounds</strong>. Your final game score is the <strong>sum of points from all 5 rounds</strong>. Try to maximize your total!</p>
+        </div>
+        <div class="scoring-guide">
+          <h3>Scoring Per Round</h3>
+          <div class="score-row"><span class="badge badge--green">1–2 steps</span> Genius</div>
+          <div class="score-row"><span class="badge badge--yellow">3–4 steps</span> Great</div>
+          <div class="score-row"><span class="badge badge--orange">5 steps</span> Good</div>
+        </div>
+
+        <button class="btn btn--ghost btn--full hidden" id="rulesCloseBtn">Got it</button>
+
+        <div id="modalSetupSection">
+          <div class="instructions-section">
+            <h3>Game Setup</h3>
+            <p class="setup-subtitle">Choose settings for your next game.</p>
+            <div class="setup-grid">
+              <div class="button-group setup-group">
+                <span class="button-group-label">Difficulty</span>
+                <div class="button-options" id="setupDifficultyOptions">
+                  <button class="btn-option" data-setup-difficulty="all" type="button">All</button>
+                  <button class="btn-option" data-setup-difficulty="easy" type="button">Easy</button>
+                  <button class="btn-option" data-setup-difficulty="medium" type="button">Medium</button>
+                  <button class="btn-option" data-setup-difficulty="hard" type="button">Hard</button>
+                </div>
+              </div>
+
+              <div class="button-group setup-group">
+                <span class="button-group-label">Actor Pool</span>
+                <div class="button-options" id="setupActorOptions">
+                  <button class="btn-option" data-setup-actor-mode="all" type="button">All</button>
+                  <button class="btn-option" data-setup-actor-mode="featured" type="button">Featured</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn--primary btn--full" id="startFromModalBtn">Start Game</button>
+        </div>
+      </div>
+    </div>
+
+    <main class="game-wrap">
+      <!-- Start / End row -->
+      <div class="endpoints-row">
+        <div class="actor-card actor-card--start" id="startCard">
+          <div class="actor-card__avatar" id="startAvatarWrap">
+            <img class="actor-card__avatar-img hidden" id="startAvatarImg" alt="Start actor portrait" loading="eager" />
+            <span class="actor-card__avatar-fallback" id="startAvatarFallback">🎭</span>
+          </div>
+          <div class="actor-card__label">START</div>
+          <div class="actor-card__name" id="startName">Samuel L. Jackson</div>
+          <div class="actor-card__sub" id="startSub">Your journey begins here</div>
+          <div class="actor-card__hint-wrap">
+            <button class="btn btn--hint" id="startHintBtn" type="button">Hint: Start movies (-150)</button>
+            <div class="actor-card__hint-list hidden" id="startHintList"></div>
+          </div>
+        </div>
+
+        <div class="path-indicator">
+          <div class="dots" id="pathDots">
+            <!-- filled by JS -->
+          </div>
+          <span class="path-step-count" id="stepCountLabel">0 steps</span>
+        </div>
+
+        <div class="actor-card actor-card--end" id="endCard">
+          <div class="actor-card__avatar" id="endAvatarWrap">
+            <img class="actor-card__avatar-img hidden" id="endAvatarImg" alt="End actor portrait" loading="eager" />
+            <span class="actor-card__avatar-fallback" id="endAvatarFallback">🎭</span>
+          </div>
+          <div class="actor-card__label">END</div>
+          <div class="actor-card__name" id="endName">Cate Blanchett</div>
+          <div class="actor-card__sub" id="endSub">Can you reach them?</div>
+          <div class="actor-card__hint-wrap">
+            <button class="btn btn--hint" id="endHintBtn" type="button">Hint: End movies (-150)</button>
+            <div class="actor-card__hint-list hidden" id="endHintList"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-progress" id="gameProgressInfo">
+        <div class="game-progress__left">
+          <div class="game-counter" id="gameCounter">🎯 Round 1 of 5</div>
+          <div class="round-score" id="roundScoreDisplay">💯 Game Score: 0</div>
+        </div>
+      </div>
+
+      <div class="hint-penalty-note" id="hintPenaltyInfo">Hint penalty: -150 points each. Hints lock in the final 10 seconds.</div>
+
+      <!-- Chain display -->
+      <div class="chain-area" id="chainArea">
+        <!-- Steps are injected here by JS -->
+      </div>
+
+      <!-- Input area -->
+      <div class="input-area" id="inputArea">
+        <div class="current-actor-banner">
+          <span class="current-label">Current actor:</span>
+          <span class="current-name" id="currentActorDisplay">Samuel L. Jackson</span>
+        </div>
+
+        <div class="input-group">
+          <div class="field">
+            <label for="movieInput">Enter a movie featuring this actor</label>
+            <div class="autocomplete-wrap">
+              <input
+                type="text"
+                id="movieInput"
+                class="text-input"
+                placeholder="e.g. Pulp Fiction"
+                autocomplete="off"
+              />
+              <ul class="autocomplete-list hidden" id="movieSuggestions"></ul>
+            </div>
+          </div>
+
+          <div class="field" id="actorFieldWrap">
+            <label for="actorInput">Now pick an actor from that movie</label>
+            <div class="autocomplete-wrap">
+              <input
+                type="text"
+                id="actorInput"
+                class="text-input"
+                placeholder="e.g. John Travolta"
+                autocomplete="off"
+              />
+              <ul class="autocomplete-list hidden" id="actorSuggestions"></ul>
+            </div>
+          </div>
+
+          <div class="input-actions">
+            <button class="btn btn--primary" id="submitStepBtn" disabled>Add Step &rarr;</button>
+            <button class="btn btn--ghost" id="undoStepBtn" type="button" disabled>Undo Last Step</button>
+          </div>
+        </div>
+
+        <div class="error-msg hidden" id="errorMsg"></div>
+
+        <div class="give-up-row">
+          <button class="btn btn--danger" id="giveUpBtn" type="button">Give Up</button>
+        </div>
+      </div>
+
+      <!-- Win / lose banner -->
+      <div class="result-banner hidden" id="resultBanner">
+        <div class="result-banner__inner">
+          <p class="result-banner__emoji" id="resultEmoji">🎉</p>
+          <p class="result-banner__title" id="resultTitle">You did it!</p>
+          <p class="result-banner__sub" id="resultSub"></p>
+          <div class="result-banner__meta hidden" id="resultMeta"></div>
+          <div class="result-banner__path hidden" id="resultPath"></div>
+          <div class="result-banner__actions">
+            <button class="btn btn--primary" id="nextRoundBtn" style="display: none;">Next Round &rarr;</button>
+            <button class="btn btn--primary" id="playAgainBtn">Play Again</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>Data sourced from <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a></p>
+    </footer>
+
+    <script src="movie_cast_db.js"></script>
+    <script src="puzzle_pool.js"></script>
+    <script src="actor_portraits.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

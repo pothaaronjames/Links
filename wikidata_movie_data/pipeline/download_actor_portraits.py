@@ -1,0 +1,220 @@
+#!/usr/bin/env python3
+"""Download local actor portrait thumbnails for the game.
+
+Reads actor QIDs from compiled_popularity.csv, fetches the Wikidata image filename
+(P18), downloads a resized thumbnail from Wikimedia Commons, and writes a JS map:
+  const _GENERATED_ACTOR_PORTRAITS = { "Q...": "actor_portraits/Q....jpg", ... };
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import mimetypes
+import re
+import ssl
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from pathlib import Path
+from typing import Dict, Iterable, List
+
+import certifi
+
+WIKIDATA_API = "https://www.wikidata.org/w/api.php"
+COMMONS_FILEPATH = "https://commons.wikimedia.org/wiki/Special:FilePath"
+USER_AGENT = "wikidata-movie-data-cli/0.1 (https://www.wikidata.org/wiki/Wikidata:Data_access)"
+RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
+
+
+def build_ssl_context() -> ssl.SSLContext:
+    return ssl.create_default_context(cafile=certifi.where())
+
+
+def request_bytes_with_retries(
+    request: urllib.request.Request, timeout: int, attempts: int = 4, base_delay: float = 1.0
+) -> tuple[bytes, dict]:
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout, context=build_ssl_context()) as resp:
+                return resp.read(), dict(resp.headers.items())
+        except urllib.error.HTTPError as exc:
+            if exc.code in RETRYABLE_HTTP_CODES and attempt < attempts:
+                time.sleep(base_delay * (2 ** (attempt - 1)))
+                continue
+            raise
+        except urllib.error.URLError:
+            if attempt < attempts:
+                time.sleep(base_delay * (2 ** (attempt - 1)))
+                continue
+            raise
+
+
+def http_get_json(url: str, params: dict[str, str], timeout: int = 40, attempts: int = 4) -> dict:
+    full_url = f"{url}?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(full_url, headers={"User-Agent": USER_AGENT})
+    payload, headers = request_bytes_with_retries(req, timeout=timeout, attempts=attempts)
+    content_type = headers.get("Content-Type", "")
+    charset_match = re.search(r"charset=([^;]+)", content_type)
+    charset = charset_match.group(1) if charset_match else "utf-8"
+    return json.loads(payload.decode(charset, errors="replace"))
+
+
+def chunked(items: List[str], size: int) -> Iterable[List[str]]:
+    for i in range(0, len(items), size):
+        yield items[i : i + size]
+
+
+def load_actor_qids(compiled_csv: Path, top_n: int) -> List[str]:
+    qids: List[str] = []
+    with compiled_csv.open("r", newline="", encoding="utf-8") as fh:
+        reader = csv.DictReader(fh)
+        for row in reader:
+            try:
+                rank = int((row.get("rank") or "0").strip())
+            except ValueError:
+                continue
+            if rank < 1 or rank > top_n:
+                continue
+            qid = (row.get("qid") or "").strip()
+            if qid:
+                qids.append(qid)
+    return sorted(set(qids))
+
+
+def normalize_file_title(raw: str) -> str:
+    raw = (raw or "").strip()
+    if not raw:
+        return ""
+    title = raw if raw.startswith("File:") else f"File:{raw}"
+    return title.replace(" ", "_")
+
+
+def fetch_p18_file_titles(qids: List[str]) -> Dict[str, str]:
+    out: Dict[str, str] = {qid: "" for qid in qids}
+    for batch in chunked(qids, 50):
+        payload = http_get_json(
+            WIKIDATA_API,
+            {
+                "action": "wbgetentities",
+                "format": "json",
+                "ids": "|".join(batch),
+                "props": "claims",
+            },
+            timeout=40,
+            attempts=4,
+        )
+        entities = payload.get("entities", {})
+        for qid in batch:
+            entity = entities.get(qid, {})
+            claims = entity.get("claims", {}).get("P18", [])
+            value = claims[0].get("mainsnak", {}).get("datavalue", {}).get("value", "") if claims else ""
+            if isinstance(value, str):
+                out[qid] = normalize_file_title(value)
+        time.sleep(0.05)
+    return out
+
+
+def ext_from_content_type(content_type: str) -> str:
+    ct = (content_type or "").split(";", 1)[0].strip().lower()
+    if not ct:
+        return ".jpg"
+    ext = mimetypes.guess_extension(ct) or ".jpg"
+    if ext == ".jpe":
+        return ".jpg"
+    return ext
+
+
+def download_thumbnail(file_title: str, width: int) -> tuple[bytes, str]:
+    bare = file_title.replace("File:", "", 1)
+    url = f"{COMMONS_FILEPATH}/{urllib.parse.quote(bare)}?width={width}"
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    data, headers = request_bytes_with_retries(req, timeout=60, attempts=4)
+    content_type = headers.get("Content-Type", "")
+    return data, content_type
+
+
+def write_js_map(js_path: Path, mapping: Dict[str, str]) -> None:
+    js_path.parent.mkdir(parents=True, exist_ok=True)
+    lines = [
+        "// Auto-generated by download_actor_portraits.py — do not edit manually.",
+        "// eslint-disable-next-line no-unused-vars",
+        f"const _GENERATED_ACTOR_PORTRAITS = {json.dumps(mapping, ensure_ascii=False, indent=2)};",
+        "",
+    ]
+    js_path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Download local actor portrait thumbnails for the game")
+    parser.add_argument("--compiled-csv", default="data/compiled_popularity.csv")
+    parser.add_argument("--top-n", type=int, default=500)
+    parser.add_argument("--width", type=int, default=180)
+    parser.add_argument("--images-dir", default="../actor_path_game/actor_portraits")
+    parser.add_argument("--js-out", default="../actor_path_game/actor_portraits.js")
+    parser.add_argument("--clean", action="store_true", help="Delete previously downloaded portraits before download")
+    parser.add_argument("--verbose", action="store_true", default=True)
+    args = parser.parse_args()
+
+    compiled_csv = Path(args.compiled_csv)
+    images_dir = Path(args.images_dir)
+    js_out = Path(args.js_out)
+
+    if not compiled_csv.exists():
+        print(f"ERROR: {compiled_csv} not found")
+        return 1
+
+    qids = load_actor_qids(compiled_csv, top_n=args.top_n)
+    if not qids:
+        print("ERROR: no actor QIDs loaded")
+        return 1
+
+    images_dir.mkdir(parents=True, exist_ok=True)
+    if args.clean:
+        for child in images_dir.iterdir():
+            if child.is_file():
+                child.unlink()
+
+    file_by_qid = fetch_p18_file_titles(qids)
+
+    mapping: Dict[str, str] = {}
+    downloaded = 0
+    skipped = 0
+    failed = 0
+
+    for idx, qid in enumerate(qids, start=1):
+        file_title = file_by_qid.get(qid, "")
+        if not file_title:
+            skipped += 1
+            continue
+
+        try:
+            data, content_type = download_thumbnail(file_title, width=args.width)
+            ext = ext_from_content_type(content_type)
+            out_path = images_dir / f"{qid}{ext}"
+            out_path.write_bytes(data)
+            mapping[qid] = f"actor_portraits/{out_path.name}"
+            downloaded += 1
+        except Exception as exc:
+            failed += 1
+            print(f"WARN: {qid} failed ({exc})")
+
+        if idx % 25 == 0:
+            print(f"Processed {idx}/{len(qids)}")
+        time.sleep(0.03)
+
+    write_js_map(js_out, mapping)
+
+    print(f"Actors scanned: {len(qids)}")
+    print(f"Downloaded portraits: {downloaded}")
+    print(f"Skipped (no P18): {skipped}")
+    print(f"Failed downloads: {failed}")
+    print(f"Image dir: {images_dir}")
+    print(f"JS map: {js_out}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

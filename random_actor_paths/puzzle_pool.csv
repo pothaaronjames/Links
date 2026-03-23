@@ -1,0 +1,501 @@
+puzzle_id,difficulty,shortest_hops,quality_score,start_qid,start_name,start_rank,end_qid,end_name,end_rank,path_qids,path_names,path_movies,path_box_office_total,path_box_office_known_edges
+1,easy,1,0.7429,Q191084,Val Kilmer,8,Q37079,Tom Cruise,12,Q191084 -> Q37079,Val Kilmer -> Tom Cruise,Top Gun: Maverick,702480344,1
+2,easy,1,0.7419,Q228943,Elle Fanning,10,Q13909,Angelina Jolie,17,Q228943 -> Q13909,Elle Fanning -> Angelina Jolie,Maleficent,758410378,1
+3,easy,1,0.7395,Q36970,Jackie Chan,7,Q2685,Arnold Schwarzenegger,15,Q36970 -> Q2685,Jackie Chan -> Arnold Schwarzenegger,Around the World in 80 Days,72178895,1
+4,easy,1,0.7364,Q43416,Keanu Reeves,4,Q102642,Diane Keaton,14,Q43416 -> Q102642,Keanu Reeves -> Diane Keaton,Something's Gotta Give,266700000,1
+5,easy,1,0.7351,Q37079,Tom Cruise,12,Q115541,Dakota Fanning,24,Q37079 -> Q115541,Tom Cruise -> Dakota Fanning,War of the Worlds,603873119,1
+6,easy,1,0.7331,Q2680,Bruce Willis,2,Q2685,Arnold Schwarzenegger,15,Q2680 -> Q2685,Bruce Willis -> Arnold Schwarzenegger,The Expendables 2,314975955,1
+7,easy,1,0.7331,Q42869,Nicolas Cage,11,Q13909,Angelina Jolie,17,Q42869 -> Q13909,Nicolas Cage -> Angelina Jolie,Gone in 60 Seconds,237200000,1
+8,easy,1,0.7329,Q191084,Val Kilmer,8,Q13909,Angelina Jolie,17,Q191084 -> Q13909,Val Kilmer -> Angelina Jolie,Alexander,167298192,1
+9,easy,1,0.7319,Q35332,Brad Pitt,9,Q13909,Angelina Jolie,17,Q35332 -> Q13909,Brad Pitt -> Angelina Jolie,Mr. & Mrs. Smith,478207520,1
+10,easy,1,0.7317,Q35332,Brad Pitt,9,Q37079,Tom Cruise,12,Q35332 -> Q37079,Brad Pitt -> Tom Cruise,Interview with the Vampire,223700000,1
+11,easy,1,0.7294,Q2685,Arnold Schwarzenegger,15,Q40026,Sylvester Stallone,33,Q2685 -> Q40026,Arnold Schwarzenegger -> Sylvester Stallone,The Expendables 2,314975955,1
+12,easy,1,0.7283,Q37079,Tom Cruise,12,Q37459,Nicole Kidman,13,Q37079 -> Q37459,Tom Cruise -> Nicole Kidman,Eyes Wide Shut,55691208,1
+13,easy,1,0.728,Q191084,Val Kilmer,8,Q37459,Nicole Kidman,13,Q191084 -> Q37459,Val Kilmer -> Nicole Kidman,Batman Forever,52784433,1
+14,easy,1,0.7279,Q13909,Angelina Jolie,17,Q37175,Johnny Depp,22,Q13909 -> Q37175,Angelina Jolie -> Johnny Depp,The Tourist,278300000,1
+15,easy,1,0.7271,Q9570,Amitabh Bachchan,16,Q59215,Robert Redford,37,Q9570 -> Q59215,Amitabh Bachchan -> Robert Redford,The Great Gatsby,353641895,1
+16,easy,1,0.7267,Q36949,Robert De Niro,5,Q191084,Val Kilmer,8,Q36949 -> Q191084,Robert De Niro -> Val Kilmer,Heat,67436818,1
+17,easy,1,0.7262,Q36949,Robert De Niro,5,Q83338,Robin Williams,6,Q36949 -> Q83338,Robert De Niro -> Robin Williams,Awakenings,52096475,1
+18,easy,1,0.7258,Q2680,Bruce Willis,2,Q35332,Brad Pitt,9,Q2680 -> Q35332,Bruce Willis -> Brad Pitt,12 Monkeys,168839459,1
+19,easy,1,0.7241,Q36949,Robert De Niro,5,Q35332,Brad Pitt,9,Q36949 -> Q35332,Robert De Niro -> Brad Pitt,Sleepers,165615285,1
+20,easy,1,0.7226,Q2685,Arnold Schwarzenegger,15,Q10738,Dwayne Johnson,32,Q2685 -> Q10738,Arnold Schwarzenegger -> Dwayne Johnson,The Rundown,80916492,1
+21,easy,1,0.7224,Q38111,Leonardo DiCaprio,25,Q287607,Rob Reiner,38,Q38111 -> Q287607,Leonardo DiCaprio -> Rob Reiner,The Wolf of Wall Street,392000000,1
+22,easy,1,0.7221,Q58444,Liam Neeson,20,Q38111,Leonardo DiCaprio,25,Q58444 -> Q38111,Liam Neeson -> Leonardo DiCaprio,Gangs of New York,193772504,1
+23,easy,1,0.7214,Q36949,Robert De Niro,5,Q102642,Diane Keaton,14,Q36949 -> Q102642,Robert De Niro -> Diane Keaton,The Godfather Part II,47834595,1
+24,easy,1,0.7214,Q35332,Brad Pitt,9,Q38111,Leonardo DiCaprio,25,Q35332 -> Q38111,Brad Pitt -> Leonardo DiCaprio,Once Upon a Time in Hollywood,374343626,1
+25,easy,1,0.719,Q19848,Lady Gaga,31,Q205707,Bradley Cooper,47,Q19848 -> Q205707,Lady Gaga -> Bradley Cooper,A Star Is Born,430718255,1
+26,easy,1,0.7188,Q83338,Robin Williams,6,Q175535,Matt Damon,26,Q83338 -> Q175535,Robin Williams -> Matt Damon,Good Will Hunting,225900000,1
+27,easy,1,0.7188,Q83338,Robin Williams,6,Q483118,Ben Affleck,27,Q83338 -> Q483118,Robin Williams -> Ben Affleck,Good Will Hunting,225900000,1
+28,easy,1,0.7187,Q34436,Scarlett Johansson,1,Q165219,Robert Downey Jr.,35,Q34436 -> Q165219,Scarlett Johansson -> Robert Downey Jr.,Avengers: Endgame,2797501328,1
+29,easy,1,0.7181,Q2680,Bruce Willis,2,Q10738,Dwayne Johnson,32,Q2680 -> Q10738,Bruce Willis -> Dwayne Johnson,G.I. Joe: Retaliation,375700000,1
+30,easy,1,0.7179,Q2680,Bruce Willis,2,Q40026,Sylvester Stallone,33,Q2680 -> Q40026,Bruce Willis -> Sylvester Stallone,The Expendables 2,314975955,1
+31,easy,1,0.717,Q36949,Robert De Niro,5,Q189490,Jennifer Lawrence,29,Q36949 -> Q189490,Robert De Niro -> Jennifer Lawrence,American Hustle,251000000,1
+32,easy,1,0.717,Q38111,Leonardo DiCaprio,25,Q175535,Matt Damon,26,Q38111 -> Q175535,Leonardo DiCaprio -> Matt Damon,The Departed,132399394,1
+33,easy,1,0.7168,Q37459,Nicole Kidman,13,Q180338,Christopher Lee,41,Q37459 -> Q180338,Nicole Kidman -> Christopher Lee,The Golden Compass,372234864,1
+34,easy,1,0.7163,Q35332,Brad Pitt,9,Q175535,Matt Damon,26,Q35332 -> Q175535,Brad Pitt -> Matt Damon,Ocean's Twelve,362989076,1
+35,easy,1,0.7163,Q103939,Charlie Sheen,34,Q165219,Robert Downey Jr.,35,Q103939 -> Q165219,Charlie Sheen -> Robert Downey Jr.,Due Date,211780824,1
+36,easy,1,0.7162,Q189490,Jennifer Lawrence,29,Q36301,Anne Hathaway,42,Q189490 -> Q36301,Jennifer Lawrence -> Anne Hathaway,Passengers,303144152,1
+37,easy,1,0.7159,Q175535,Matt Damon,26,Q165219,Robert Downey Jr.,35,Q175535 -> Q165219,Matt Damon -> Robert Downey Jr.,Oppenheimer,955300000,1
+38,easy,1,0.7154,Q10738,Dwayne Johnson,32,Q36301,Anne Hathaway,42,Q10738 -> Q36301,Dwayne Johnson -> Anne Hathaway,Get Smart,230700000,1
+39,easy,1,0.7154,Q175535,Matt Damon,26,Q483118,Ben Affleck,27,Q175535 -> Q483118,Matt Damon -> Ben Affleck,Good Will Hunting,225900000,1
+40,easy,1,0.7148,Q37175,Johnny Depp,22,Q103939,Charlie Sheen,34,Q37175 -> Q103939,Johnny Depp -> Charlie Sheen,Platoon,138530565,1
+41,easy,1,0.7145,Q191084,Val Kilmer,8,Q42869,Nicolas Cage,11,Q191084 -> Q42869,Val Kilmer -> Nicolas Cage,Bad Lieutenant: Port of Call New Orleans,1702112,1
+42,easy,1,0.7144,Q40572,Heath Ledger,30,Q36301,Anne Hathaway,42,Q40572 -> Q36301,Heath Ledger -> Anne Hathaway,Brokeback Mountain,178000000,1
+43,easy,1,0.7132,Q190162,Zoe Saldaña,43,Q205707,Bradley Cooper,47,Q190162 -> Q205707,Zoe Saldaña -> Bradley Cooper,Guardians of the Galaxy Vol. 3,358995815,1
+44,easy,1,0.7126,Q34436,Scarlett Johansson,1,Q483118,Ben Affleck,27,Q34436 -> Q483118,Scarlett Johansson -> Ben Affleck,He's Just Not That Into You,178000000,1
+45,easy,1,0.712,Q2680,Bruce Willis,2,Q483118,Ben Affleck,27,Q2680 -> Q483118,Bruce Willis -> Ben Affleck,Armageddon,201578182,1
+46,easy,1,0.7114,Q34436,Scarlett Johansson,1,Q59215,Robert Redford,37,Q34436 -> Q59215,Scarlett Johansson -> Robert Redford,Captain America: The Winter Soldier,259766572,1
+47,easy,1,0.711,Q189490,Jennifer Lawrence,29,Q205707,Bradley Cooper,47,Q189490 -> Q205707,Jennifer Lawrence -> Bradley Cooper,American Hustle,251000000,1
+48,easy,1,0.7104,Q38111,Leonardo DiCaprio,25,Q2263,Tom Hanks,39,Q38111 -> Q2263,Leonardo DiCaprio -> Tom Hanks,Catch Me If You Can,164615351,1
+49,easy,1,0.7101,Q306403,James Franco,28,Q76478,Kirsten Dunst,44,Q306403 -> Q76478,James Franco -> Kirsten Dunst,Spider-Man,407022860,1
+50,easy,1,0.7101,Q37175,Johnny Depp,22,Q36301,Anne Hathaway,42,Q37175 -> Q36301,Johnny Depp -> Anne Hathaway,Alice in Wonderland,334191110,1
+51,easy,1,0.7096,Q228943,Elle Fanning,10,Q483118,Ben Affleck,27,Q228943 -> Q483118,Elle Fanning -> Ben Affleck,Live by Night,15885366,1
+52,easy,1,0.7091,Q19877770,Timothée Chalamet,23,Q76478,Kirsten Dunst,44,Q19877770 -> Q76478,Timothée Chalamet -> Kirsten Dunst,Little Women,108101214,1
+53,easy,1,0.7088,Q38111,Leonardo DiCaprio,25,Q202765,Kate Winslet,49,Q38111 -> Q202765,Leonardo DiCaprio -> Kate Winslet,Titanic,659363944,1
+54,easy,1,0.7084,Q83338,Robin Williams,6,Q81520,Pierce Brosnan,48,Q83338 -> Q81520,Robin Williams -> Pierce Brosnan,Mrs. Doubtfire,441300000,1
+55,easy,1,0.7083,Q37079,Tom Cruise,12,Q76478,Kirsten Dunst,44,Q37079 -> Q76478,Tom Cruise -> Kirsten Dunst,Interview with the Vampire,223700000,1
+56,easy,1,0.7081,Q2263,Tom Hanks,39,Q190162,Zoe Saldaña,43,Q2263 -> Q190162,Tom Hanks -> Zoe Saldaña,The Terminal,77872883,1
+57,easy,1,0.7079,Q36301,Anne Hathaway,42,Q205707,Bradley Cooper,47,Q36301 -> Q205707,Anne Hathaway -> Bradley Cooper,Valentine's Day,216500000,1
+58,easy,1,0.7077,Q175535,Matt Damon,26,Q2263,Tom Hanks,39,Q175535 -> Q2263,Matt Damon -> Tom Hanks,Saving Private Ryan,217049603,1
+59,easy,1,0.7072,Q36949,Robert De Niro,5,Q40026,Sylvester Stallone,33,Q36949 -> Q40026,Robert De Niro -> Sylvester Stallone,Cop Land,44862187,1
+60,easy,1,0.7061,Q34460,Gwyneth Paltrow,56,Q2023710,Tom Holland,57,Q34460 -> Q2023710,Gwyneth Paltrow -> Tom Holland,Spider-Man: Homecoming,334201140,1
+61,easy,1,0.7059,Q165219,Robert Downey Jr.,35,Q2023710,Tom Holland,57,Q165219 -> Q2023710,Robert Downey Jr. -> Tom Holland,Avengers: Infinity War,678815482,1
+62,easy,1,0.7058,Q10738,Dwayne Johnson,32,Q123351,Michael Caine,51,Q10738 -> Q123351,Dwayne Johnson -> Michael Caine,Journey 2: The Mysterious Island,335300000,1
+63,easy,1,0.7056,Q175535,Matt Damon,26,Q36301,Anne Hathaway,42,Q175535 -> Q36301,Matt Damon -> Anne Hathaway,Interstellar,188020017,1
+64,easy,1,0.7054,Q23844,George Clooney,53,Q40523,Julia Roberts,54,Q23844 -> Q40523,George Clooney -> Julia Roberts,Ocean's Twelve,362989076,1
+65,easy,1,0.7043,Q190162,Zoe Saldaña,43,Q503706,Chris Pratt,62,Q190162 -> Q503706,Zoe Saldaña -> Chris Pratt,Guardians of the Galaxy Vol. 2,389813101,1
+66,easy,1,0.7043,Q80046,Charlize Theron,36,Q2263,Tom Hanks,39,Q80046 -> Q2263,Charlize Theron -> Tom Hanks,That Thing You Do!,34585416,1
+67,easy,1,0.7034,Q35332,Brad Pitt,9,Q103939,Charlie Sheen,34,Q35332 -> Q103939,Brad Pitt -> Charlie Sheen,Being John Malkovich,23106667,1
+68,easy,1,0.7031,Q81520,Pierce Brosnan,48,Q873,Meryl Streep,55,Q81520 -> Q873,Pierce Brosnan -> Meryl Streep,Mamma Mia!,609896805,1
+69,easy,1,0.7027,Q228943,Elle Fanning,10,Q190162,Zoe Saldaña,43,Q228943 -> Q190162,Elle Fanning -> Zoe Saldaña,Live by Night,15885366,1
+70,easy,1,0.7026,Q189490,Jennifer Lawrence,29,Q503706,Chris Pratt,62,Q189490 -> Q503706,Jennifer Lawrence -> Chris Pratt,Passengers,303144152,1
+71,easy,1,0.7026,Q40572,Heath Ledger,30,Q123351,Michael Caine,51,Q40572 -> Q123351,Heath Ledger -> Michael Caine,The Dark Knight,158411483,1
+72,easy,1,0.7023,Q35332,Brad Pitt,9,Q76478,Kirsten Dunst,44,Q35332 -> Q76478,Brad Pitt -> Kirsten Dunst,Interview with the Vampire,223700000,1
+73,easy,1,0.702,Q34436,Scarlett Johansson,1,Q2023710,Tom Holland,57,Q34436 -> Q2023710,Scarlett Johansson -> Tom Holland,Avengers: Infinity War,678815482,1
+74,easy,1,0.7019,Q483118,Ben Affleck,27,Q205707,Bradley Cooper,47,Q483118 -> Q205707,Ben Affleck -> Bradley Cooper,He's Just Not That Into You,178000000,1
+75,easy,1,0.7016,Q175535,Matt Damon,26,Q23844,George Clooney,53,Q175535 -> Q23844,Matt Damon -> George Clooney,Ocean's Twelve,362989076,1
+76,easy,1,0.7013,Q205707,Bradley Cooper,47,Q503706,Chris Pratt,62,Q205707 -> Q503706,Bradley Cooper -> Chris Pratt,Guardians of the Galaxy Vol. 3,358995815,1
+77,easy,1,0.7013,Q36949,Robert De Niro,5,Q36301,Anne Hathaway,42,Q36949 -> Q36301,Robert De Niro -> Anne Hathaway,The Intern,194000000,1
+78,easy,1,0.7012,Q19877770,Timothée Chalamet,23,Q39476,Emma Watson,60,Q19877770 -> Q39476,Timothée Chalamet -> Emma Watson,Little Women,108101214,1
+79,easy,1,0.7011,Q190162,Zoe Saldaña,43,Q202765,Kate Winslet,49,Q190162 -> Q202765,Zoe Saldaña -> Kate Winslet,Avatar: The Way of Water,43513484,1
+80,easy,1,0.7004,Q2685,Arnold Schwarzenegger,15,Q23844,George Clooney,53,Q2685 -> Q23844,Arnold Schwarzenegger -> George Clooney,Batman & Robin,42872605,1
+81,easy,1,0.7003,Q36301,Anne Hathaway,42,Q123351,Michael Caine,51,Q36301 -> Q123351,Anne Hathaway -> Michael Caine,Interstellar,188020017,1
+82,easy,1,0.7003,Q35332,Brad Pitt,9,Q23844,George Clooney,53,Q35332 -> Q23844,Brad Pitt -> George Clooney,Ocean's Twelve,362989076,1
+83,easy,1,0.7002,Q36301,Anne Hathaway,42,Q503706,Chris Pratt,62,Q36301 -> Q503706,Anne Hathaway -> Chris Pratt,Passengers,303144152,1
+84,easy,1,0.7001,Q205707,Bradley Cooper,47,Q40523,Julia Roberts,54,Q205707 -> Q40523,Bradley Cooper -> Julia Roberts,Valentine's Day,216500000,1
+85,easy,1,0.7,Q165219,Robert Downey Jr.,35,Q34460,Gwyneth Paltrow,56,Q165219 -> Q34460,Robert Downey Jr. -> Gwyneth Paltrow,Iron Man 2,623933331,1
+86,easy,1,0.6998,Q36301,Anne Hathaway,42,Q40523,Julia Roberts,54,Q36301 -> Q40523,Anne Hathaway -> Julia Roberts,Valentine's Day,216500000,1
+87,easy,1,0.6997,Q147077,Emma Stone,45,Q202765,Kate Winslet,49,Q147077 -> Q202765,Emma Stone -> Kate Winslet,Movie 43,32438988,1
+88,easy,1,0.6994,Q34436,Scarlett Johansson,1,Q205707,Bradley Cooper,47,Q34436 -> Q205707,Scarlett Johansson -> Bradley Cooper,He's Just Not That Into You,178000000,1
+89,easy,1,0.6992,Q36301,Anne Hathaway,42,Q873,Meryl Streep,55,Q36301 -> Q873,Anne Hathaway -> Meryl Streep,The Devil Wears Prada,326551094,1
+90,easy,1,0.6992,Q40523,Julia Roberts,54,Q34460,Gwyneth Paltrow,56,Q40523 -> Q34460,Julia Roberts -> Gwyneth Paltrow,Hook,300854823,1
+91,easy,1,0.6989,Q101797,Winona Ryder,59,Q39476,Emma Watson,60,Q101797 -> Q39476,Winona Ryder -> Emma Watson,Little Women,108101214,1
+92,easy,1,0.6988,Q59215,Robert Redford,37,Q873,Meryl Streep,55,Q59215 -> Q873,Robert Redford -> Meryl Streep,Out of Africa,227500000,1
+93,easy,1,0.6987,Q83338,Robin Williams,6,Q40523,Julia Roberts,54,Q83338 -> Q40523,Robin Williams -> Julia Roberts,Hook,300854823,1
+94,easy,1,0.6985,Q37175,Johnny Depp,22,Q202765,Kate Winslet,49,Q37175 -> Q202765,Johnny Depp -> Kate Winslet,Finding Neverland,116766556,1
+95,easy,1,0.6983,Q59215,Robert Redford,37,Q43044,Demi Moore,64,Q59215 -> Q43044,Robert Redford -> Demi Moore,Indecent Proposal,266600000,1
+96,easy,1,0.6982,Q10738,Dwayne Johnson,32,Q81520,Pierce Brosnan,48,Q10738 -> Q81520,Dwayne Johnson -> Pierce Brosnan,Black Adam,15300000,1
+97,easy,1,0.6982,Q36949,Robert De Niro,5,Q205707,Bradley Cooper,47,Q36949 -> Q205707,Robert De Niro -> Bradley Cooper,American Hustle,251000000,1
+98,easy,1,0.6978,Q83338,Robin Williams,6,Q34460,Gwyneth Paltrow,56,Q83338 -> Q34460,Robin Williams -> Gwyneth Paltrow,Hook,300854823,1
+99,easy,1,0.6975,Q76478,Kirsten Dunst,44,Q39476,Emma Watson,60,Q76478 -> Q39476,Kirsten Dunst -> Emma Watson,Little Women,108101214,1
+100,easy,1,0.6974,Q175535,Matt Damon,26,Q202765,Kate Winslet,49,Q175535 -> Q202765,Matt Damon -> Kate Winslet,Contagion,135458097,1
+101,easy,1,0.6972,Q81520,Pierce Brosnan,48,Q189226,Amanda Seyfried,67,Q81520 -> Q189226,Pierce Brosnan -> Amanda Seyfried,Mamma Mia!,609896805,1
+102,easy,1,0.6972,Q306403,James Franco,28,Q40523,Julia Roberts,54,Q306403 -> Q40523,James Franco -> Julia Roberts,Eat Pray Love,204600000,1
+103,easy,1,0.6971,Q483118,Ben Affleck,27,Q190162,Zoe Saldaña,43,Q483118 -> Q190162,Ben Affleck -> Zoe Saldaña,Live by Night,15885366,1
+104,easy,1,0.6969,Q180338,Christopher Lee,41,Q80966,Cate Blanchett,63,Q180338 -> Q80966,Christopher Lee -> Cate Blanchett,The Lord of the Rings: The Return of the King,386975644,1
+105,easy,1,0.6969,Q19877770,Timothée Chalamet,23,Q873,Meryl Streep,55,Q19877770 -> Q873,Timothée Chalamet -> Meryl Streep,Little Women,108101214,1
+106,easy,1,0.6966,Q202765,Kate Winslet,49,Q34460,Gwyneth Paltrow,56,Q202765 -> Q34460,Kate Winslet -> Gwyneth Paltrow,Contagion,135458097,1
+107,easy,1,0.6965,Q19877770,Timothée Chalamet,23,Q101797,Winona Ryder,59,Q19877770 -> Q101797,Timothée Chalamet -> Winona Ryder,Little Women,108101214,1
+108,easy,1,0.6962,Q76478,Kirsten Dunst,44,Q202765,Kate Winslet,49,Q76478 -> Q202765,Kirsten Dunst -> Kate Winslet,Eternal Sunshine of the Spotless Mind,34400301,1
+109,easy,1,0.6962,Q175535,Matt Damon,26,Q40523,Julia Roberts,54,Q175535 -> Q40523,Matt Damon -> Julia Roberts,Ocean's Twelve,362989076,1
+110,easy,1,0.6961,Q34436,Scarlett Johansson,1,Q34460,Gwyneth Paltrow,56,Q34436 -> Q34460,Scarlett Johansson -> Gwyneth Paltrow,Iron Man 2,623933331,1
+111,easy,1,0.696,Q80046,Charlize Theron,36,Q123351,Michael Caine,51,Q80046 -> Q123351,Charlize Theron -> Michael Caine,The Cider House Rules,88500000,1
+112,easy,1,0.6957,Q306403,James Franco,28,Q39476,Emma Watson,60,Q306403 -> Q39476,James Franco -> Emma Watson,This Is the End,101470202,1
+113,easy,1,0.6956,Q180338,Christopher Lee,41,Q172678,Samuel L. Jackson,65,Q180338 -> Q172678,Christopher Lee -> Samuel L. Jackson,Star Wars: Episode III – Revenge of the Sith,905595947,1
+114,easy,1,0.6955,Q34436,Scarlett Johansson,1,Q36301,Anne Hathaway,42,Q34436 -> Q36301,Scarlett Johansson -> Anne Hathaway,Don Jon,30240052,1
+115,easy,1,0.6955,Q873,Meryl Streep,55,Q39476,Emma Watson,60,Q873 -> Q39476,Meryl Streep -> Emma Watson,Little Women,108101214,1
+116,easy,1,0.6952,Q37079,Tom Cruise,12,Q43044,Demi Moore,64,Q37079 -> Q43044,Tom Cruise -> Demi Moore,A Few Good Men,243200000,1
+117,easy,1,0.6951,Q483118,Ben Affleck,27,Q34460,Gwyneth Paltrow,56,Q483118 -> Q34460,Ben Affleck -> Gwyneth Paltrow,Shakespeare in Love,289300000,1
+118,easy,1,0.6949,Q35332,Brad Pitt,9,Q40523,Julia Roberts,54,Q35332 -> Q40523,Brad Pitt -> Julia Roberts,Ocean's Twelve,362989076,1
+119,easy,1,0.6947,Q36301,Anne Hathaway,42,Q189226,Amanda Seyfried,67,Q36301 -> Q189226,Anne Hathaway -> Amanda Seyfried,Les Misérables,441809770,1
+120,easy,1,0.6944,Q175535,Matt Damon,26,Q123351,Michael Caine,51,Q175535 -> Q123351,Matt Damon -> Michael Caine,Interstellar,188020017,1
+121,easy,1,0.6934,Q873,Meryl Streep,55,Q189226,Amanda Seyfried,67,Q873 -> Q189226,Meryl Streep -> Amanda Seyfried,Mamma Mia!,609896805,1
+122,easy,1,0.6932,Q76478,Kirsten Dunst,44,Q873,Meryl Streep,55,Q76478 -> Q873,Kirsten Dunst -> Meryl Streep,Little Women,108101214,1
+123,easy,1,0.6928,Q76478,Kirsten Dunst,44,Q101797,Winona Ryder,59,Q76478 -> Q101797,Kirsten Dunst -> Winona Ryder,Little Women,108101214,1
+124,easy,1,0.6928,Q13909,Angelina Jolie,17,Q34460,Gwyneth Paltrow,56,Q13909 -> Q34460,Angelina Jolie -> Gwyneth Paltrow,Sky Captain and the World of Tomorrow,57958696,1
+125,easy,1,0.6927,Q2680,Bruce Willis,2,Q2263,Tom Hanks,39,Q2680 -> Q2263,Bruce Willis -> Tom Hanks,The Bonfire of the Vanities,15691192,1
+126,easy,1,0.6923,Q19877770,Timothée Chalamet,23,Q34460,Gwyneth Paltrow,56,Q19877770 -> Q34460,Timothée Chalamet -> Gwyneth Paltrow,Marty Supreme,28000000,1
+127,easy,1,0.6919,Q13909,Angelina Jolie,17,Q48337,Morgan Freeman,61,Q13909 -> Q48337,Angelina Jolie -> Morgan Freeman,Wanted,342463063,1
+128,easy,1,0.6919,Q34436,Scarlett Johansson,1,Q23844,George Clooney,53,Q34436 -> Q23844,Scarlett Johansson -> George Clooney,"Hail, Caesar!",63647656,1
+129,easy,1,0.6918,Q205707,Bradley Cooper,47,Q32522,Jennifer Aniston,68,Q205707 -> Q32522,Bradley Cooper -> Jennifer Aniston,He's Just Not That Into You,178000000,1
+130,easy,1,0.6916,Q2023710,Tom Holland,57,Q178348,Chris Evans,79,Q2023710 -> Q178348,Tom Holland -> Chris Evans,Avengers: Infinity War,678815482,1
+131,easy,1,0.6916,Q2263,Tom Hanks,39,Q39476,Emma Watson,60,Q2263 -> Q39476,Tom Hanks -> Emma Watson,The Circle,33900000,1
+132,easy,1,0.6915,Q40572,Heath Ledger,30,Q48337,Morgan Freeman,61,Q40572 -> Q48337,Heath Ledger -> Morgan Freeman,The Dark Knight,158411483,1
+133,easy,1,0.6914,Q48337,Morgan Freeman,61,Q32522,Jennifer Aniston,68,Q48337 -> Q32522,Morgan Freeman -> Jennifer Aniston,Bruce Almighty,484572835,1
+134,easy,1,0.6914,Q23844,George Clooney,53,Q80966,Cate Blanchett,63,Q23844 -> Q80966,George Clooney -> Cate Blanchett,Monuments Men,154984035,1
+135,easy,1,0.6914,Q2263,Tom Hanks,39,Q873,Meryl Streep,55,Q2263 -> Q873,Tom Hanks -> Meryl Streep,The Post,81903458,1
+136,easy,1,0.6912,Q40026,Sylvester Stallone,33,Q169963,Jason Statham,78,Q40026 -> Q169963,Sylvester Stallone -> Jason Statham,The Expendables 2,314975955,1
+137,easy,1,0.6911,Q23844,George Clooney,53,Q164119,Mark Wahlberg,70,Q23844 -> Q164119,George Clooney -> Mark Wahlberg,The Perfect Storm,328700000,1
+138,easy,1,0.6911,Q40523,Julia Roberts,54,Q873,Meryl Streep,55,Q40523 -> Q873,Julia Roberts -> Meryl Streep,August: Osage County,74200000,1
+139,easy,1,0.6909,Q873,Meryl Streep,55,Q101797,Winona Ryder,59,Q873 -> Q101797,Meryl Streep -> Winona Ryder,Little Women,108101214,1
+140,easy,1,0.6908,Q175535,Matt Damon,26,Q34460,Gwyneth Paltrow,56,Q175535 -> Q34460,Matt Damon -> Gwyneth Paltrow,Contagion,135458097,1
+141,easy,1,0.6908,Q287607,Rob Reiner,38,Q188955,Matthew McConaughey,75,Q287607 -> Q188955,Rob Reiner -> Matthew McConaughey,The Wolf of Wall Street,392000000,1
+142,easy,1,0.6907,Q483118,Ben Affleck,27,Q104514,Adrien Brody,50,Q483118 -> Q104514,Ben Affleck -> Adrien Brody,Hollywoodland,16792724,1
+143,easy,1,0.6906,Q58444,Liam Neeson,20,Q123351,Michael Caine,51,Q58444 -> Q123351,Liam Neeson -> Michael Caine,Batman Begins,48745440,1
+144,easy,1,0.6904,Q38111,Leonardo DiCaprio,25,Q220584,Michael Madsen,71,Q38111 -> Q220584,Leonardo DiCaprio -> Michael Madsen,Once Upon a Time in Hollywood,374343626,1
+145,easy,1,0.6903,Q37079,Tom Cruise,12,Q150943,Gene Hackman,66,Q37079 -> Q150943,Tom Cruise -> Gene Hackman,The Firm,270200000,1
+146,easy,1,0.6903,Q2023710,Tom Holland,57,Q172678,Samuel L. Jackson,65,Q2023710 -> Q172678,Tom Holland -> Samuel L. Jackson,Spider-Man: Far From Home,198999549,1
+147,easy,1,0.6902,Q10738,Dwayne Johnson,32,Q169963,Jason Statham,78,Q10738 -> Q169963,Dwayne Johnson -> Jason Statham,Furious 7,353007020,1
+148,easy,1,0.6899,Q13909,Angelina Jolie,17,Q101797,Winona Ryder,59,Q13909 -> Q101797,Angelina Jolie -> Winona Ryder,"Girl, Interrupted",48300000,1
+149,easy,1,0.6898,Q37079,Tom Cruise,12,Q48337,Morgan Freeman,61,Q37079 -> Q48337,Tom Cruise -> Morgan Freeman,Oblivion,286168572,1
+150,easy,1,0.6896,Q42869,Nicolas Cage,11,Q349391,Helen Mirren,69,Q42869 -> Q349391,Nicolas Cage -> Helen Mirren,National Treasure: Book of Secrets,457400000,1
+151,easy,1,0.6896,Q2685,Arnold Schwarzenegger,15,Q169963,Jason Statham,78,Q2685 -> Q169963,Arnold Schwarzenegger -> Jason Statham,The Expendables 2,314975955,1
+152,easy,1,0.6894,Q81520,Pierce Brosnan,48,Q220584,Michael Madsen,71,Q81520 -> Q220584,Pierce Brosnan -> Michael Madsen,Die Another Day,160942139,1
+153,easy,1,0.6892,Q123351,Michael Caine,51,Q48337,Morgan Freeman,61,Q123351 -> Q48337,Michael Caine -> Morgan Freeman,Now You See Me,351723989,1
+154,easy,1,0.6891,Q43416,Keanu Reeves,4,Q101797,Winona Ryder,59,Q43416 -> Q101797,Keanu Reeves -> Winona Ryder,Bram Stoker's Dracula,82522790,1
+155,easy,1,0.6891,Q34460,Gwyneth Paltrow,56,Q172678,Samuel L. Jackson,65,Q34460 -> Q172678,Gwyneth Paltrow -> Samuel L. Jackson,Iron Man 2,623933331,1
+156,easy,1,0.689,Q37459,Nicole Kidman,13,Q32522,Jennifer Aniston,68,Q37459 -> Q32522,Nicole Kidman -> Jennifer Aniston,Just Go with It,214900000,1
+157,easy,1,0.6885,Q36301,Anne Hathaway,42,Q48337,Morgan Freeman,61,Q36301 -> Q48337,Anne Hathaway -> Morgan Freeman,The Dark Knight Rises,160887295,1
+158,easy,1,0.6884,Q189226,Amanda Seyfried,67,Q164119,Mark Wahlberg,70,Q189226 -> Q164119,Amanda Seyfried -> Mark Wahlberg,Ted 2,216700000,1
+159,easy,1,0.6882,Q35332,Brad Pitt,9,Q503706,Chris Pratt,62,Q35332 -> Q503706,Brad Pitt -> Chris Pratt,Moneyball,110200000,1
+160,easy,1,0.688,Q35332,Brad Pitt,9,Q34460,Gwyneth Paltrow,56,Q35332 -> Q34460,Brad Pitt -> Gwyneth Paltrow,Seven,100125643,1
+161,easy,1,0.6879,Q2023710,Tom Holland,57,Q164119,Mark Wahlberg,70,Q2023710 -> Q164119,Tom Holland -> Mark Wahlberg,Uncharted,88194293,1
+162,easy,1,0.6878,Q165219,Robert Downey Jr.,35,Q178348,Chris Evans,79,Q165219 -> Q178348,Robert Downey Jr. -> Chris Evans,Avengers: Endgame,2797501328,1
+163,easy,1,0.6878,Q38111,Leonardo DiCaprio,25,Q80966,Cate Blanchett,63,Q38111 -> Q80966,Leonardo DiCaprio -> Cate Blanchett,The Aviator,213741459,1
+164,easy,1,0.6877,Q10738,Dwayne Johnson,32,Q164119,Mark Wahlberg,70,Q10738 -> Q164119,Dwayne Johnson -> Mark Wahlberg,The Other Guys,170500000,1
+165,easy,1,0.6877,Q37175,Johnny Depp,22,Q34460,Gwyneth Paltrow,56,Q37175 -> Q34460,Johnny Depp -> Gwyneth Paltrow,Mortdecai,47300000,1
+166,easy,1,0.6871,Q34460,Gwyneth Paltrow,56,Q80966,Cate Blanchett,63,Q34460 -> Q80966,Gwyneth Paltrow -> Cate Blanchett,The Talented Mr. Ripley,128798265,1
+167,easy,1,0.6868,Q34436,Scarlett Johansson,1,Q123351,Michael Caine,51,Q34436 -> Q123351,Scarlett Johansson -> Michael Caine,The Prestige,53089891,1
+168,easy,1,0.6867,Q59215,Robert Redford,37,Q172678,Samuel L. Jackson,65,Q59215 -> Q172678,Robert Redford -> Samuel L. Jackson,Captain America: The Winter Soldier,259766572,1
+169,easy,1,0.6867,Q147077,Emma Stone,45,Q193815,Ryan Gosling,74,Q147077 -> Q193815,Emma Stone -> Ryan Gosling,"Crazy, Stupid, Love.",142900000,1
+170,easy,1,0.6867,Q48337,Morgan Freeman,61,Q189226,Amanda Seyfried,67,Q48337 -> Q189226,Morgan Freeman -> Amanda Seyfried,Ted 2,216700000,1
+171,easy,1,0.6865,Q37175,Johnny Depp,22,Q101797,Winona Ryder,59,Q37175 -> Q101797,Johnny Depp -> Winona Ryder,Edward Scissorhands,56362352,1
+172,easy,1,0.6864,Q483118,Ben Affleck,27,Q32522,Jennifer Aniston,68,Q483118 -> Q32522,Ben Affleck -> Jennifer Aniston,He's Just Not That Into You,178000000,1
+173,easy,1,0.6863,Q10738,Dwayne Johnson,32,Q172678,Samuel L. Jackson,65,Q10738 -> Q172678,Dwayne Johnson -> Samuel L. Jackson,The Other Guys,170500000,1
+174,easy,1,0.6862,Q36301,Anne Hathaway,42,Q80966,Cate Blanchett,63,Q36301 -> Q80966,Anne Hathaway -> Cate Blanchett,Ocean's 8,100385760,1
+175,easy,1,0.686,Q34460,Gwyneth Paltrow,56,Q48337,Morgan Freeman,61,Q34460 -> Q48337,Gwyneth Paltrow -> Morgan Freeman,Seven,100125643,1
+176,easy,1,0.6858,Q175535,Matt Damon,26,Q873,Meryl Streep,55,Q175535 -> Q873,Matt Damon -> Meryl Streep,Stuck on You,65000000,1
+177,easy,1,0.6857,Q165219,Robert Downey Jr.,35,Q172678,Samuel L. Jackson,65,Q165219 -> Q172678,Robert Downey Jr. -> Samuel L. Jackson,Iron Man 2,623933331,1
+178,easy,1,0.6856,Q189490,Jennifer Lawrence,29,Q180560,Philip Seymour Hoffman,76,Q189490 -> Q180560,Jennifer Lawrence -> Philip Seymour Hoffman,The Hunger Games: Mockingjay – Part 1,337135885,1
+179,easy,1,0.6855,Q83338,Robin Williams,6,Q150943,Gene Hackman,66,Q83338 -> Q150943,Robin Williams -> Gene Hackman,The Birdcage,124060553,1
+180,easy,1,0.6852,Q39476,Emma Watson,60,Q83492,Gary Oldman,77,Q39476 -> Q83492,Emma Watson -> Gary Oldman,Harry Potter and the Prisoner of Azkaban,250105651,1
+181,easy,1,0.685,Q35332,Brad Pitt,9,Q220584,Michael Madsen,71,Q35332 -> Q220584,Brad Pitt -> Michael Madsen,Once Upon a Time in Hollywood,374343626,1
+182,easy,1,0.6848,Q193517,Emily Blunt,83,Q202589,Cillian Murphy,90,Q193517 -> Q202589,Emily Blunt -> Cillian Murphy,Oppenheimer,955300000,1
+183,easy,1,0.6847,Q123351,Michael Caine,51,Q172678,Samuel L. Jackson,65,Q123351 -> Q172678,Michael Caine -> Samuel L. Jackson,Kingsman: The Secret Service,414351546,1
+184,easy,1,0.6845,Q35332,Brad Pitt,9,Q80966,Cate Blanchett,63,Q35332 -> Q80966,Brad Pitt -> Cate Blanchett,The Curious Case of Benjamin Button,333900000,1
+185,easy,1,0.6843,Q483118,Ben Affleck,27,Q48337,Morgan Freeman,61,Q483118 -> Q48337,Ben Affleck -> Morgan Freeman,The Sum of All Fears,193921372,1
+186,easy,1,0.6842,Q80046,Charlize Theron,36,Q164119,Mark Wahlberg,70,Q80046 -> Q164119,Charlize Theron -> Mark Wahlberg,The Italian Job,176070171,1
+187,easy,1,0.6841,Q34436,Scarlett Johansson,1,Q503706,Chris Pratt,62,Q34436 -> Q503706,Scarlett Johansson -> Chris Pratt,Her,48800000,1
+188,easy,1,0.684,Q48337,Morgan Freeman,61,Q349391,Helen Mirren,69,Q48337 -> Q349391,Morgan Freeman -> Helen Mirren,RED,199000000,1
+189,easy,1,0.684,Q164119,Mark Wahlberg,70,Q169963,Jason Statham,78,Q164119 -> Q169963,Mark Wahlberg -> Jason Statham,The Italian Job,176070171,1
+190,easy,1,0.684,Q42869,Nicolas Cage,11,Q873,Meryl Streep,55,Q42869 -> Q873,Nicolas Cage -> Meryl Streep,Adaptation,22498520,1
+191,easy,1,0.6839,Q34436,Scarlett Johansson,1,Q178348,Chris Evans,79,Q34436 -> Q178348,Scarlett Johansson -> Chris Evans,Avengers: Endgame,2797501328,1
+192,easy,1,0.6838,Q34436,Scarlett Johansson,1,Q32522,Jennifer Aniston,68,Q34436 -> Q32522,Scarlett Johansson -> Jennifer Aniston,He's Just Not That Into You,178000000,1
+193,easy,1,0.6838,Q34460,Gwyneth Paltrow,56,Q150943,Gene Hackman,66,Q34460 -> Q150943,Gwyneth Paltrow -> Gene Hackman,The Royal Tenenbaums,52364010,1
+194,easy,1,0.6836,Q23844,George Clooney,53,Q41163,Al Pacino,80,Q23844 -> Q41163,George Clooney -> Al Pacino,Ocean's Thirteen,311312624,1
+195,easy,1,0.6834,Q80046,Charlize Theron,36,Q169963,Jason Statham,78,Q80046 -> Q169963,Charlize Theron -> Jason Statham,The Italian Job,176070171,1
+196,easy,1,0.6833,Q193815,Ryan Gosling,74,Q81328,Harrison Ford,84,Q193815 -> Q81328,Ryan Gosling -> Harrison Ford,Blade Runner 2049,259239658,1
+197,easy,1,0.6833,Q104514,Adrien Brody,50,Q483907,Jack Black,85,Q104514 -> Q483907,Adrien Brody -> Jack Black,King Kong,550517357,1
+198,easy,1,0.6832,Q23844,George Clooney,53,Q40791,Sandra Bullock,87,Q23844 -> Q40791,George Clooney -> Sandra Bullock,Gravity,723192705,1
+199,easy,1,0.6832,Q38111,Leonardo DiCaprio,25,Q188955,Matthew McConaughey,75,Q38111 -> Q188955,Leonardo DiCaprio -> Matthew McConaughey,The Wolf of Wall Street,392000000,1
+200,easy,1,0.6831,Q101797,Winona Ryder,59,Q188772,Willem Dafoe,73,Q101797 -> Q188772,Winona Ryder -> Willem Dafoe,Beetlejuice Beetlejuice,425500000,1
+201,easy,1,0.683,Q503706,Chris Pratt,62,Q180560,Philip Seymour Hoffman,76,Q503706 -> Q180560,Chris Pratt -> Philip Seymour Hoffman,Moneyball,110200000,1
+202,easy,1,0.6826,Q58444,Liam Neeson,20,Q40523,Julia Roberts,54,Q58444 -> Q40523,Liam Neeson -> Julia Roberts,Michael Collins,11092559,1
+203,easy,1,0.6825,Q48337,Morgan Freeman,61,Q150943,Gene Hackman,66,Q48337 -> Q150943,Morgan Freeman -> Gene Hackman,Unforgiven,101167799,1
+204,easy,1,0.6823,Q59215,Robert Redford,37,Q178348,Chris Evans,79,Q59215 -> Q178348,Robert Redford -> Chris Evans,Captain America: The Winter Soldier,259766572,1
+205,easy,1,0.6822,Q37175,Johnny Depp,22,Q48337,Morgan Freeman,61,Q37175 -> Q48337,Johnny Depp -> Morgan Freeman,Transcendence,103039258,1
+206,easy,1,0.6822,Q175535,Matt Damon,26,Q80966,Cate Blanchett,63,Q175535 -> Q80966,Matt Damon -> Cate Blanchett,Monuments Men,154984035,1
+207,easy,1,0.682,Q172678,Samuel L. Jackson,65,Q220584,Michael Madsen,71,Q172678 -> Q220584,Samuel L. Jackson -> Michael Madsen,The Hateful Eight,155760117,1
+208,easy,1,0.6819,Q165219,Robert Downey Jr.,35,Q193517,Emily Blunt,83,Q165219 -> Q193517,Robert Downey Jr. -> Emily Blunt,Oppenheimer,955300000,1
+209,easy,1,0.6818,Q34436,Scarlett Johansson,1,Q172678,Samuel L. Jackson,65,Q34436 -> Q172678,Scarlett Johansson -> Samuel L. Jackson,Iron Man 2,623933331,1
+210,easy,1,0.6818,Q36301,Anne Hathaway,42,Q188955,Matthew McConaughey,75,Q36301 -> Q188955,Anne Hathaway -> Matthew McConaughey,Interstellar,188020017,1
+211,easy,1,0.6817,Q38111,Leonardo DiCaprio,25,Q164119,Mark Wahlberg,70,Q38111 -> Q164119,Leonardo DiCaprio -> Mark Wahlberg,The Departed,132399394,1
+212,easy,1,0.6815,Q76478,Kirsten Dunst,44,Q188772,Willem Dafoe,73,Q76478 -> Q188772,Kirsten Dunst -> Willem Dafoe,Spider-Man,407022860,1
+213,easy,1,0.6814,Q193517,Emily Blunt,83,Q483907,Jack Black,85,Q193517 -> Q483907,Emily Blunt -> Jack Black,Gulliver's Travels,237400000,1
+214,easy,1,0.6814,Q20752077,Mckenna Grace,52,Q178348,Chris Evans,79,Q20752077 -> Q178348,Mckenna Grace -> Chris Evans,Gifted,43046590,1
+215,easy,1,0.6813,Q38111,Leonardo DiCaprio,25,Q172678,Samuel L. Jackson,65,Q38111 -> Q172678,Leonardo DiCaprio -> Samuel L. Jackson,Django Unchained,162805434,1
+216,easy,1,0.6813,Q48337,Morgan Freeman,61,Q164119,Mark Wahlberg,70,Q48337 -> Q164119,Morgan Freeman -> Mark Wahlberg,Ted 2,216700000,1
+217,easy,1,0.6812,Q175535,Matt Damon,26,Q48337,Morgan Freeman,61,Q175535 -> Q48337,Matt Damon -> Morgan Freeman,Invictus,122200000,1
+218,easy,1,0.6809,Q208026,Tom Hardy,86,Q202589,Cillian Murphy,90,Q208026 -> Q202589,Tom Hardy -> Cillian Murphy,Inception,292587330,1
+219,easy,1,0.6807,Q2680,Bruce Willis,2,Q48337,Morgan Freeman,61,Q2680 -> Q48337,Bruce Willis -> Morgan Freeman,RED,199000000,1
+220,easy,1,0.6807,Q36301,Anne Hathaway,42,Q193517,Emily Blunt,83,Q36301 -> Q193517,Anne Hathaway -> Emily Blunt,The Devil Wears Prada,326551094,1
+221,easy,1,0.6805,Q43416,Keanu Reeves,4,Q80966,Cate Blanchett,63,Q43416 -> Q80966,Keanu Reeves -> Cate Blanchett,The Gift,60000000,1
+222,easy,1,0.6801,Q40572,Heath Ledger,30,Q83492,Gary Oldman,77,Q40572 -> Q83492,Heath Ledger -> Gary Oldman,The Dark Knight,158411483,1
+223,easy,1,0.6801,Q102642,Diane Keaton,14,Q41163,Al Pacino,80,Q102642 -> Q41163,Diane Keaton -> Al Pacino,The Godfather,270007394,1
+224,easy,1,0.68,Q306403,James Franco,28,Q188772,Willem Dafoe,73,Q306403 -> Q188772,James Franco -> Willem Dafoe,Spider-Man,407022860,1
+225,easy,1,0.68,Q36949,Robert De Niro,5,Q873,Meryl Streep,55,Q36949 -> Q873,Robert De Niro -> Meryl Streep,The Deer Hunter,48979328,1
+226,easy,1,0.6799,Q37079,Tom Cruise,12,Q193517,Emily Blunt,83,Q37079 -> Q193517,Tom Cruise -> Emily Blunt,Edge of Tomorrow,370500000,1
+227,easy,1,0.6799,Q2680,Bruce Willis,2,Q349391,Helen Mirren,69,Q2680 -> Q349391,Bruce Willis -> Helen Mirren,RED,199000000,1
+228,easy,1,0.6798,Q483118,Ben Affleck,27,Q349391,Helen Mirren,69,Q483118 -> Q349391,Ben Affleck -> Helen Mirren,State of Play,87812371,1
+229,easy,1,0.6797,Q81328,Harrison Ford,84,Q106514,River Phoenix,95,Q81328 -> Q106514,Harrison Ford -> River Phoenix,Indiana Jones and the Last Crusade,197171806,1
+230,easy,1,0.6797,Q175535,Matt Damon,26,Q193517,Emily Blunt,83,Q175535 -> Q193517,Matt Damon -> Emily Blunt,Oppenheimer,955300000,1
+231,easy,1,0.6795,Q58444,Liam Neeson,20,Q48337,Morgan Freeman,61,Q58444 -> Q48337,Liam Neeson -> Morgan Freeman,Batman Begins,48745440,1
+232,easy,1,0.6791,Q19848,Lady Gaga,31,Q170572,Alec Baldwin,89,Q19848 -> Q170572,Lady Gaga -> Alec Baldwin,A Star Is Born,430718255,1
+233,easy,1,0.679,Q35332,Brad Pitt,9,Q48337,Morgan Freeman,61,Q35332 -> Q48337,Brad Pitt -> Morgan Freeman,Seven,100125643,1
+234,easy,1,0.6789,Q123351,Michael Caine,51,Q188955,Matthew McConaughey,75,Q123351 -> Q188955,Michael Caine -> Matthew McConaughey,Interstellar,188020017,1
+235,easy,1,0.6789,Q81328,Harrison Ford,84,Q180942,Shia LaBeouf,94,Q81328 -> Q180942,Harrison Ford -> Shia LaBeouf,Indiana Jones and the Kingdom of the Crystal Skull,317101119,1
+236,easy,1,0.6787,Q103939,Charlie Sheen,34,Q188772,Willem Dafoe,73,Q103939 -> Q188772,Charlie Sheen -> Willem Dafoe,Platoon,138530565,1
+237,easy,1,0.6787,Q40572,Heath Ledger,30,Q42229,Mel Gibson,88,Q40572 -> Q42229,Heath Ledger -> Mel Gibson,The Patriot,215294342,1
+238,easy,1,0.6786,Q172678,Samuel L. Jackson,65,Q164119,Mark Wahlberg,70,Q172678 -> Q164119,Samuel L. Jackson -> Mark Wahlberg,The Other Guys,170500000,1
+239,easy,1,0.6785,Q34460,Gwyneth Paltrow,56,Q180560,Philip Seymour Hoffman,76,Q34460 -> Q180560,Gwyneth Paltrow -> Philip Seymour Hoffman,The Talented Mr. Ripley,128798265,1
+240,easy,1,0.6784,Q147077,Emma Stone,45,Q188772,Willem Dafoe,73,Q147077 -> Q188772,Emma Stone -> Willem Dafoe,Poor Things,93499622,1
+241,easy,1,0.6784,Q192682,Ryan Reynolds,40,Q40791,Sandra Bullock,87,Q192682 -> Q40791,Ryan Reynolds -> Sandra Bullock,The Proposal,317400000,1
+242,easy,1,0.6784,Q32522,Jennifer Aniston,68,Q40504,Jim Carrey,93,Q32522 -> Q40504,Jennifer Aniston -> Jim Carrey,Bruce Almighty,484572835,1
+243,easy,1,0.6782,Q83338,Robin Williams,6,Q180560,Philip Seymour Hoffman,76,Q83338 -> Q180560,Robin Williams -> Philip Seymour Hoffman,Patch Adams,202300000,1
+244,easy,1,0.6781,Q2680,Bruce Willis,2,Q169963,Jason Statham,78,Q2680 -> Q169963,Bruce Willis -> Jason Statham,The Expendables 2,314975955,1
+245,easy,1,0.6781,Q873,Meryl Streep,55,Q193517,Emily Blunt,83,Q873 -> Q193517,Meryl Streep -> Emily Blunt,Mary Poppins Returns,346800000,1
+246,easy,1,0.678,Q80966,Cate Blanchett,63,Q81328,Harrison Ford,84,Q80966 -> Q81328,Cate Blanchett -> Harrison Ford,Indiana Jones and the Kingdom of the Crystal Skull,317101119,1
+247,easy,1,0.6779,Q189226,Amanda Seyfried,67,Q208667,Stellan Skarsgård,91,Q189226 -> Q208667,Amanda Seyfried -> Stellan Skarsgård,Mamma Mia!,609896805,1
+248,easy,1,0.6777,Q175535,Matt Damon,26,Q164119,Mark Wahlberg,70,Q175535 -> Q164119,Matt Damon -> Mark Wahlberg,The Departed,132399394,1
+249,easy,1,0.6777,Q150943,Gene Hackman,66,Q483907,Jack Black,85,Q150943 -> Q483907,Gene Hackman -> Jack Black,Enemy of the State,250600000,1
+250,easy,1,0.6776,Q37079,Tom Cruise,12,Q180560,Philip Seymour Hoffman,76,Q37079 -> Q180560,Tom Cruise -> Philip Seymour Hoffman,Mission: Impossible III,134029801,1
+251,easy,1,0.6774,Q38111,Leonardo DiCaprio,25,Q150943,Gene Hackman,66,Q38111 -> Q150943,Leonardo DiCaprio -> Gene Hackman,The Quick and the Dead,18636537,1
+252,easy,1,0.6771,Q36301,Anne Hathaway,42,Q83492,Gary Oldman,77,Q36301 -> Q83492,Anne Hathaway -> Gary Oldman,The Dark Knight Rises,160887295,1
+253,easy,1,0.677,Q42869,Nicolas Cage,11,Q80938,John Travolta,81,Q42869 -> Q80938,Nicolas Cage -> John Travolta,Face/Off,245676146,1
+254,easy,1,0.677,Q38111,Leonardo DiCaprio,25,Q208026,Tom Hardy,86,Q38111 -> Q208026,Leonardo DiCaprio -> Tom Hardy,Inception,292587330,1
+255,easy,1,0.6769,Q83492,Gary Oldman,77,Q81328,Harrison Ford,84,Q83492 -> Q81328,Gary Oldman -> Harrison Ford,Air Force One,172956409,1
+256,easy,1,0.6767,Q37079,Tom Cruise,12,Q188772,Willem Dafoe,73,Q37079 -> Q188772,Tom Cruise -> Willem Dafoe,Born on the Fourth of July,161000000,1
+257,easy,1,0.6764,Q81520,Pierce Brosnan,48,Q208667,Stellan Skarsgård,91,Q81520 -> Q208667,Pierce Brosnan -> Stellan Skarsgård,Mamma Mia!,609896805,1
+258,easy,1,0.6764,Q2680,Bruce Willis,2,Q172678,Samuel L. Jackson,65,Q2680 -> Q172678,Bruce Willis -> Samuel L. Jackson,Unbreakable,248100000,1
+259,easy,1,0.6763,Q2263,Tom Hanks,39,Q48337,Morgan Freeman,61,Q2263 -> Q48337,Tom Hanks -> Morgan Freeman,The Bonfire of the Vanities,15691192,1
+260,easy,1,0.6762,Q35332,Brad Pitt,9,Q193815,Ryan Gosling,74,Q35332 -> Q193815,Brad Pitt -> Ryan Gosling,The Big Short,133346506,1
+261,easy,1,0.6762,Q36301,Anne Hathaway,42,Q208026,Tom Hardy,86,Q36301 -> Q208026,Anne Hathaway -> Tom Hardy,The Dark Knight Rises,160887295,1
+262,easy,1,0.6762,Q165219,Robert Downey Jr.,35,Q202589,Cillian Murphy,90,Q165219 -> Q202589,Robert Downey Jr. -> Cillian Murphy,Oppenheimer,955300000,1
+263,easy,1,0.6762,Q36970,Jackie Chan,7,Q180560,Philip Seymour Hoffman,76,Q36970 -> Q180560,Jackie Chan -> Philip Seymour Hoffman,The Master,28200000,1
+264,easy,1,0.6759,Q80966,Cate Blanchett,63,Q180560,Philip Seymour Hoffman,76,Q80966 -> Q180560,Cate Blanchett -> Philip Seymour Hoffman,The Talented Mr. Ripley,128798265,1
+265,easy,1,0.6758,Q202765,Kate Winslet,49,Q483907,Jack Black,85,Q202765 -> Q483907,Kate Winslet -> Jack Black,The Holiday,205100000,1
+266,easy,1,0.6758,Q175535,Matt Damon,26,Q188955,Matthew McConaughey,75,Q175535 -> Q188955,Matt Damon -> Matthew McConaughey,Interstellar,188020017,1
+267,easy,1,0.6755,Q175535,Matt Damon,26,Q188772,Willem Dafoe,73,Q175535 -> Q188772,Matt Damon -> Willem Dafoe,The Great Wall,334933831,1
+268,easy,1,0.6752,Q80046,Charlize Theron,36,Q208026,Tom Hardy,86,Q80046 -> Q208026,Charlize Theron -> Tom Hardy,Mad Max: Fury Road,154109060,1
+269,easy,1,0.6751,Q83492,Gary Oldman,77,Q208026,Tom Hardy,86,Q83492 -> Q208026,Gary Oldman -> Tom Hardy,The Dark Knight Rises,160887295,1
+270,easy,1,0.6748,Q172678,Samuel L. Jackson,65,Q178348,Chris Evans,79,Q172678 -> Q178348,Samuel L. Jackson -> Chris Evans,Captain America: The Winter Soldier,259766572,1
+271,easy,1,0.6746,Q189226,Amanda Seyfried,67,Q202589,Cillian Murphy,90,Q189226 -> Q202589,Amanda Seyfried -> Cillian Murphy,In Time,173900000,1
+272,easy,1,0.6745,Q37175,Johnny Depp,22,Q193517,Emily Blunt,83,Q37175 -> Q193517,Johnny Depp -> Emily Blunt,Into the Woods,213100000,1
+273,easy,1,0.6745,Q101797,Winona Ryder,59,Q83492,Gary Oldman,77,Q101797 -> Q83492,Winona Ryder -> Gary Oldman,Bram Stoker's Dracula,82522790,1
+274,easy,1,0.6744,Q175535,Matt Damon,26,Q41163,Al Pacino,80,Q175535 -> Q41163,Matt Damon -> Al Pacino,Ocean's Thirteen,311312624,1
+275,easy,1,0.6744,Q41163,Al Pacino,80,Q1744,Madonna,92,Q41163 -> Q1744,Al Pacino -> Madonna,Dick Tracy,103738726,1
+276,easy,1,0.6744,Q58444,Liam Neeson,20,Q189226,Amanda Seyfried,67,Q58444 -> Q189226,Liam Neeson -> Amanda Seyfried,Chloe,11702642,1
+277,easy,1,0.6742,Q123351,Michael Caine,51,Q83492,Gary Oldman,77,Q123351 -> Q83492,Michael Caine -> Gary Oldman,The Dark Knight Rises,160887295,1
+278,easy,1,0.674,Q175535,Matt Damon,26,Q202589,Cillian Murphy,90,Q175535 -> Q202589,Matt Damon -> Cillian Murphy,Oppenheimer,955300000,1
+279,easy,1,0.6739,Q190162,Zoe Saldaña,43,Q178348,Chris Evans,79,Q190162 -> Q178348,Zoe Saldaña -> Chris Evans,The Losers,29379723,1
+280,easy,1,0.6734,Q123351,Michael Caine,51,Q208026,Tom Hardy,86,Q123351 -> Q208026,Michael Caine -> Tom Hardy,The Dark Knight Rises,160887295,1
+281,easy,1,0.6732,Q37175,Johnny Depp,22,Q188772,Willem Dafoe,73,Q37175 -> Q188772,Johnny Depp -> Willem Dafoe,Platoon,138530565,1
+282,easy,1,0.6731,Q83338,Robin Williams,6,Q41163,Al Pacino,80,Q83338 -> Q41163,Robin Williams -> Al Pacino,Insomnia,113714830,1
+283,easy,1,0.6731,Q35332,Brad Pitt,9,Q41163,Al Pacino,80,Q35332 -> Q41163,Brad Pitt -> Al Pacino,Ocean's Thirteen,311312624,1
+284,easy,1,0.673,Q172678,Samuel L. Jackson,65,Q188955,Matthew McConaughey,75,Q172678 -> Q188955,Samuel L. Jackson -> Matthew McConaughey,A Time to Kill,108766007,1
+285,easy,1,0.6729,Q2263,Tom Hanks,39,Q208667,Stellan Skarsgård,91,Q2263 -> Q208667,Tom Hanks -> Stellan Skarsgård,Angels & Demons,485930816,1
+286,easy,1,0.6728,Q37175,Johnny Depp,22,Q41163,Al Pacino,80,Q37175 -> Q41163,Johnny Depp -> Al Pacino,Jack and Jill,149600000,1
+287,easy,1,0.6726,Q38111,Leonardo DiCaprio,25,Q202589,Cillian Murphy,90,Q38111 -> Q202589,Leonardo DiCaprio -> Cillian Murphy,Inception,292587330,1
+288,easy,1,0.6726,Q873,Meryl Streep,55,Q208667,Stellan Skarsgård,91,Q873 -> Q208667,Meryl Streep -> Stellan Skarsgård,Mamma Mia!,609896805,1
+289,easy,1,0.6724,Q10738,Dwayne Johnson,32,Q483907,Jack Black,85,Q10738 -> Q483907,Dwayne Johnson -> Jack Black,Jumanji: Welcome to the Jungle,51879375,1
+290,easy,1,0.6724,Q48337,Morgan Freeman,61,Q83492,Gary Oldman,77,Q48337 -> Q83492,Morgan Freeman -> Gary Oldman,The Dark Knight Rises,160887295,1
+291,easy,1,0.6723,Q188955,Matthew McConaughey,75,Q40791,Sandra Bullock,87,Q188955 -> Q40791,Matthew McConaughey -> Sandra Bullock,A Time to Kill,108766007,1
+292,easy,1,0.6721,Q39476,Emma Watson,60,Q133050,Susan Sarandon,82,Q39476 -> Q133050,Emma Watson -> Susan Sarandon,Little Women,108101214,1
+293,easy,1,0.6719,Q2680,Bruce Willis,2,Q80938,John Travolta,81,Q2680 -> Q80938,Bruce Willis -> John Travolta,Look Who's Talking,297000000,1
+294,easy,1,0.6719,Q43044,Demi Moore,64,Q39792,Jack Nicholson,97,Q43044 -> Q39792,Demi Moore -> Jack Nicholson,A Few Good Men,243200000,1
+295,easy,1,0.6719,Q191084,Val Kilmer,8,Q41163,Al Pacino,80,Q191084 -> Q41163,Val Kilmer -> Al Pacino,Heat,67436818,1
+296,easy,1,0.6718,Q150943,Gene Hackman,66,Q188772,Willem Dafoe,73,Q150943 -> Q188772,Gene Hackman -> Willem Dafoe,Mississippi Burning,34603943,1
+297,easy,1,0.6717,Q32522,Jennifer Aniston,68,Q284636,Jason Bateman,96,Q32522 -> Q284636,Jennifer Aniston -> Jason Bateman,Horrible Bosses,209600000,1
+298,easy,1,0.6716,Q48337,Morgan Freeman,61,Q208026,Tom Hardy,86,Q48337 -> Q208026,Morgan Freeman -> Tom Hardy,The Dark Knight Rises,160887295,1
+299,easy,1,0.6716,Q80046,Charlize Theron,36,Q284636,Jason Bateman,96,Q80046 -> Q284636,Charlize Theron -> Jason Bateman,Hancock,624386771,1
+300,easy,1,0.6716,Q39476,Emma Watson,60,Q28493,Ralph Fiennes,99,Q39476 -> Q28493,Emma Watson -> Ralph Fiennes,Harry Potter and the Deathly Hallows – Part 2,381447587,1
+301,medium,3,0.8578,Q36970,Jackie Chan,7,Q191084,Val Kilmer,8,Q36970 -> Q2685 -> Q110374 -> Q191084,Jackie Chan -> Arnold Schwarzenegger -> Bill Paxton -> Val Kilmer,Around the World in 80 Days -> True Lies -> Tombstone,507566371,3
+302,medium,3,0.8517,Q9570,Amitabh Bachchan,16,Q19877770,Timothée Chalamet,23,Q9570 -> Q59215 -> Q873 -> Q19877770,Amitabh Bachchan -> Robert Redford -> Meryl Streep -> Timothée Chalamet,The Great Gatsby -> Out of Africa -> Little Women,689243109,3
+303,medium,3,0.8472,Q9570,Amitabh Bachchan,16,Q189490,Jennifer Lawrence,29,Q9570 -> Q59215 -> Q201279 -> Q189490,Amitabh Bachchan -> Robert Redford -> Woody Harrelson -> Jennifer Lawrence,The Great Gatsby -> Indecent Proposal -> The Hunger Games: Mockingjay – Part 1,957377780,3
+304,medium,3,0.8468,Q25936414,Millie Bobby Brown,19,Q38111,Leonardo DiCaprio,25,Q25936414 -> Q310637 -> Q172678 -> Q38111,Millie Bobby Brown -> Alexander Skarsgård -> Samuel L. Jackson -> Leonardo DiCaprio,Godzilla vs. Kong -> The Legend of Tarzan -> Django Unchained,987721528,3
+305,medium,3,0.8466,Q40572,Heath Ledger,30,Q19848,Lady Gaga,31,Q40572 -> Q42229 -> Q185140 -> Q19848,Heath Ledger -> Mel Gibson -> Joaquin Phoenix -> Lady Gaga,The Patriot -> Signs -> Joker: Folie à Deux,827294342,3
+306,medium,3,0.845,Q25936414,Millie Bobby Brown,19,Q10738,Dwayne Johnson,32,Q25936414 -> Q310637 -> Q172678 -> Q10738,Millie Bobby Brown -> Alexander Skarsgård -> Samuel L. Jackson -> Dwayne Johnson,Godzilla vs. Kong -> The Legend of Tarzan -> The Other Guys,995416094,3
+307,medium,3,0.8434,Q9570,Amitabh Bachchan,16,Q40026,Sylvester Stallone,33,Q9570 -> Q9535 -> Q2685 -> Q40026,Amitabh Bachchan -> Shah Rukh Khan -> Arnold Schwarzenegger -> Sylvester Stallone,Mohabbatein -> My Name Is Khan -> The Expendables 2,613665955,3
+308,medium,3,0.8432,Q25936414,Millie Bobby Brown,19,Q287607,Rob Reiner,38,Q25936414 -> Q310637 -> Q1924847 -> Q287607,Millie Bobby Brown -> Alexander Skarsgård -> Margot Robbie -> Rob Reiner,Godzilla vs. Kong -> The Legend of Tarzan -> The Wolf of Wall Street,1216916094,3
+309,medium,3,0.8409,Q9570,Amitabh Bachchan,16,Q483118,Ben Affleck,27,Q9570 -> Q59215 -> Q202735 -> Q483118,Amitabh Bachchan -> Robert Redford -> Billy Bob Thornton -> Ben Affleck,The Great Gatsby -> Indecent Proposal -> Armageddon,821820077,3
+310,medium,3,0.8396,Q19848,Lady Gaga,31,Q180338,Christopher Lee,41,Q19848 -> Q170572 -> Q80966 -> Q180338,Lady Gaga -> Alec Baldwin -> Cate Blanchett -> Christopher Lee,A Star Is Born -> The Aviator -> The Lord of the Rings: The Return of the King,1031435358,3
+311,medium,3,0.8393,Q58444,Liam Neeson,20,Q19848,Lady Gaga,31,Q58444 -> Q168724 -> Q205707 -> Q19848,Liam Neeson -> Emma Thompson -> Bradley Cooper -> Lady Gaga,Love Actually -> Burnt -> A Star Is Born,714267015,3
+312,medium,3,0.834,Q19848,Lady Gaga,31,Q2263,Tom Hanks,39,Q19848 -> Q170572 -> Q873 -> Q2263,Lady Gaga -> Alec Baldwin -> Meryl Streep -> Tom Hanks,A Star Is Born -> It's Complicated -> The Post,731621713,3
+313,medium,3,0.8321,Q44437,John Cena,46,Q20752077,Mckenna Grace,52,Q44437 -> Q342604 -> Q29250 -> Q20752077,John Cena -> Idris Elba -> Bill Murray -> Mckenna Grace,The Suicide Squad -> The Jungle Book -> Ghostbusters: Afterlife,1122116590,3
+314,medium,3,0.8314,Q9570,Amitabh Bachchan,16,Q147077,Emma Stone,45,Q9570 -> Q59215 -> Q201279 -> Q147077,Amitabh Bachchan -> Robert Redford -> Woody Harrelson -> Emma Stone,The Great Gatsby -> Indecent Proposal -> Zombieland: Double Tap,707348895,3
+315,medium,3,0.8303,Q25936414,Millie Bobby Brown,19,Q147077,Emma Stone,45,Q25936414 -> Q310637 -> Q188772 -> Q147077,Millie Bobby Brown -> Alexander Skarsgård -> Willem Dafoe -> Emma Stone,Godzilla vs. Kong -> The Northman -> Poor Things,566718014,3
+316,medium,3,0.8303,Q9570,Amitabh Bachchan,16,Q20752077,Mckenna Grace,52,Q9570 -> Q59215 -> Q178348 -> Q20752077,Amitabh Bachchan -> Robert Redford -> Chris Evans -> Mckenna Grace,The Great Gatsby -> Captain America: The Winter Soldier -> Gifted,656455057,3
+317,medium,3,0.8275,Q9570,Amitabh Bachchan,16,Q205707,Bradley Cooper,47,Q9570 -> Q59215 -> Q34436 -> Q205707,Amitabh Bachchan -> Robert Redford -> Scarlett Johansson -> Bradley Cooper,The Great Gatsby -> Captain America: The Winter Soldier -> He's Just Not That Into You,791408467,3
+318,medium,3,0.8264,Q20752077,Mckenna Grace,52,Q503706,Chris Pratt,62,Q20752077 -> Q276525 -> Q34436 -> Q503706,Mckenna Grace -> Paul Rudd -> Scarlett Johansson -> Chris Pratt,Ghostbusters: Frozen Empire -> Avengers: Endgame -> Her,3041601328,3
+319,medium,3,0.8262,Q36970,Jackie Chan,7,Q36301,Anne Hathaway,42,Q36970 -> Q2685 -> Q10738 -> Q36301,Jackie Chan -> Arnold Schwarzenegger -> Dwayne Johnson -> Anne Hathaway,Around the World in 80 Days -> The Rundown -> Get Smart,383795387,3
+320,medium,3,0.8244,Q2685,Arnold Schwarzenegger,15,Q20752077,Mckenna Grace,52,Q2685 -> Q106997 -> Q178348 -> Q20752077,Arnold Schwarzenegger -> Jamie Lee Curtis -> Chris Evans -> Mckenna Grace,True Lies -> Knives Out -> Gifted,434473268,3
+321,medium,3,0.8241,Q40572,Heath Ledger,30,Q20752077,Mckenna Grace,52,Q40572 -> Q214223 -> Q102124 -> Q20752077,Heath Ledger -> Jason Isaacs -> Sigourney Weaver -> Mckenna Grace,The Patriot -> Abduction -> Ghostbusters: Afterlife,372742072,3
+322,medium,3,0.8241,Q9570,Amitabh Bachchan,16,Q2023710,Tom Holland,57,Q9570 -> Q59215 -> Q172678 -> Q2023710,Amitabh Bachchan -> Robert Redford -> Samuel L. Jackson -> Tom Holland,The Great Gatsby -> Captain America: The Winter Soldier -> Spider-Man: Far From Home,812408016,3
+323,medium,3,0.8232,Q37079,Tom Cruise,12,Q20752077,Mckenna Grace,52,Q37079 -> Q104791 -> Q178348 -> Q20752077,Tom Cruise -> Ed Harris -> Chris Evans -> Mckenna Grace,Top Gun: Maverick -> Snowpiercer -> Gifted,812926934,3
+324,medium,3,0.8228,Q165219,Robert Downey Jr.,35,Q151892,Ariana Grande,58,Q165219 -> Q41422 -> Q106706 -> Q151892,Robert Downey Jr. -> Mark Ruffalo -> Jeff Goldblum -> Ariana Grande,Avengers: Endgame -> Thor: Ragnarok -> Wicked,3307459617,3
+325,medium,3,0.8227,Q58444,Liam Neeson,20,Q20752077,Mckenna Grace,52,Q58444 -> Q28493 -> Q178348 -> Q20752077,Liam Neeson -> Ralph Fiennes -> Chris Evans -> Mckenna Grace,Clash of the Titans -> The Avengers -> Gifted,1159604500,3
+326,medium,3,0.8224,Q287607,Rob Reiner,38,Q2023710,Tom Holland,57,Q287607 -> Q188955 -> Q172678 -> Q2023710,Rob Reiner -> Matthew McConaughey -> Samuel L. Jackson -> Tom Holland,The Wolf of Wall Street -> A Time to Kill -> Spider-Man: Far From Home,699765556,3
+327,medium,3,0.8221,Q19848,Lady Gaga,31,Q39476,Emma Watson,60,Q19848 -> Q170572 -> Q873 -> Q39476,Lady Gaga -> Alec Baldwin -> Meryl Streep -> Emma Watson,A Star Is Born -> It's Complicated -> Little Women,757819469,3
+328,medium,3,0.8218,Q102642,Diane Keaton,14,Q20752077,Mckenna Grace,52,Q102642 -> Q171736 -> Q29250 -> Q20752077,Diane Keaton -> Robert Duvall -> Bill Murray -> Mckenna Grace,The Godfather -> Get Low -> Ghostbusters: Afterlife,409063251,3
+329,medium,3,0.8214,Q10738,Dwayne Johnson,32,Q151892,Ariana Grande,58,Q10738 -> Q2680 -> Q106706 -> Q151892,Dwayne Johnson -> Bruce Willis -> Jeff Goldblum -> Ariana Grande,G.I. Joe: Retaliation -> Death Wish -> Wicked,592600000,3
+330,medium,3,0.8205,Q9570,Amitabh Bachchan,16,Q39476,Emma Watson,60,Q9570 -> Q59215 -> Q873 -> Q39476,Amitabh Bachchan -> Robert Redford -> Meryl Streep -> Emma Watson,The Great Gatsby -> Out of Africa -> Little Women,689243109,3
+331,medium,3,0.8192,Q228943,Elle Fanning,10,Q20752077,Mckenna Grace,52,Q228943 -> Q159778 -> Q276525 -> Q20752077,Elle Fanning -> Michelle Pfeiffer -> Paul Rudd -> Mckenna Grace,Maleficent: Mistress of Evil -> Ant-Man and the Wasp: Quantumania -> Ghostbusters: Frozen Empire,223891266,3
+332,medium,3,0.8189,Q34436,Scarlett Johansson,1,Q151892,Ariana Grande,58,Q34436 -> Q41422 -> Q106706 -> Q151892,Scarlett Johansson -> Mark Ruffalo -> Jeff Goldblum -> Ariana Grande,Avengers: Endgame -> Thor: Ragnarok -> Wicked,3307459617,3
+333,medium,3,0.8187,Q20752077,Mckenna Grace,52,Q39476,Emma Watson,60,Q20752077 -> Q276525 -> Q101797 -> Q39476,Mckenna Grace -> Paul Rudd -> Winona Ryder -> Emma Watson,Ghostbusters: Frozen Empire -> The Ten -> Little Women,304186742,3
+334,medium,3,0.8183,Q37459,Nicole Kidman,13,Q20752077,Mckenna Grace,52,Q37459 -> Q4547 -> Q178348 -> Q20752077,Nicole Kidman -> Daniel Craig -> Chris Evans -> Mckenna Grace,The Golden Compass -> Knives Out -> Gifted,427825721,3
+335,medium,3,0.8181,Q20752077,Mckenna Grace,52,Q48337,Morgan Freeman,61,Q20752077 -> Q276525 -> Q41422 -> Q48337,Mckenna Grace -> Paul Rudd -> Mark Ruffalo -> Morgan Freeman,Ghostbusters: Frozen Empire -> Avengers: Endgame -> Now You See Me,3344525317,3
+336,medium,3,0.8177,Q287607,Rob Reiner,38,Q503706,Chris Pratt,62,Q287607 -> Q188955 -> Q36301 -> Q503706,Rob Reiner -> Matthew McConaughey -> Anne Hathaway -> Chris Pratt,The Wolf of Wall Street -> Interstellar -> Passengers,883164169,3
+337,medium,3,0.8175,Q103939,Charlie Sheen,34,Q151892,Ariana Grande,58,Q103939 -> Q188772 -> Q106706 -> Q151892,Charlie Sheen -> Willem Dafoe -> Jeff Goldblum -> Ariana Grande,Platoon -> The Life Aquatic with Steve Zissou -> Wicked,357450968,3
+338,medium,3,0.8152,Q25936414,Millie Bobby Brown,19,Q43044,Demi Moore,64,Q25936414 -> Q310637 -> Q103946 -> Q43044,Millie Bobby Brown -> Alexander Skarsgård -> Kiefer Sutherland -> Demi Moore,Godzilla vs. Kong -> Melancholia -> A Few Good Men,727362415,3
+339,medium,3,0.8131,Q189490,Jennifer Lawrence,29,Q34851,Elizabeth Taylor,72,Q189490 -> Q298347 -> Q1033016 -> Q34851,Jennifer Lawrence -> Nicholas Hoult -> Halle Berry -> Elizabeth Taylor,X-Men: Apocalypse -> X-Men: Days of Future Past -> The Flintstones,1631579805,3
+340,medium,3,0.8131,Q19848,Lady Gaga,31,Q150943,Gene Hackman,66,Q19848 -> Q170572 -> Q167520 -> Q150943,Lady Gaga -> Alec Baldwin -> Jon Voight -> Gene Hackman,A Star Is Born -> Pearl Harbor -> Enemy of the State,1130518255,3
+341,medium,3,0.8123,Q19848,Lady Gaga,31,Q349391,Helen Mirren,69,Q19848 -> Q170572 -> Q167520 -> Q349391,Lady Gaga -> Alec Baldwin -> Jon Voight -> Helen Mirren,A Star Is Born -> Pearl Harbor -> National Treasure: Book of Secrets,1337318255,3
+342,medium,3,0.812,Q19848,Lady Gaga,31,Q48337,Morgan Freeman,61,Q19848 -> Q170572 -> Q483118 -> Q48337,Lady Gaga -> Alec Baldwin -> Ben Affleck -> Morgan Freeman,A Star Is Born -> Pearl Harbor -> The Sum of All Fears,1073839627,3
+343,medium,3,0.8113,Q25936414,Millie Bobby Brown,19,Q32522,Jennifer Aniston,68,Q25936414 -> Q310637 -> Q37459 -> Q32522,Millie Bobby Brown -> Alexander Skarsgård -> Nicole Kidman -> Jennifer Aniston,Godzilla vs. Kong -> The Northman -> Just Go with It,688118392,3
+344,medium,3,0.8111,Q151892,Ariana Grande,58,Q48337,Morgan Freeman,61,Q151892 -> Q106706 -> Q220901 -> Q48337,Ariana Grande -> Jeff Goldblum -> Laura Dern -> Morgan Freeman,Wicked -> Jurassic World Dominion -> Teachers,599525317,3
+345,medium,3,0.8094,Q115541,Dakota Fanning,24,Q34851,Elizabeth Taylor,72,Q115541 -> Q42101 -> Q215072 -> Q34851,Dakota Fanning -> Denzel Washington -> John Goodman -> Elizabeth Taylor,The Equalizer 3 -> Flight -> The Flintstones,686200000,3
+346,medium,3,0.8083,Q9570,Amitabh Bachchan,16,Q25936414,Millie Bobby Brown,19,Q9570 -> Q59215 -> Q272972 -> Q25936414,Amitabh Bachchan -> Robert Redford -> Robin Wright -> Millie Bobby Brown,The Great Gatsby -> The Last Castle -> Damsel,371885955,2
+347,medium,3,0.808,Q2831,Michael Jackson,3,Q43416,Keanu Reeves,4,Q2831 -> Q119798 -> Q180942 -> Q43416,Michael Jackson -> Michael Douglas -> Shia LaBeouf -> Keanu Reeves,Barbra: The Concert -> Wall Street: Money Never Sleeps -> Constantine,159540994,2
+348,medium,3,0.8076,Q34851,Elizabeth Taylor,72,Q169963,Jason Statham,78,Q34851 -> Q1033016 -> Q103157 -> Q169963,Elizabeth Taylor -> Halle Berry -> Kurt Russell -> Jason Statham,The Flintstones -> Executive Decision -> The Fate of the Furious,689577601,3
+349,medium,3,0.8073,Q2831,Michael Jackson,3,Q37079,Tom Cruise,12,Q2831 -> Q119798 -> Q43044 -> Q37079,Michael Jackson -> Michael Douglas -> Demi Moore -> Tom Cruise,Barbra: The Concert -> Disclosure -> A Few Good Men,457215089,2
+350,medium,3,0.807,Q151892,Ariana Grande,58,Q169963,Jason Statham,78,Q151892 -> Q106706 -> Q342604 -> Q169963,Ariana Grande -> Jeff Goldblum -> Idris Elba -> Jason Statham,Wicked -> Thor: Ragnarok -> Hobbs & Shaw,683915224,3
+351,medium,3,0.807,Q83287,Selena Gomez,18,Q34851,Elizabeth Taylor,72,Q83287 -> Q104061 -> Q215072 -> Q34851,Selena Gomez -> Steve Buscemi -> John Goodman -> Elizabeth Taylor,The Dead Don't Die -> The Big Lebowski -> The Flintstones,394163605,3
+352,medium,3,0.8064,Q19848,Lady Gaga,31,Q169963,Jason Statham,78,Q19848 -> Q170572 -> Q160432 -> Q169963,Lady Gaga -> Alec Baldwin -> Jude Law -> Jason Statham,A Star Is Born -> The Aviator -> Spy,880159714,3
+353,medium,3,0.8037,Q2831,Michael Jackson,3,Q42869,Nicolas Cage,11,Q2831 -> Q119798 -> Q103784 -> Q42869,Michael Jackson -> Michael Douglas -> Donald Sutherland -> Nicolas Cage,Barbra: The Concert -> Disclosure -> Lord of War,238164721,2
+354,medium,3,0.803,Q34851,Elizabeth Taylor,72,Q81328,Harrison Ford,84,Q34851 -> Q1033016 -> Q80405 -> Q81328,Elizabeth Taylor -> Halle Berry -> Julianne Moore -> Harrison Ford,The Flintstones -> Kingsman: The Golden Circle -> The Fugitive,936378422,3
+355,medium,3,0.8023,Q147077,Emma Stone,45,Q169963,Jason Statham,78,Q147077 -> Q184572 -> Q164119 -> Q169963,Emma Stone -> Martin Sheen -> Mark Wahlberg -> Jason Statham,The Amazing Spider-Man -> The Departed -> The Italian Job,1066400228,3
+356,medium,3,0.8016,Q9570,Amitabh Bachchan,16,Q180560,Philip Seymour Hoffman,76,Q9570 -> Q59215 -> Q201279 -> Q180560,Amitabh Bachchan -> Robert Redford -> Woody Harrelson -> Philip Seymour Hoffman,The Great Gatsby -> Indecent Proposal -> The Hunger Games: Mockingjay – Part 1,957377780,3
+357,medium,3,0.801,Q151892,Ariana Grande,58,Q178348,Chris Evans,79,Q151892 -> Q106706 -> Q342604 -> Q178348,Ariana Grande -> Jeff Goldblum -> Idris Elba -> Chris Evans,Wicked -> Thor: Ragnarok -> The Losers,539338012,3
+358,medium,3,0.8008,Q19848,Lady Gaga,31,Q81328,Harrison Ford,84,Q19848 -> Q170572 -> Q80966 -> Q81328,Lady Gaga -> Alec Baldwin -> Cate Blanchett -> Harrison Ford,A Star Is Born -> The Aviator -> Indiana Jones and the Kingdom of the Crystal Skull,961560833,3
+359,medium,3,0.8007,Q19848,Lady Gaga,31,Q193517,Emily Blunt,83,Q19848 -> Q170572 -> Q37079 -> Q193517,Lady Gaga -> Alec Baldwin -> Tom Cruise -> Emily Blunt,A Star Is Born -> Mission: Impossible – Fallout -> Edge of Tomorrow,1021377359,3
+360,medium,3,0.8001,Q36970,Jackie Chan,7,Q13909,Angelina Jolie,17,Q36970 -> Q2685 -> Q26806 -> Q13909,Jackie Chan -> Arnold Schwarzenegger -> Danny DeVito -> Angelina Jolie,Around the World in 80 Days -> Twins -> The One and Only Ivan,288793283,2
+361,medium,3,0.7993,Q9570,Amitabh Bachchan,16,Q58444,Liam Neeson,20,Q9570 -> Q59215 -> Q873 -> Q58444,Amitabh Bachchan -> Robert Redford -> Meryl Streep -> Liam Neeson,The Great Gatsby -> Out of Africa -> Before and After,581141895,2
+362,medium,3,0.798,Q2831,Michael Jackson,3,Q19877770,Timothée Chalamet,23,Q2831 -> Q119798 -> Q193668 -> Q19877770,Michael Jackson -> Michael Douglas -> Benicio del Toro -> Timothée Chalamet,Barbra: The Concert -> Traffic -> The French Dispatch,223624375,2
+363,medium,3,0.7977,Q2831,Michael Jackson,3,Q37459,Nicole Kidman,13,Q2831 -> Q119798 -> Q185051 -> Q37459,Michael Jackson -> Michael Douglas -> Christopher Walken -> Nicole Kidman,Barbra: The Concert -> The Sentinel -> The Stepford Wives,106000000,2
+364,medium,3,0.7975,Q20752077,Mckenna Grace,52,Q83492,Gary Oldman,77,Q20752077 -> Q26308335 -> Q229313 -> Q83492,Mckenna Grace -> Finn Wolfhard -> Jessica Chastain -> Gary Oldman,Ghostbusters: Frozen Empire -> It: Chapter Two -> Lawless,460599105,3
+365,medium,3,0.7971,Q208026,Tom Hardy,86,Q42229,Mel Gibson,88,Q208026 -> Q156796 -> Q40572 -> Q42229,Tom Hardy -> Michelle Williams -> Heath Ledger -> Mel Gibson,Venom -> Brokeback Mountain -> The Patriot,1249379493,3
+366,medium,3,0.797,Q9570,Amitabh Bachchan,16,Q37175,Johnny Depp,22,Q9570 -> Q59215 -> Q202735 -> Q37175,Amitabh Bachchan -> Robert Redford -> Billy Bob Thornton -> Johnny Depp,The Great Gatsby -> Indecent Proposal -> London Fields,620241895,2
+367,medium,3,0.7967,Q20752077,Mckenna Grace,52,Q208026,Tom Hardy,86,Q20752077 -> Q26308335 -> Q229313 -> Q208026,Mckenna Grace -> Finn Wolfhard -> Jessica Chastain -> Tom Hardy,Ghostbusters: Frozen Empire -> It: Chapter Two -> Lawless,460599105,3
+368,medium,3,0.7962,Q19848,Lady Gaga,31,Q40026,Sylvester Stallone,33,Q19848 -> Q170572 -> Q79031 -> Q40026,Lady Gaga -> Alec Baldwin -> Mike Tyson -> Sylvester Stallone,A Star Is Born -> Back in the Day -> Rocky Balboa,586439387,2
+369,medium,3,0.7961,Q2831,Michael Jackson,3,Q189490,Jennifer Lawrence,29,Q2831 -> Q119798 -> Q103784 -> Q189490,Michael Jackson -> Michael Douglas -> Donald Sutherland -> Jennifer Lawrence,Barbra: The Concert -> Disclosure -> The Hunger Games: Mockingjay – Part 1,551150974,2
+370,medium,3,0.7959,Q2685,Arnold Schwarzenegger,15,Q19848,Lady Gaga,31,Q2685 -> Q2680 -> Q185140 -> Q19848,Arnold Schwarzenegger -> Bruce Willis -> Joaquin Phoenix -> Lady Gaga,The Expendables 2 -> I'm Still Here -> Joker: Folie à Deux,518975955,2
+371,medium,3,0.7954,Q10738,Dwayne Johnson,32,Q81328,Harrison Ford,84,Q10738 -> Q2680 -> Q272972 -> Q81328,Dwayne Johnson -> Bruce Willis -> Robin Wright -> Harrison Ford,G.I. Joe: Retaliation -> Unbreakable -> Blade Runner 2049,883039658,3
+372,medium,3,0.7952,Q34851,Elizabeth Taylor,72,Q106514,River Phoenix,95,Q34851 -> Q1033016 -> Q43416 -> Q106514,Elizabeth Taylor -> Halle Berry -> Keanu Reeves -> River Phoenix,The Flintstones -> John Wick: Chapter 3 – Parabellum -> My Own Private Idaho,519021784,3
+373,medium,3,0.7947,Q19848,Lady Gaga,31,Q202589,Cillian Murphy,90,Q19848 -> Q170572 -> Q38111 -> Q202589,Lady Gaga -> Alec Baldwin -> Leonardo DiCaprio -> Cillian Murphy,A Star Is Born -> The Aviator -> Inception,937047044,3
+374,medium,3,0.7947,Q9570,Amitabh Bachchan,16,Q10738,Dwayne Johnson,32,Q9570 -> Q59215 -> Q202735 -> Q10738,Amitabh Bachchan -> Robert Redford -> Billy Bob Thornton -> Dwayne Johnson,The Great Gatsby -> Indecent Proposal -> Faster,620241895,2
+375,medium,3,0.7938,Q19848,Lady Gaga,31,Q180942,Shia LaBeouf,94,Q19848 -> Q170572 -> Q167520 -> Q180942,Lady Gaga -> Alec Baldwin -> Jon Voight -> Shia LaBeouf,A Star Is Born -> Pearl Harbor -> Transformers,1199164448,3
+376,medium,3,0.7934,Q19848,Lady Gaga,31,Q287607,Rob Reiner,38,Q19848 -> Q170572 -> Q873 -> Q287607,Lady Gaga -> Alec Baldwin -> Meryl Streep -> Rob Reiner,A Star Is Born -> It's Complicated -> Postcards from the Edge,649718255,2
+377,medium,3,0.7931,Q306403,James Franco,28,Q19848,Lady Gaga,31,Q306403 -> Q76478 -> Q170572 -> Q19848,James Franco -> Kirsten Dunst -> Alec Baldwin -> Lady Gaga,Spider-Man -> Elizabethtown -> A Star Is Born,837741115,2
+378,medium,3,0.7929,Q19848,Lady Gaga,31,Q208667,Stellan Skarsgård,91,Q19848 -> Q170572 -> Q483118 -> Q208667,Lady Gaga -> Alec Baldwin -> Ben Affleck -> Stellan Skarsgård,A Star Is Born -> Pearl Harbor -> Good Will Hunting,1105818255,3
+379,medium,3,0.7928,Q25936414,Millie Bobby Brown,19,Q202589,Cillian Murphy,90,Q25936414 -> Q310637 -> Q58444 -> Q202589,Millie Bobby Brown -> Alexander Skarsgård -> Liam Neeson -> Cillian Murphy,Godzilla vs. Kong -> Battleship -> Batman Begins,819987019,3
+380,medium,3,0.7926,Q19848,Lady Gaga,31,Q103939,Charlie Sheen,34,Q19848 -> Q170572 -> Q41142 -> Q103939,Lady Gaga -> Alec Baldwin -> Jane Fonda -> Charlie Sheen,A Star Is Born -> Fun with Dick and Jane -> The Chase,632744367,2
+381,medium,3,0.7917,Q9570,Amitabh Bachchan,16,Q202589,Cillian Murphy,90,Q9570 -> Q59215 -> Q178348 -> Q202589,Amitabh Bachchan -> Robert Redford -> Chris Evans -> Cillian Murphy,The Great Gatsby -> Captain America: The Winter Soldier -> Sunshine,645426270,3
+382,medium,3,0.7915,Q228943,Elle Fanning,10,Q40026,Sylvester Stallone,33,Q228943 -> Q13909 -> Q207969 -> Q40026,Elle Fanning -> Angelina Jolie -> Eric Roberts -> Sylvester Stallone,Maleficent -> Confessions of an Action Star -> The Expendables,1032910378,2
+383,medium,3,0.7908,Q2685,Arnold Schwarzenegger,15,Q40572,Heath Ledger,30,Q2685 -> Q106997 -> Q190523 -> Q40572,Arnold Schwarzenegger -> Jamie Lee Curtis -> Christopher Plummer -> Heath Ledger,True Lies -> Knives Out -> The Imaginarium of Doctor Parnassus,391426678,2
+384,medium,3,0.7903,Q190162,Zoe Saldaña,43,Q106514,River Phoenix,95,Q190162 -> Q44158 -> Q81328 -> Q106514,Zoe Saldaña -> Dave Bautista -> Harrison Ford -> River Phoenix,Guardians of the Galaxy Vol. 2 -> Blade Runner 2049 -> Indiana Jones and the Last Crusade,846224565,3
+385,medium,3,0.7903,Q1744,Madonna,92,Q40504,Jim Carrey,93,Q1744 -> Q41548 -> Q76478 -> Q40504,Madonna -> Antonio Banderas -> Kirsten Dunst -> Jim Carrey,Evita -> Interview with the Vampire -> Eternal Sunshine of the Spotless Mind,399100301,3
+386,medium,3,0.7902,Q25936414,Millie Bobby Brown,19,Q103939,Charlie Sheen,34,Q25936414 -> Q310637 -> Q103946 -> Q103939,Millie Bobby Brown -> Alexander Skarsgård -> Kiefer Sutherland -> Charlie Sheen,Godzilla vs. Kong -> Melancholia -> The Three Musketeers,484162415,2
+387,medium,3,0.7899,Q36970,Jackie Chan,7,Q81328,Harrison Ford,84,Q36970 -> Q2685 -> Q171736 -> Q81328,Jackie Chan -> Arnold Schwarzenegger -> Robert Duvall -> Harrison Ford,Around the World in 80 Days -> The 6th Day -> The Conversation,192850700,3
+388,medium,3,0.7899,Q9570,Amitabh Bachchan,16,Q40504,Jim Carrey,93,Q9570 -> Q59215 -> Q873 -> Q40504,Amitabh Bachchan -> Robert Redford -> Meryl Streep -> Jim Carrey,The Great Gatsby -> Out of Africa -> Lemony Snicket's A Series of Unfortunate Events,790215540,3
+389,medium,3,0.7896,Q25936414,Millie Bobby Brown,19,Q40504,Jim Carrey,93,Q25936414 -> Q310637 -> Q873 -> Q40504,Millie Bobby Brown -> Alexander Skarsgård -> Meryl Streep -> Jim Carrey,Godzilla vs. Kong -> The Giver -> Lemony Snicket's A Series of Unfortunate Events,743651500,3
+390,medium,3,0.7896,Q169963,Jason Statham,78,Q106514,River Phoenix,95,Q169963 -> Q181678 -> Q43416 -> Q106514,Jason Statham -> Dolph Lundgren -> Keanu Reeves -> River Phoenix,The Expendables 2 -> Johnny Mnemonic -> My Own Private Idaho,340457772,3
+391,medium,3,0.7894,Q19848,Lady Gaga,31,Q192682,Ryan Reynolds,40,Q19848 -> Q170572 -> Q483118 -> Q192682,Lady Gaga -> Alec Baldwin -> Ben Affleck -> Ryan Reynolds,A Star Is Born -> Pearl Harbor -> Smokin' Aces,879918255,2
+392,medium,3,0.7891,Q34851,Elizabeth Taylor,72,Q284636,Jason Bateman,96,Q34851 -> Q1033016 -> Q43416 -> Q284636,Elizabeth Taylor -> Halle Berry -> Keanu Reeves -> Jason Bateman,The Flintstones -> John Wick: Chapter 3 – Parabellum -> The Gift,572615687,3
+393,medium,3,0.7886,Q36970,Jackie Chan,7,Q37175,Johnny Depp,22,Q36970 -> Q2685 -> Q150482 -> Q37175,Jackie Chan -> Arnold Schwarzenegger -> J. K. Simmons -> Johnny Depp,Around the World in 80 Days -> Terminator Genisys -> The Black Ghiandola,161939851,2
+394,medium,3,0.7882,Q2023710,Tom Holland,57,Q284636,Jason Bateman,96,Q2023710 -> Q244674 -> Q190386 -> Q284636,Tom Holland -> Benedict Cumberbatch -> Rachel McAdams -> Jason Bateman,Spider-Man: No Way Home -> Doctor Strange -> State of Play,1124194714,3
+395,medium,3,0.7874,Q9570,Amitabh Bachchan,16,Q80046,Charlize Theron,36,Q9570 -> Q59215 -> Q201279 -> Q80046,Amitabh Bachchan -> Robert Redford -> Woody Harrelson -> Charlize Theron,The Great Gatsby -> Indecent Proposal -> Battle in Seattle,620241895,2
+396,medium,3,0.7871,Q151892,Ariana Grande,58,Q28493,Ralph Fiennes,99,Q151892 -> Q106706 -> Q41422 -> Q28493,Ariana Grande -> Jeff Goldblum -> Mark Ruffalo -> Ralph Fiennes,Wicked -> Thor: Ragnarok -> The Avengers,1133316199,3
+397,medium,3,0.7867,Q34851,Elizabeth Taylor,72,Q676094,Drew Barrymore,100,Q34851 -> Q1033016 -> Q162492 -> Q676094,Elizabeth Taylor -> Halle Berry -> Colin Firth -> Drew Barrymore,The Flintstones -> Kingsman: The Golden Circle -> Fever Pitch,794573731,3
+398,medium,3,0.7866,Q2831,Michael Jackson,3,Q483118,Ben Affleck,27,Q2831 -> Q119798 -> Q175535 -> Q483118,Michael Jackson -> Michael Douglas -> Matt Damon -> Ben Affleck,Barbra: The Concert -> Behind the Candelabra -> Good Will Hunting,239300000,2
+399,medium,3,0.7863,Q19848,Lady Gaga,31,Q44437,John Cena,46,Q19848 -> Q170572 -> Q295498 -> Q44437,Lady Gaga -> Alec Baldwin -> Henry Cavill -> John Cena,A Star Is Born -> Mission: Impossible – Fallout -> Argylle,650877359,2
+400,medium,3,0.7856,Q287607,Rob Reiner,38,Q284636,Jason Bateman,96,Q287607 -> Q188955 -> Q172035 -> Q284636,Rob Reiner -> Matthew McConaughey -> Colin Farrell -> Jason Bateman,The Wolf of Wall Street -> The Gentlemen -> Horrible Bosses,716596853,3
+401,medium,3,0.7848,Q9570,Amitabh Bachchan,16,Q44437,John Cena,46,Q9570 -> Q59215 -> Q172678 -> Q44437,Amitabh Bachchan -> Robert Redford -> Samuel L. Jackson -> John Cena,The Great Gatsby -> Captain America: The Winter Soldier -> Argylle,613408467,2
+402,medium,3,0.7846,Q9570,Amitabh Bachchan,16,Q190162,Zoe Saldaña,43,Q9570 -> Q59215 -> Q201279 -> Q190162,Amitabh Bachchan -> Robert Redford -> Woody Harrelson -> Zoe Saldaña,The Great Gatsby -> Indecent Proposal -> Out of the Furnace,620241895,2
+403,medium,3,0.7845,Q40026,Sylvester Stallone,33,Q59215,Robert Redford,37,Q40026 -> Q2685 -> Q171736 -> Q59215,Sylvester Stallone -> Arnold Schwarzenegger -> Robert Duvall -> Robert Redford,The Expendables 2 -> The 6th Day -> Casting By,430975955,2
+404,medium,3,0.7837,Q9570,Amitabh Bachchan,16,Q676094,Drew Barrymore,100,Q9570 -> Q59215 -> Q43044 -> Q676094,Amitabh Bachchan -> Robert Redford -> Demi Moore -> Drew Barrymore,The Great Gatsby -> Indecent Proposal -> Charlie's Angels: Full Throttle,879441895,3
+405,medium,3,0.7835,Q40026,Sylvester Stallone,33,Q180338,Christopher Lee,41,Q40026 -> Q2685 -> Q185051 -> Q180338,Sylvester Stallone -> Arnold Schwarzenegger -> Christopher Walken -> Christopher Lee,The Expendables 2 -> The Rundown -> One More Time,395892447,2
+406,medium,3,0.7832,Q83287,Selena Gomez,18,Q287607,Rob Reiner,38,Q83287 -> Q104061 -> Q2680 -> Q287607,Selena Gomez -> Steve Buscemi -> Bruce Willis -> Rob Reiner,The Dead Don't Die -> Armageddon -> The Story of Us,208141787,2
+407,medium,3,0.7831,Q19848,Lady Gaga,31,Q28493,Ralph Fiennes,99,Q19848 -> Q170572 -> Q160432 -> Q28493,Lady Gaga -> Alec Baldwin -> Jude Law -> Ralph Fiennes,A Star Is Born -> The Aviator -> The Grand Budapest Hotel,703761038,3
+408,medium,3,0.7827,Q180338,Christopher Lee,41,Q20752077,Mckenna Grace,52,Q180338 -> Q172678 -> Q43874 -> Q20752077,Christopher Lee -> Samuel L. Jackson -> Eddie Murphy -> Mckenna Grace,Star Wars: Episode III – Revenge of the Sith -> Coming to America -> Mr. Church,1194395947,2
+409,medium,3,0.7826,Q19848,Lady Gaga,31,Q20752077,Mckenna Grace,52,Q19848 -> Q170572 -> Q29250 -> Q20752077,Lady Gaga -> Alec Baldwin -> Bill Murray -> Mckenna Grace,A Star Is Born -> Aloha -> Ghostbusters: Afterlife,560078830,2
+410,medium,3,0.7823,Q147077,Emma Stone,45,Q44437,John Cena,46,Q147077 -> Q184572 -> Q295233 -> Q44437,Emma Stone -> Martin Sheen -> John Leguizamo -> John Cena,The Amazing Spider-Man -> Spawn -> Playing with Fire,812800838,2
+411,medium,3,0.7808,Q19848,Lady Gaga,31,Q81520,Pierce Brosnan,48,Q19848 -> Q170572 -> Q179414 -> Q81520,Lady Gaga -> Alec Baldwin -> Kate Beckinsale -> Pierce Brosnan,A Star Is Born -> Pearl Harbor -> The Only Living Boy in New York,879918255,2
+412,medium,3,0.78,Q189490,Jennifer Lawrence,29,Q44437,John Cena,46,Q189490 -> Q298347 -> Q45923 -> Q44437,Jennifer Lawrence -> Nicholas Hoult -> Aaron Taylor-Johnson -> John Cena,X-Men: Apocalypse -> Nosferatu -> The Wall,545737169,2
+413,medium,3,0.7798,Q9570,Amitabh Bachchan,16,Q76478,Kirsten Dunst,44,Q9570 -> Q59215 -> Q201279 -> Q76478,Amitabh Bachchan -> Robert Redford -> Woody Harrelson -> Kirsten Dunst,The Great Gatsby -> Indecent Proposal -> Wag the Dog,620241895,2
+414,medium,3,0.7797,Q36970,Jackie Chan,7,Q676094,Drew Barrymore,100,Q36970 -> Q2685 -> Q106997 -> Q676094,Jackie Chan -> Arnold Schwarzenegger -> Jamie Lee Curtis -> Drew Barrymore,Around the World in 80 Days -> True Lies -> Beverly Hills Chihuahua,600342912,3
+415,medium,3,0.7792,Q36970,Jackie Chan,7,Q180338,Christopher Lee,41,Q36970 -> Q2685 -> Q185051 -> Q180338,Jackie Chan -> Arnold Schwarzenegger -> Christopher Walken -> Christopher Lee,Around the World in 80 Days -> The Rundown -> One More Time,153095387,2
+416,medium,3,0.7787,Q19848,Lady Gaga,31,Q151892,Ariana Grande,58,Q19848 -> Q170572 -> Q873 -> Q151892,Lady Gaga -> Alec Baldwin -> Meryl Streep -> Ariana Grande,A Star Is Born -> It's Complicated -> Don't Look Up,649718255,2
+417,medium,3,0.7784,Q2023710,Tom Holland,57,Q151892,Ariana Grande,58,Q2023710 -> Q244674 -> Q873 -> Q151892,Tom Holland -> Benedict Cumberbatch -> Meryl Streep -> Ariana Grande,Spider-Man: No Way Home -> August: Osage County -> Don't Look Up,888315070,2
+418,medium,3,0.7779,Q36970,Jackie Chan,7,Q192682,Ryan Reynolds,40,Q36970 -> Q2685 -> Q10738 -> Q192682,Jackie Chan -> Arnold Schwarzenegger -> Dwayne Johnson -> Ryan Reynolds,Around the World in 80 Days -> The Rundown -> Red Notice,153095387,2
+419,medium,3,0.7772,Q36970,Jackie Chan,7,Q20752077,Mckenna Grace,52,Q36970 -> Q180560 -> Q217004 -> Q20752077,Jackie Chan -> Philip Seymour Hoffman -> Josh Hutcherson -> Mckenna Grace,The Master -> The Hunger Games: Mockingjay – Part 1 -> Five Nights at Freddy's 2,365335885,2
+420,medium,3,0.777,Q9570,Amitabh Bachchan,16,Q151892,Ariana Grande,58,Q9570 -> Q59215 -> Q873 -> Q151892,Amitabh Bachchan -> Robert Redford -> Meryl Streep -> Ariana Grande,The Great Gatsby -> Out of Africa -> Don't Look Up,581141895,2
+421,medium,3,0.7769,Q19848,Lady Gaga,31,Q2023710,Tom Holland,57,Q19848 -> Q170572 -> Q34460 -> Q2023710,Lady Gaga -> Alec Baldwin -> Gwyneth Paltrow -> Tom Holland,A Star Is Born -> Running with Scissors -> Spider-Man: Homecoming,764919395,2
+422,medium,3,0.7769,Q2831,Michael Jackson,3,Q36301,Anne Hathaway,42,Q2831 -> Q119798 -> Q175535 -> Q36301,Michael Jackson -> Michael Douglas -> Matt Damon -> Anne Hathaway,Barbra: The Concert -> Behind the Candelabra -> Interstellar,201420017,2
+423,medium,3,0.7769,Q192682,Ryan Reynolds,40,Q151892,Ariana Grande,58,Q192682 -> Q129591 -> Q106706 -> Q151892,Ryan Reynolds -> Hugh Jackman -> Jeff Goldblum -> Ariana Grande,Deadpool & Wolverine -> Stories of Lost Souls -> Wicked,1532973645,2
+424,medium,3,0.7767,Q13909,Angelina Jolie,17,Q20752077,Mckenna Grace,52,Q13909 -> Q35332 -> Q220584 -> Q20752077,Angelina Jolie -> Brad Pitt -> Michael Madsen -> Mckenna Grace,Mr. & Mrs. Smith -> Once Upon a Time in Hollywood -> Frankenstein,852551146,2
+425,medium,3,0.7766,Q25936414,Millie Bobby Brown,19,Q151892,Ariana Grande,58,Q25936414 -> Q310637 -> Q873 -> Q151892,Millie Bobby Brown -> Alexander Skarsgård -> Meryl Streep -> Ariana Grande,Godzilla vs. Kong -> The Giver -> Don't Look Up,534577855,2
+426,medium,3,0.7762,Q2831,Michael Jackson,3,Q20752077,Mckenna Grace,52,Q2831 -> Q119798 -> Q276525 -> Q20752077,Michael Jackson -> Michael Douglas -> Paul Rudd -> Mckenna Grace,Barbra: The Concert -> Ant-Man and the Wasp: Quantumania -> Ghostbusters: Frozen Empire,201249118,2
+427,medium,3,0.7755,Q9570,Amitabh Bachchan,16,Q23844,George Clooney,53,Q9570 -> Q59215 -> Q202735 -> Q23844,Amitabh Bachchan -> Robert Redford -> Billy Bob Thornton -> George Clooney,The Great Gatsby -> Indecent Proposal -> Intolerable Cruelty,620241895,2
+428,medium,3,0.7753,Q147077,Emma Stone,45,Q151892,Ariana Grande,58,Q147077 -> Q184572 -> Q38111 -> Q151892,Emma Stone -> Martin Sheen -> Leonardo DiCaprio -> Ariana Grande,The Amazing Spider-Man -> Catch Me If You Can -> Don't Look Up,922546014,2
+429,medium,3,0.7748,Q25936414,Millie Bobby Brown,19,Q23844,George Clooney,53,Q25936414 -> Q310637 -> Q174843 -> Q23844,Millie Bobby Brown -> Alexander Skarsgård -> Jeff Bridges -> George Clooney,Godzilla vs. Kong -> The Giver -> The Men Who Stare at Goats,534577855,2
+430,medium,3,0.7748,Q36301,Anne Hathaway,42,Q20752077,Mckenna Grace,52,Q36301 -> Q170428 -> Q29250 -> Q20752077,Anne Hathaway -> Helena Bonham Carter -> Bill Murray -> Mckenna Grace,Les Misérables -> Hamlet -> Ghostbusters: Afterlife,571170345,2
+431,medium,3,0.7746,Q2831,Michael Jackson,3,Q23844,George Clooney,53,Q2831 -> Q119798 -> Q47664 -> Q23844,Michael Jackson -> Michael Douglas -> Catherine Zeta-Jones -> George Clooney,Barbra: The Concert -> Traffic -> Ocean's Twelve,570489076,2
+432,medium,3,0.7735,Q104514,Adrien Brody,50,Q151892,Ariana Grande,58,Q104514 -> Q132616 -> Q38111 -> Q151892,Adrien Brody -> Naomi Watts -> Leonardo DiCaprio -> Ariana Grande,King Kong -> J. Edgar -> Don't Look Up,635117357,2
+433,medium,3,0.7726,Q76478,Kirsten Dunst,44,Q20752077,Mckenna Grace,52,Q76478 -> Q306403 -> Q217004 -> Q20752077,Kirsten Dunst -> James Franco -> Josh Hutcherson -> Mckenna Grace,Spider-Man -> The Disaster Artist -> Five Nights at Freddy's 2,428143476,2
+434,medium,3,0.7726,Q42869,Nicolas Cage,11,Q20752077,Mckenna Grace,52,Q42869 -> Q167520 -> Q276525 -> Q20752077,Nicolas Cage -> Jon Voight -> Paul Rudd -> Mckenna Grace,National Treasure: Book of Secrets -> Anaconda -> Ghostbusters: Frozen Empire,652700000,2
+435,medium,3,0.7726,Q190162,Zoe Saldaña,43,Q151892,Ariana Grande,58,Q190162 -> Q44158 -> Q19877770 -> Q151892,Zoe Saldaña -> Dave Bautista -> Timothée Chalamet -> Ariana Grande,Guardians of the Galaxy Vol. 2 -> Dune -> Don't Look Up,498140931,2
+436,medium,3,0.7701,Q123351,Michael Caine,51,Q151892,Ariana Grande,58,Q123351 -> Q162492 -> Q873 -> Q151892,Michael Caine -> Colin Firth -> Meryl Streep -> Ariana Grande,Kingsman: The Secret Service -> Mamma Mia! -> Don't Look Up,1024248351,2
+437,medium,3,0.7683,Q306403,James Franco,28,Q151892,Ariana Grande,58,Q306403 -> Q156796 -> Q38111 -> Q151892,James Franco -> Michelle Williams -> Leonardo DiCaprio -> Ariana Grande,Oz the Great and Powerful -> Shutter Island -> Don't Look Up,621324759,2
+438,medium,3,0.7675,Q44437,John Cena,46,Q39476,Emma Watson,60,Q44437 -> Q342604 -> Q83492 -> Q39476,John Cena -> Idris Elba -> Gary Oldman -> Emma Watson,The Suicide Squad -> The Unborn -> Harry Potter and the Prisoner of Azkaban,276311066,2
+439,medium,3,0.7673,Q151892,Ariana Grande,58,Q43044,Demi Moore,64,Q151892 -> Q106706 -> Q170572 -> Q43044,Ariana Grande -> Jeff Goldblum -> Alec Baldwin -> Demi Moore,Wicked -> Cats & Dogs -> Blind,395600000,2
+440,medium,3,0.7671,Q2023710,Tom Holland,57,Q34851,Elizabeth Taylor,72,Q2023710 -> Q191828 -> Q215072 -> Q34851,Tom Holland -> Marisa Tomei -> John Goodman -> Elizabeth Taylor,Spider-Man: No Way Home -> Love the Coopers -> The Flintstones,1155715070,2
+441,medium,3,0.7661,Q19848,Lady Gaga,31,Q34851,Elizabeth Taylor,72,Q19848 -> Q170572 -> Q41142 -> Q34851,Lady Gaga -> Alec Baldwin -> Jane Fonda -> Elizabeth Taylor,A Star Is Born -> Fun with Dick and Jane -> The Blue Bird,632744367,2
+442,medium,3,0.7646,Q151892,Ariana Grande,58,Q349391,Helen Mirren,69,Q151892 -> Q106706 -> Q40096 -> Q349391,Ariana Grande -> Jeff Goldblum -> Will Smith -> Helen Mirren,Wicked -> Independence Day -> Collateral Beauty,1012300891,2
+443,medium,3,0.764,Q192682,Ryan Reynolds,40,Q34851,Elizabeth Taylor,72,Q192682 -> Q129591 -> Q123351 -> Q34851,Ryan Reynolds -> Hugh Jackman -> Michael Caine -> Elizabeth Taylor,Deadpool & Wolverine -> The Prestige -> Zee and Co.,1391163536,2
+444,medium,3,0.7635,Q287607,Rob Reiner,38,Q34851,Elizabeth Taylor,72,Q287607 -> Q188955 -> Q123351 -> Q34851,Rob Reiner -> Matthew McConaughey -> Michael Caine -> Elizabeth Taylor,The Wolf of Wall Street -> Interstellar -> Zee and Co.,580020017,2
+445,medium,3,0.7632,Q19848,Lady Gaga,31,Q189226,Amanda Seyfried,67,Q19848 -> Q170572 -> Q295498 -> Q189226,Lady Gaga -> Alec Baldwin -> Henry Cavill -> Amanda Seyfried,A Star Is Born -> Mission: Impossible – Fallout -> Red Riding Hood,650877359,2
+446,medium,3,0.7631,Q20752077,Mckenna Grace,52,Q34851,Elizabeth Taylor,72,Q20752077 -> Q276525 -> Q123351 -> Q34851,Mckenna Grace -> Paul Rudd -> Michael Caine -> Elizabeth Taylor,Ghostbusters: Frozen Empire -> The Cider House Rules -> Zee and Co.,283800000,2
+447,medium,3,0.763,Q32522,Jennifer Aniston,68,Q34851,Elizabeth Taylor,72,Q32522 -> Q40504 -> Q41142 -> Q34851,Jennifer Aniston -> Jim Carrey -> Jane Fonda -> Elizabeth Taylor,Bruce Almighty -> Fun with Dick and Jane -> The Blue Bird,686598947,2
+448,medium,3,0.7627,Q44437,John Cena,46,Q43044,Demi Moore,64,Q44437 -> Q178166 -> Q123351 -> Q43044,John Cena -> Vin Diesel -> Michael Caine -> Demi Moore,F9 -> The Last Witch Hunter -> Flawless,319942855,2
+449,medium,3,0.7625,Q2831,Michael Jackson,3,Q36970,Jackie Chan,7,Q2831 -> Q119798 -> Q2685 -> Q36970,Michael Jackson -> Michael Douglas -> Arnold Schwarzenegger -> Jackie Chan,Barbra: The Concert -> Nuclear Tipping Point -> Around the World in 80 Days,72178895,1
+450,medium,3,0.7623,Q2831,Michael Jackson,3,Q101797,Winona Ryder,59,Q2831 -> Q119798 -> Q133050 -> Q101797,Michael Jackson -> Michael Douglas -> Susan Sarandon -> Winona Ryder,Barbra: The Concert -> Wall Street: Money Never Sleeps -> Little Women,237873110,2
+451,medium,3,0.7617,Q9570,Amitabh Bachchan,16,Q189226,Amanda Seyfried,67,Q9570 -> Q59215 -> Q455898 -> Q189226,Amitabh Bachchan -> Robert Redford -> Sebastian Stan -> Amanda Seyfried,The Great Gatsby -> Captain America: The Winter Soldier -> Gone,613408467,2
+452,medium,3,0.7615,Q228943,Elle Fanning,10,Q9570,Amitabh Bachchan,16,Q228943 -> Q13909 -> Q169982 -> Q9570,Elle Fanning -> Angelina Jolie -> Gerard Butler -> Amitabh Bachchan,Maleficent -> Lara Croft: Tomb Raider – The Cradle of Life -> Kandahar,758410378,1
+453,medium,3,0.761,Q44437,John Cena,46,Q34851,Elizabeth Taylor,72,Q44437 -> Q178166 -> Q123351 -> Q34851,John Cena -> Vin Diesel -> Michael Caine -> Elizabeth Taylor,F9 -> The Last Witch Hunter -> Zee and Co.,319942855,2
+454,medium,3,0.7608,Q180338,Christopher Lee,41,Q150943,Gene Hackman,66,Q180338 -> Q165518 -> Q873 -> Q150943,Christopher Lee -> Ewan McGregor -> Meryl Streep -> Gene Hackman,Star Wars: Episode III – Revenge of the Sith -> August: Osage County -> Postcards from the Edge,979795947,2
+455,medium,3,0.7606,Q2831,Michael Jackson,3,Q228943,Elle Fanning,10,Q2831 -> Q119798 -> Q193668 -> Q228943,Michael Jackson -> Michael Douglas -> Benicio del Toro -> Elle Fanning,Barbra: The Concert -> Traffic -> Somewhere,207500000,1
+456,medium,3,0.7606,Q104514,Adrien Brody,50,Q34851,Elizabeth Taylor,72,Q104514 -> Q132616 -> Q65932 -> Q34851,Adrien Brody -> Naomi Watts -> Anthony Hopkins -> Elizabeth Taylor,King Kong -> You Will Meet a Tall Dark Stranger -> Victory at Entebbe,584817357,2
+457,medium,3,0.7605,Q2831,Michael Jackson,3,Q25936414,Millie Bobby Brown,19,Q2831 -> Q2263 -> Q272972 -> Q25936414,Michael Jackson -> Tom Hanks -> Robin Wright -> Millie Bobby Brown,Barbra: The Concert -> Q134773 -> Damsel,330455270,1
+458,medium,3,0.7605,Q2831,Michael Jackson,3,Q32522,Jennifer Aniston,68,Q2831 -> Q119798 -> Q103784 -> Q32522,Michael Jackson -> Michael Douglas -> Donald Sutherland -> Jennifer Aniston,Barbra: The Concert -> Disclosure -> Horrible Bosses,423615089,2
+459,medium,3,0.7603,Q25936414,Millie Bobby Brown,19,Q150943,Gene Hackman,66,Q25936414 -> Q310637 -> Q873 -> Q150943,Millie Bobby Brown -> Alexander Skarsgård -> Meryl Streep -> Gene Hackman,Godzilla vs. Kong -> The Giver -> Postcards from the Edge,534577855,2
+460,medium,3,0.7601,Q190162,Zoe Saldaña,43,Q34851,Elizabeth Taylor,72,Q190162 -> Q178166 -> Q123351 -> Q34851,Zoe Saldaña -> Vin Diesel -> Michael Caine -> Elizabeth Taylor,Guardians of the Galaxy Vol. 3 -> The Last Witch Hunter -> Zee and Co.,505932725,2
+461,medium,3,0.7594,Q19877770,Timothée Chalamet,23,Q34851,Elizabeth Taylor,72,Q19877770 -> Q315271 -> Q215072 -> Q34851,Timothée Chalamet -> Jason Momoa -> John Goodman -> Elizabeth Taylor,Dune -> Once Upon a Time in Venice -> The Flintstones,449927830,2
+462,medium,3,0.7594,Q20752077,Mckenna Grace,52,Q349391,Helen Mirren,69,Q20752077 -> Q26308335 -> Q229313 -> Q349391,Mckenna Grace -> Finn Wolfhard -> Jessica Chastain -> Helen Mirren,Ghostbusters: Frozen Empire -> It: Chapter Two -> The Debt,406922525,2
+463,medium,3,0.7587,Q228943,Elle Fanning,10,Q25936414,Millie Bobby Brown,19,Q228943 -> Q13909 -> Q272972 -> Q25936414,Elle Fanning -> Angelina Jolie -> Robin Wright -> Millie Bobby Brown,Maleficent -> Beowulf -> Damsel,758410378,1
+464,medium,3,0.7585,Q9570,Amitabh Bachchan,16,Q83287,Selena Gomez,18,Q9570 -> Q59215 -> Q171736 -> Q83287,Amitabh Bachchan -> Robert Redford -> Robert Duvall -> Selena Gomez,The Great Gatsby -> Casting By -> In Dubious Battle,353641895,1
+465,medium,3,0.7582,Q40026,Sylvester Stallone,33,Q32522,Jennifer Aniston,68,Q40026 -> Q2685 -> Q544465 -> Q32522,Sylvester Stallone -> Arnold Schwarzenegger -> Kathy Bates -> Jennifer Aniston,The Expendables 2 -> Around the World in 80 Days -> Rumor Has It,387154850,2
+466,medium,3,0.7582,Q150943,Gene Hackman,66,Q34851,Elizabeth Taylor,72,Q150943 -> Q20830731 -> Q65932 -> Q34851,Gene Hackman -> Isabela Merced -> Anthony Hopkins -> Elizabeth Taylor,Superman -> Transformers: The Last Knight -> Victory at Entebbe,536968683,2
+467,medium,3,0.7581,Q40523,Julia Roberts,54,Q34851,Elizabeth Taylor,72,Q40523 -> Q48410 -> Q1033016 -> Q34851,Julia Roberts -> Richard Gere -> Halle Berry -> Elizabeth Taylor,Pretty Woman -> The Concert for New York City -> The Flintstones,805006268,2
+468,medium,3,0.7577,Q19848,Lady Gaga,31,Q172678,Samuel L. Jackson,65,Q19848 -> Q170572 -> Q483118 -> Q172678,Lady Gaga -> Alec Baldwin -> Ben Affleck -> Samuel L. Jackson,A Star Is Born -> Pearl Harbor -> Changing Lanes,879918255,2
+469,medium,3,0.7574,Q37079,Tom Cruise,12,Q34851,Elizabeth Taylor,72,Q37079 -> Q104791 -> Q65932 -> Q34851,Tom Cruise -> Ed Harris -> Anthony Hopkins -> Elizabeth Taylor,Top Gun: Maverick -> Nixon -> Victory at Entebbe,715980344,2
+470,medium,3,0.7568,Q2685,Arnold Schwarzenegger,15,Q25936414,Millie Bobby Brown,19,Q2685 -> Q169963 -> Q223117 -> Q25936414,Arnold Schwarzenegger -> Jason Statham -> Stanley Tucci -> Millie Bobby Brown,The Expendables 2 -> Wild Card -> The Electric State,314975955,1
+471,medium,3,0.7567,Q38111,Leonardo DiCaprio,25,Q34851,Elizabeth Taylor,72,Q38111 -> Q202765 -> Q483771 -> Q34851,Leonardo DiCaprio -> Kate Winslet -> Elijah Wood -> Elizabeth Taylor,Titanic -> Eternal Sunshine of the Spotless Mind -> Ash Wednesday,693764245,2
+472,medium,3,0.7564,Q191084,Val Kilmer,8,Q25936414,Millie Bobby Brown,19,Q191084 -> Q104791 -> Q272972 -> Q25936414,Val Kilmer -> Ed Harris -> Robin Wright -> Millie Bobby Brown,Top Gun: Maverick -> State of Grace -> Damsel,702480344,1
+473,medium,3,0.7561,Q9570,Amitabh Bachchan,16,Q193815,Ryan Gosling,74,Q9570 -> Q59215 -> Q202735 -> Q193815,Amitabh Bachchan -> Robert Redford -> Billy Bob Thornton -> Ryan Gosling,The Great Gatsby -> Indecent Proposal -> The Gray Man,620241895,2
+474,medium,3,0.7559,Q34851,Elizabeth Taylor,72,Q188772,Willem Dafoe,73,Q34851 -> Q1033016 -> Q298347 -> Q188772,Elizabeth Taylor -> Halle Berry -> Nicholas Hoult -> Willem Dafoe,The Flintstones -> X-Men: Days of Future Past -> Nosferatu,1087645700,2
+475,medium,3,0.7554,Q9570,Amitabh Bachchan,16,Q169963,Jason Statham,78,Q9570 -> Q59215 -> Q178348 -> Q169963,Amitabh Bachchan -> Robert Redford -> Chris Evans -> Jason Statham,The Great Gatsby -> Captain America: The Winter Soldier -> Cellular,613408467,2
+476,hard,4,0.8268,Q2831,Michael Jackson,3,Q19848,Lady Gaga,31,Q2831 -> Q119798 -> Q103784 -> Q484523 -> Q19848,Michael Jackson -> Michael Douglas -> Donald Sutherland -> Jared Leto -> Lady Gaga,Barbra: The Concert -> Disclosure -> Lord of War -> House of Gucci,238164721,2
+477,easy,2,0.8004,Q43416,Keanu Reeves,4,Q36970,Jackie Chan,7,Q43416 -> Q544465 -> Q36970,Keanu Reeves -> Kathy Bates -> Jackie Chan,The Day the Earth Stood Still -> Around the World in 80 Days,305272754,2
+478,easy,2,0.8002,Q2685,Arnold Schwarzenegger,15,Q9570,Amitabh Bachchan,16,Q2685 -> Q9535 -> Q9570,Arnold Schwarzenegger -> Shah Rukh Khan -> Amitabh Bachchan,My Name Is Khan -> Mohabbatein,298690000,2
+479,easy,2,0.7987,Q228943,Elle Fanning,10,Q42869,Nicolas Cage,11,Q228943 -> Q13909 -> Q42869,Elle Fanning -> Angelina Jolie -> Nicolas Cage,Maleficent -> Gone in 60 Seconds,995610378,2
+480,easy,2,0.7973,Q37079,Tom Cruise,12,Q2685,Arnold Schwarzenegger,15,Q37079 -> Q110374 -> Q2685,Tom Cruise -> Bill Paxton -> Arnold Schwarzenegger,Edge of Tomorrow -> True Lies,749382411,2
+481,easy,2,0.7962,Q34436,Scarlett Johansson,1,Q37079,Tom Cruise,12,Q34436 -> Q41422 -> Q37079,Scarlett Johansson -> Mark Ruffalo -> Tom Cruise,Avengers: Endgame -> Collateral,3015301328,2
+482,easy,2,0.796,Q102642,Diane Keaton,14,Q2685,Arnold Schwarzenegger,15,Q102642 -> Q171736 -> Q2685,Diane Keaton -> Robert Duvall -> Arnold Schwarzenegger,The Godfather -> The 6th Day,386007394,2
+483,easy,2,0.7954,Q34436,Scarlett Johansson,1,Q42869,Nicolas Cage,11,Q34436 -> Q41422 -> Q42869,Scarlett Johansson -> Mark Ruffalo -> Nicolas Cage,Avengers: Endgame -> Windtalkers,2838415396,2
+484,easy,2,0.7948,Q36970,Jackie Chan,7,Q37079,Tom Cruise,12,Q36970 -> Q180560 -> Q37079,Jackie Chan -> Philip Seymour Hoffman -> Tom Cruise,The Master -> Mission: Impossible III,162229801,2
+485,easy,2,0.7946,Q25936414,Millie Bobby Brown,19,Q58444,Liam Neeson,20,Q25936414 -> Q310637 -> Q58444,Millie Bobby Brown -> Alexander Skarsgård -> Liam Neeson,Godzilla vs. Kong -> Battleship,771241579,2
+486,easy,2,0.7938,Q42869,Nicolas Cage,11,Q37079,Tom Cruise,12,Q42869 -> Q167520 -> Q37079,Nicolas Cage -> Jon Voight -> Tom Cruise,National Treasure: Book of Secrets -> Mission: Impossible,638381856,2
+487,easy,2,0.7934,Q37079,Tom Cruise,12,Q13909,Angelina Jolie,17,Q37079 -> Q191084 -> Q13909,Tom Cruise -> Val Kilmer -> Angelina Jolie,Top Gun: Maverick -> Alexander,869778536,2
+488,easy,2,0.7934,Q37459,Nicole Kidman,13,Q25936414,Millie Bobby Brown,19,Q37459 -> Q310637 -> Q25936414,Nicole Kidman -> Alexander Skarsgård -> Millie Bobby Brown,The Northman -> Godzilla vs. Kong,473218392,2
+489,easy,2,0.7927,Q102642,Diane Keaton,14,Q13909,Angelina Jolie,17,Q102642 -> Q171736 -> Q13909,Diane Keaton -> Robert Duvall -> Angelina Jolie,The Godfather -> Gone in 60 Seconds,507207394,2
+490,easy,2,0.7926,Q34436,Scarlett Johansson,1,Q2685,Arnold Schwarzenegger,15,Q34436 -> Q185051 -> Q2685,Scarlett Johansson -> Christopher Walken -> Arnold Schwarzenegger,The Jungle Book -> The Rundown,1047467092,2
+491,easy,2,0.7923,Q43416,Keanu Reeves,4,Q37079,Tom Cruise,12,Q43416 -> Q39792 -> Q37079,Keanu Reeves -> Jack Nicholson -> Tom Cruise,Something's Gotta Give -> A Few Good Men,509900000,2
+492,easy,2,0.7923,Q42869,Nicolas Cage,11,Q2685,Arnold Schwarzenegger,15,Q42869 -> Q171736 -> Q2685,Nicolas Cage -> Robert Duvall -> Arnold Schwarzenegger,Gone in 60 Seconds -> The 6th Day,353200000,2
+493,easy,2,0.7919,Q83338,Robin Williams,6,Q191084,Val Kilmer,8,Q83338 -> Q41163 -> Q191084,Robin Williams -> Al Pacino -> Val Kilmer,Insomnia -> Heat,181151648,2
+494,easy,2,0.7914,Q191084,Val Kilmer,8,Q115541,Dakota Fanning,24,Q191084 -> Q37079 -> Q115541,Val Kilmer -> Tom Cruise -> Dakota Fanning,Top Gun: Maverick -> War of the Worlds,1306353463,2
+495,easy,2,0.7912,Q43416,Keanu Reeves,4,Q2685,Arnold Schwarzenegger,15,Q43416 -> Q544465 -> Q2685,Keanu Reeves -> Kathy Bates -> Arnold Schwarzenegger,The Day the Earth Stood Still -> Around the World in 80 Days,305272754,2
+496,easy,2,0.7911,Q83338,Robin Williams,6,Q37079,Tom Cruise,12,Q83338 -> Q180560 -> Q37079,Robin Williams -> Philip Seymour Hoffman -> Tom Cruise,Patch Adams -> Mission: Impossible III,336329801,2
+497,easy,2,0.7909,Q36970,Jackie Chan,7,Q35332,Brad Pitt,9,Q36970 -> Q180560 -> Q35332,Jackie Chan -> Philip Seymour Hoffman -> Brad Pitt,The Master -> Moneyball,138400000,2
+498,easy,2,0.7909,Q189490,Jennifer Lawrence,29,Q19848,Lady Gaga,31,Q189490 -> Q205707 -> Q19848,Jennifer Lawrence -> Bradley Cooper -> Lady Gaga,American Hustle -> A Star Is Born,681718255,2
+499,easy,2,0.7904,Q2680,Bruce Willis,2,Q43416,Keanu Reeves,4,Q2680 -> Q181678 -> Q43416,Bruce Willis -> Dolph Lundgren -> Keanu Reeves,The Expendables 2 -> Johnny Mnemonic,334051675,2
+500,easy,2,0.7901,Q37459,Nicole Kidman,13,Q13909,Angelina Jolie,17,Q37459 -> Q4547 -> Q13909,Nicole Kidman -> Daniel Craig -> Angelina Jolie,The Golden Compass -> Lara Croft: Tomb Raider,646938204,2
