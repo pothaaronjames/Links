@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Links &mdash; Actor Path Game</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v=20260324-2" />
   </head>
   <body>
     <header class="site-header">
@@ -101,9 +101,29 @@
     </div>
 
     <main class="game-wrap">
+      <div class="mobile-game-hud" id="mobileGameHud" aria-live="polite">
+        <div class="mobile-game-hud__item">
+          <span class="mobile-game-hud__label">Time</span>
+          <span class="mobile-game-hud__value" id="mobileTimerValue">1:00</span>
+        </div>
+        <div class="mobile-game-hud__item">
+          <span class="mobile-game-hud__label">Round</span>
+          <span class="mobile-game-hud__value" id="mobileRoundValue">1 / 5</span>
+        </div>
+        <div class="mobile-game-hud__item">
+          <span class="mobile-game-hud__label">Steps</span>
+          <span class="mobile-game-hud__value" id="mobileStepsValue">0</span>
+        </div>
+        <div class="mobile-game-hud__item mobile-game-hud__item--actor">
+          <span class="mobile-game-hud__label">Current</span>
+          <span class="mobile-game-hud__value" id="mobileCurrentActor">Samuel L. Jackson</span>
+        </div>
+      </div>
+
       <!-- Start / End row -->
       <div class="endpoints-row">
-        <div class="actor-card actor-card--start" id="startCard">
+        <div class="actor-card actor-card--start is-collapsed" id="startCard">
+          <button class="actor-card__toggle" id="startCardToggle" type="button" aria-expanded="false">Show details</button>
           <div class="actor-card__avatar" id="startAvatarWrap">
             <img class="actor-card__avatar-img hidden" id="startAvatarImg" alt="Start actor portrait" loading="eager" />
             <span class="actor-card__avatar-fallback" id="startAvatarFallback">🎭</span>
@@ -124,7 +144,8 @@
           <span class="path-step-count" id="stepCountLabel">0 steps</span>
         </div>
 
-        <div class="actor-card actor-card--end" id="endCard">
+        <div class="actor-card actor-card--end is-collapsed" id="endCard">
+          <button class="actor-card__toggle" id="endCardToggle" type="button" aria-expanded="false">Show details</button>
           <div class="actor-card__avatar" id="endAvatarWrap">
             <img class="actor-card__avatar-img hidden" id="endAvatarImg" alt="End actor portrait" loading="eager" />
             <span class="actor-card__avatar-fallback" id="endAvatarFallback">🎭</span>
@@ -210,6 +231,7 @@
           <p class="result-banner__sub" id="resultSub"></p>
           <div class="result-banner__meta hidden" id="resultMeta"></div>
           <div class="result-banner__path hidden" id="resultPath"></div>
+          <div class="result-banner__path result-banner__path--completion hidden" id="resultCompletionPath"></div>
           <div class="result-banner__actions">
             <button class="btn btn--primary" id="nextRoundBtn" style="display: none;">Next Round &rarr;</button>
             <button class="btn btn--primary" id="playAgainBtn">Play Again</button>
@@ -225,6 +247,6 @@
     <script src="movie_cast_db.js"></script>
     <script src="puzzle_pool.js"></script>
     <script src="actor_portraits.js"></script>
-    <script src="game.js"></script>
+    <script src="game.js?v=20260324-2"></script>
   </body>
 </html>
