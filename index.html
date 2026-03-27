@@ -13,11 +13,6 @@
         <p class="tagline">Connect the actors through the movies</p>
       </div>
       <div class="header-actions">
-        <div class="timer-display" id="timerDisplay">
-          <span class="timer-label">Time</span>
-          <span class="timer-value" id="timerValue">1:00</span>
-        </div>
-        
         <div class="button-group">
           <span class="button-group-label">Difficulty</span>
           <div class="button-options">
@@ -53,19 +48,19 @@
             <li>Your goal is to connect them through a chain of <strong>shared movies</strong>.</li>
             <li>Each step, enter a movie that the <em>current actor</em> appeared in.</li>
             <li>Then pick another actor from that movie to continue the chain.</li>
-              <li>Each round has a <strong>1-minute timer</strong>, so move quickly.</li>
-              <li>Reach the End Actor in as few steps as possible!</li>
+            <li>Reach the End Actor in as few steps as possible to earn more points.</li>
           </ol>
         </div>
         <div class="instructions-section">
           <h3>Each Game</h3>
-          <p>A game consists of <strong>5 rounds</strong>. Your final game score is the <strong>sum of points from all 5 rounds</strong>. Try to maximize your total!</p>
+          <p>A game consists of <strong>5 rounds</strong>. Your final total is the <strong>sum of points from all 5 rounds</strong>. Try to maximize your points!</p>
         </div>
         <div class="scoring-guide">
           <h3>Scoring Per Round</h3>
-          <div class="score-row"><span class="badge badge--green">1–2 steps</span> Genius</div>
-          <div class="score-row"><span class="badge badge--yellow">3–4 steps</span> Great</div>
-          <div class="score-row"><span class="badge badge--orange">5 steps</span> Good</div>
+          <div class="score-row"><span class="badge badge--green">Up to 1000</span> Shortest or near-shortest route</div>
+          <div class="score-row"><span class="badge badge--yellow">-175 each</span> Extra steps beyond the shortest path</div>
+          <div class="score-row"><span class="badge badge--orange">-150 each</span> Hint penalties</div>
+          <div class="score-row"><span class="badge badge--red">Special cap</span> One-step puzzles max at 75 with one hint, 0 with two</div>
         </div>
 
         <button class="btn btn--ghost btn--full hidden" id="rulesCloseBtn">Got it</button>
@@ -142,7 +137,7 @@
       <div class="game-progress" id="gameProgressInfo">
         <div class="game-progress__left">
           <div class="game-counter" id="gameCounter">🎯 Round 1 of 5</div>
-          <div class="round-score" id="roundScoreDisplay">💯 Game Score: 0</div>
+          <div class="round-score" id="roundScoreDisplay">💯 Game Points: 0</div>
         </div>
       </div>
 

@@ -67,41 +67,6 @@ body {
   min-height: 44px;
 }
 
-.timer-display {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-  padding: 8px 12px;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  min-width: 60px;
-}
-
-.timer-label {
-  font-size: 0.65rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.timer-value {
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: var(--accent);
-  font-family: 'Monaco', 'Courier New', monospace;
-  letter-spacing: 1px;
-}
-
-.timer-value.warning {
-  color: #f59e0b;
-}
-
-.timer-value.danger {
-  color: var(--danger);
-}
-
 .button-group {
   display: flex;
   flex-direction: column;

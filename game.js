@@ -176,18 +176,11 @@ let gameOver        = false;
 let chainSteps      = [];
 
 const MAX_STEPS = 5;
-const GAME_TIME_SECONDS = 60; // 1-minute timer
 const HINT_PENALTY_POINTS = 150;
 const HINT_MOVIE_COUNT = 5;
-const HINT_LOCK_SECONDS = 10;
-const EFFICIENCY_SCORE_MAX = 800;
-const STEP_OVERAGE_PENALTY = 120;
-const TIME_BONUS_MAX = 1200;
-const TIME_TARGET_RATIO = 0.45;
+const EFFICIENCY_SCORE_MAX = 1000;
+const STEP_OVERAGE_PENALTY = 175;
 const ONE_STEP_ONE_HINT_SCORE_CAP = 75;
-let gameTimeRemaining = GAME_TIME_SECONDS;
-let timerIntervalId = null;
-let gameStartTime = null;
 let hintsUsed = { start: false, end: false };
 
 // Round tracking
@@ -201,7 +194,6 @@ const startNameEl        = document.getElementById("startName");
 const endNameEl          = document.getElementById("endName");
 const endSubEl           = document.getElementById("endSub");
 const currentActorDisplay= document.getElementById("currentActorDisplay");
-const timerValue         = document.getElementById("timerValue");
 const chainArea          = document.getElementById("chainArea");
 const pathDots           = document.getElementById("pathDots");
 const stepCountLabel     = document.getElementById("stepCountLabel");
@@ -514,12 +506,7 @@ function loadRound({ resetGame = false } = {}) {
 
   // Update game counter display
   gameCounter.textContent = `Round ${currentRoundNumber} of ${ROUNDS_PER_GAME}`;
-  roundScoreDisplay.textContent = `Game Score: ${gameCumulativeScore}`;
-
-  // Reset timer
-  gameTimeRemaining = GAME_TIME_SECONDS;
-  updateTimerDisplay();
-  startTimer();
+  roundScoreDisplay.textContent = `Game Points: ${gameCumulativeScore}`;
 
   // Reset UI
   chainArea.innerHTML = "";
@@ -715,10 +702,6 @@ function getHintMoviesForActor(actorName, count = HINT_MOVIE_COUNT) {
 
 function renderHint(side) {
   if (gameOver) return;
-  if (gameTimeRemaining <= HINT_LOCK_SECONDS) {
-    showError(`Hints lock when ${HINT_LOCK_SECONDS} seconds or less remain.`);
-    return;
-  }
   if (hintsUsed[side]) return;
 
   const actorName = side === "start" ? startNameEl.textContent : endNameEl.textContent;
@@ -744,16 +727,13 @@ function renderHint(side) {
 }
 
 function updateHintControls() {
-  const lockedByTime = gameTimeRemaining <= HINT_LOCK_SECONDS;
-  startHintBtn.disabled = gameOver || hintsUsed.start || lockedByTime;
-  endHintBtn.disabled = gameOver || hintsUsed.end || lockedByTime;
+  startHintBtn.disabled = gameOver || hintsUsed.start;
+  endHintBtn.disabled = gameOver || hintsUsed.end;
 
   if (gameOver) {
     hintPenaltyInfo.textContent = "Hint penalties applied in final score.";
-  } else if (lockedByTime) {
-    hintPenaltyInfo.textContent = `Hints locked in final ${HINT_LOCK_SECONDS} seconds.`;
   } else {
-    hintPenaltyInfo.textContent = `Hint penalty: -${HINT_PENALTY_POINTS} points each. Hints lock in the final ${HINT_LOCK_SECONDS} seconds.`;
+    hintPenaltyInfo.textContent = `Hint penalty: -${HINT_PENALTY_POINTS} points each.`;
   }
 }
 
@@ -902,27 +882,19 @@ undoStepBtn.addEventListener("click", () => {
 
 giveUpBtn.addEventListener("click", () => {
   if (gameOver) return;
-  endGame(false, false, true);
+  endGame(false, true);
 });
 
 // ── Scoring ───────────────────────────────────────────────────────────────────
-function calculatePlayerScore(stepsTaken, elapsedSeconds) {
-  // Path efficiency still matters, but time now has stronger influence.
+function calculatePlayerScore(stepsTaken) {
   const shortestPath = puzzle.shortest_hops || currentStep;
   const hintsCount = (hintsUsed.start ? 1 : 0) + (hintsUsed.end ? 1 : 0);
   const efficiencyScore = Math.max(
     0,
     Math.min(EFFICIENCY_SCORE_MAX, EFFICIENCY_SCORE_MAX - ((stepsTaken - shortestPath) * STEP_OVERAGE_PENALTY)),
   );
-  
-  // Strong time bonus: up to TIME_BONUS_MAX points for fast finishes.
-  const timeTarget = GAME_TIME_SECONDS * TIME_TARGET_RATIO;
-  const timeBonus = Math.max(
-    0,
-    Math.min(TIME_BONUS_MAX, TIME_BONUS_MAX - ((elapsedSeconds - timeTarget) * (TIME_BONUS_MAX / timeTarget))),
-  );
 
-  const baseScore = Math.round(efficiencyScore + timeBonus);
+  const baseScore = Math.round(efficiencyScore);
   const hintPenalty = (hintsUsed.start ? HINT_PENALTY_POINTS : 0) + (hintsUsed.end ? HINT_PENALTY_POINTS : 0);
   let finalScore = Math.max(0, baseScore - hintPenalty);
 
@@ -937,7 +909,6 @@ function calculatePlayerScore(stepsTaken, elapsedSeconds) {
   
   return {
     efficiencyScore: Math.round(efficiencyScore),
-    timeBonus: Math.round(timeBonus),
     baseScore,
     hintPenalty,
     finalScore,
@@ -945,47 +916,39 @@ function calculatePlayerScore(stepsTaken, elapsedSeconds) {
 }
 
 // ── End game ──────────────────────────────────────────────────────────────────
-function endGame(won, timedOut = false, gaveUp = false) {
+function endGame(won, gaveUp = false) {
   gameOver = true;
-  stopTimer();
   inputArea.classList.add("hidden");
   resultBanner.classList.remove("hidden");
-  
-  // Calculate elapsed time
-  const elapsedSeconds = gameStartTime ? (Date.now() - gameStartTime) / 1000 : 0;
   updateHintControls();
   updateUndoButton();
 
   let gameScore = 0;
   if (won) {
-    const rating = currentStep <= 2 ? "Genius 🧠" :
-                   currentStep <= 4 ? "Great job! 🌟" : "Good effort! 👍";
-    
-    const score = calculatePlayerScore(currentStep, elapsedSeconds);
+    const score = calculatePlayerScore(currentStep);
     gameScore = score.finalScore;
     gameRoundScores.push(gameScore);
     gameCumulativeScore += gameScore;
 
-    const timeDisplay = Math.floor(elapsedSeconds);
-    const timeMins = Math.floor(timeDisplay / 60);
-    const timeSecs = timeDisplay % 60;
-    const timeStr = timeMins > 0 ? `${timeMins}m ${timeSecs}s` : `${timeSecs}s`;
-    
+    const shortest = puzzle.shortest_hops;
+    const stepDelta = typeof shortest === "number" ? Math.max(0, currentStep - shortest) : null;
+    const rating = stepDelta === 0 ? "Optimal route" :
+                   stepDelta === 1 ? "Near-optimal route" : "Solved route";
+
     resultEmoji.textContent = "🎉";
     resultTitle.textContent = "Round Complete!";
     const roundNum = currentRoundNumber;
-    const roundsRemaining = ROUNDS_PER_GAME - roundNum;
-    resultSub.textContent   = `Round ${roundNum}: Connected in ${currentStep} step${currentStep !== 1 ? "s" : ""} in ${timeStr}. ${rating}`;
-    const shortest = puzzle.shortest_hops;
+    resultSub.textContent   = `Round ${roundNum}: Connected in ${currentStep} step${currentStep !== 1 ? "s" : ""}. ${rating}`;
     const difficultyLabel = puzzle.difficulty ? `${puzzle.difficulty[0].toUpperCase()}${puzzle.difficulty.slice(1)}` : "Unknown";
     const hintsUsedText = [
       hintsUsed.start ? "Start" : null,
       hintsUsed.end ? "End" : null,
     ].filter(Boolean).join(" + ") || "None";
     const metaParts = [
-      `<span class="result-pill">Round score: ${gameScore}</span>`,
-      `<span class="result-pill">Game score: ${gameCumulativeScore}</span>`,
-      `<span class="result-pill">Time: ${timeStr}</span>`,
+      `<span class="result-pill">Round points: ${gameScore}</span>`,
+      `<span class="result-pill">Game points: ${gameCumulativeScore}</span>`,
+      `<span class="result-pill">Efficiency: ${score.efficiencyScore}</span>`,
+      `<span class="result-pill">Hint penalty: -${score.hintPenalty}</span>`,
       `<span class="result-pill">Hints: ${hintsUsedText}</span>`,
       `<span class="result-pill">Difficulty: ${difficultyLabel}</span>`,
     ];
@@ -996,11 +959,8 @@ function endGame(won, timedOut = false, gaveUp = false) {
     resultMeta.classList.remove("hidden");
   } else {
     gameRoundScores.push(0);
-    resultEmoji.textContent = gaveUp ? "🏳️" : (timedOut ? "⏰" : "😔");
-    if (timedOut) {
-      resultTitle.textContent = "Time's up!";
-      resultSub.textContent   = `Round ${currentRoundNumber}: You ran out of time after ${currentStep} step${currentStep !== 1 ? "s" : ""}.`;
-    } else if (gaveUp) {
+    resultEmoji.textContent = gaveUp ? "🏳️" : "😔";
+    if (gaveUp) {
       resultTitle.textContent = "You gave up";
       resultSub.textContent   = `Round ${currentRoundNumber}: Ended after ${currentStep} step${currentStep !== 1 ? "s" : ""}.`;
     } else {
@@ -1008,8 +968,8 @@ function endGame(won, timedOut = false, gaveUp = false) {
       resultSub.textContent   = `Round ${currentRoundNumber}: You used all ${MAX_STEPS} steps without reaching ${endNameEl.textContent}.`;
     }
     const metaParts = [
-      `<span class="result-pill">Round score: 0</span>`,
-      `<span class="result-pill">Game score: ${gameCumulativeScore}</span>`,
+      `<span class="result-pill">Round points: 0</span>`,
+      `<span class="result-pill">Game points: ${gameCumulativeScore}</span>`,
     ];
     resultMeta.innerHTML = metaParts.join("");
     resultMeta.classList.remove("hidden");
@@ -1029,7 +989,7 @@ function endGame(won, timedOut = false, gaveUp = false) {
   } else {
     // Game complete
     resultTitle.textContent = "🏆 Game Complete!";
-    resultSub.textContent = `You finished 5 rounds! Final game score: ${gameCumulativeScore} points.`;
+    resultSub.textContent = `You finished 5 rounds! Final total: ${gameCumulativeScore} points.`;
     resultEmoji.textContent = "🏆";
     nextRoundBtn.style.display = "none";
     playAgainBtn.style.display = "inline-block";
@@ -1046,56 +1006,6 @@ function showError(msg) {
 function hideError() {
   errorMsg.classList.add("hidden");
   errorMsg.textContent = "";
-}
-
-// ── Timer ──────────────────────────────────────────────────────────────────────
-function formatTimeDisplay(seconds) {
-  const mins = Math.floor(seconds / 60);
-  const secs = seconds % 60;
-  return `${mins}:${secs.toString().padStart(2, '0')}`;
-}
-
-function updateTimerDisplay() {
-  const display = formatTimeDisplay(gameTimeRemaining);
-  timerValue.textContent = display;
-  
-  // Add color coding
-  if (gameTimeRemaining <= 10) {
-    timerValue.classList.remove('warning');
-    timerValue.classList.add('danger');
-  } else if (gameTimeRemaining <= 20) {
-    timerValue.classList.remove('danger');
-    timerValue.classList.add('warning');
-  } else {
-    timerValue.classList.remove('danger', 'warning');
-  }
-
-  updateHintControls();
-}
-
-function startTimer() {
-  // Clear any existing timer
-  if (timerIntervalId) clearInterval(timerIntervalId);
-  gameStartTime = Date.now();
-
-  timerIntervalId = setInterval(() => {
-    gameTimeRemaining--;
-    updateTimerDisplay();
-    
-    if (gameTimeRemaining <= 0) {
-      stopTimer();
-      if (!gameOver) {
-        endGame(false, true); // true = timeout
-      }
-    }
-  }, 1000);
-}
-
-function stopTimer() {
-  if (timerIntervalId) {
-    clearInterval(timerIntervalId);
-    timerIntervalId = null;
-  }
 }
 
 // ── Modal wiring ──────────────────────────────────────────────────────────────
