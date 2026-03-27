@@ -185,6 +185,8 @@ const STEP_OVERAGE_PENALTY = 120;
 const TIME_BONUS_MAX = 1200;
 const TIME_TARGET_RATIO = 0.45;
 const ONE_STEP_ONE_HINT_SCORE_CAP = 75;
+const PARTIAL_CREDIT_1_AWAY = 350; // bonus pts: player's last actor was 1 hop from target
+const PARTIAL_CREDIT_2_AWAY = 150; // bonus pts: player's last actor was 2 hops from target
 let gameTimeRemaining = GAME_TIME_SECONDS;
 let timerIntervalId = null;
 let gameStartTime = null;
@@ -220,6 +222,7 @@ const resultTitle        = document.getElementById("resultTitle");
 const resultSub          = document.getElementById("resultSub");
 const resultMeta         = document.getElementById("resultMeta");
 const resultPath         = document.getElementById("resultPath");
+const resultCompletionPath = document.getElementById("resultCompletionPath");
 const inputArea          = document.getElementById("inputArea");
 const startHintBtn       = document.getElementById("startHintBtn");
 const endHintBtn         = document.getElementById("endHintBtn");
@@ -234,10 +237,60 @@ const startAvatarImg     = document.getElementById("startAvatarImg");
 const endAvatarImg       = document.getElementById("endAvatarImg");
 const startAvatarFallback= document.getElementById("startAvatarFallback");
 const endAvatarFallback  = document.getElementById("endAvatarFallback");
+const mobileTimerValue   = document.getElementById("mobileTimerValue");
+const mobileRoundValue   = document.getElementById("mobileRoundValue");
+const mobileStepsValue   = document.getElementById("mobileStepsValue");
+const mobileCurrentActor = document.getElementById("mobileCurrentActor");
+const startCard          = document.getElementById("startCard");
+const endCard            = document.getElementById("endCard");
+const startCardToggle    = document.getElementById("startCardToggle");
+const endCardToggle      = document.getElementById("endCardToggle");
 const howToPlayModal      = document.getElementById("howToPlayModal");
 const howToPlayBtn        = document.getElementById("howToPlayBtn");
 const closeModalBtn       = document.getElementById("closeModalBtn");
 const startFromModalBtn   = document.getElementById("startFromModalBtn");
+
+function syncMobileHud() {
+  if (mobileRoundValue) {
+    mobileRoundValue.textContent = `${currentRoundNumber || 1} / ${ROUNDS_PER_GAME}`;
+  }
+  if (mobileStepsValue) {
+    mobileStepsValue.textContent = String(currentStep);
+  }
+  if (mobileCurrentActor) {
+    mobileCurrentActor.textContent = currentActorName || (puzzle?.start?.name || "Unknown Actor");
+  }
+}
+
+function syncMobileTimerDisplay(displayText) {
+  if (!mobileTimerValue) return;
+  mobileTimerValue.textContent = displayText;
+  mobileTimerValue.classList.toggle("danger", gameTimeRemaining <= 10);
+  mobileTimerValue.classList.toggle("warning", gameTimeRemaining > 10 && gameTimeRemaining <= 20);
+}
+
+function setActorCardCollapsed(cardEl, toggleBtnEl, collapsed) {
+  if (!cardEl || !toggleBtnEl) return;
+  cardEl.classList.toggle("is-collapsed", collapsed);
+  toggleBtnEl.setAttribute("aria-expanded", String(!collapsed));
+  toggleBtnEl.textContent = collapsed ? "Show details" : "Hide details";
+}
+
+function setupMobileCardToggles() {
+  if (startCard && startCardToggle) {
+    setActorCardCollapsed(startCard, startCardToggle, true);
+    startCardToggle.addEventListener("click", () => {
+      setActorCardCollapsed(startCard, startCardToggle, !startCard.classList.contains("is-collapsed"));
+    });
+  }
+
+  if (endCard && endCardToggle) {
+    setActorCardCollapsed(endCard, endCardToggle, true);
+    endCardToggle.addEventListener("click", () => {
+      setActorCardCollapsed(endCard, endCardToggle, !endCard.classList.contains("is-collapsed"));
+    });
+  }
+}
 
 function initialsForName(name) {
   const parts = String(name || "").trim().split(/\s+/).filter(Boolean);
@@ -464,7 +517,7 @@ function renderShortestPathMarkup(entry) {
     const side = index % 2 === 0 ? "left" : "right";
     const emoji = node.type === "actor" ? "🎭" : "🎬";
     const cardClass = node.type === "actor" ? "path-node path-node--actor" : "path-node path-node--movie";
-    const delay = (index * 95) + 120;
+    const delay = (index * 140) + 150;
 
     return (
       `<div class="path-item path-item--${side}" style="animation-delay:${delay}ms">` +
@@ -533,6 +586,10 @@ function loadRound({ resetGame = false } = {}) {
   resultMeta.innerHTML = "";
   resultPath.classList.add("hidden");
   resultPath.innerHTML = "";
+  if (resultCompletionPath) {
+    resultCompletionPath.classList.add("hidden");
+    resultCompletionPath.innerHTML = "";
+  }
   startHintList.classList.add("hidden");
   startHintList.textContent = "";
   endHintList.classList.add("hidden");
@@ -546,6 +603,9 @@ function loadRound({ resetGame = false } = {}) {
   const actorModeLabel = getSelectedActorMode() === "featured" ? " · featured" : "";
   endSubEl.textContent    = `Can you reach them${puzzle.difficulty ? ` · ${puzzle.difficulty}` : ""}${actorModeLabel}?`;
   currentActorDisplay.textContent = startActor;
+  setActorCardCollapsed(startCard, startCardToggle, true);
+  setActorCardCollapsed(endCard, endCardToggle, true);
+  syncMobileHud();
 
   // Render starting node in chain
   renderChain();
@@ -623,6 +683,7 @@ function updateDots() {
     pathDots.appendChild(dot);
   }
   stepCountLabel.textContent = `${currentStep} step${currentStep !== 1 ? "s" : ""}`;
+  syncMobileHud();
 }
 
 // ── Autocomplete helpers ──────────────────────────────────────────────────────
@@ -660,6 +721,77 @@ function buildActorMovieIndex() {
 }
 
 const ACTOR_TO_MOVIES = buildActorMovieIndex();
+
+// BFS through the actor→movie graph from startActorName to endActorName.
+// Returns { distance, path: [{movie, actor}, ...] } or null if not found within maxDepth.
+// Path entries lead from start up to and INCLUDING the end actor.
+function bfsFromActor(startActorName, endActorName, maxDepth = 3) {
+  const startKey = startActorName.toLowerCase();
+  const endKey   = endActorName.toLowerCase();
+  if (startKey === endKey) return { distance: 0, path: [] };
+
+  const visited = new Set([startKey]);
+  // Each queue entry: { actorKey, path[] }
+  let queue = [{ actorKey: startKey, path: [] }];
+  let nodesVisited = 0;
+  const MAX_NODES = 10000; // safety cap to keep BFS instant in the browser
+
+  for (let depth = 1; depth <= maxDepth; depth++) {
+    const nextQueue = [];
+    for (const { actorKey, path } of queue) {
+      const movies = ACTOR_TO_MOVIES.get(actorKey) || new Set();
+      for (const movieKey of movies) {
+        const cast = MOVIE_CAST_DB[movieKey] || [];
+        for (const actorName of cast) {
+          const neighborKey = actorName.toLowerCase();
+          if (visited.has(neighborKey)) continue;
+          nodesVisited++;
+          if (nodesVisited > MAX_NODES) return null;
+          const newPath = [...path, { movie: movieKey, actor: actorName }];
+          if (neighborKey === endKey) {
+            return { distance: depth, path: newPath };
+          }
+          visited.add(neighborKey);
+          nextQueue.push({ actorKey: neighborKey, path: newPath });
+        }
+      }
+    }
+    queue = nextQueue;
+    if (!queue.length) break;
+  }
+  return null;
+}
+
+// Render the "how to finish your path" continuation from lastActorName → (bfsPath) → endActorName.
+// Uses the same timeline markup as renderShortestPathMarkup but with a different visual class.
+function renderCompletionPathMarkup(lastActorName, bfsResult) {
+  if (!bfsResult || !bfsResult.path.length) {
+    return '<div class="result-path__empty">No completion data available.</div>';
+  }
+
+  const nodes = [{ type: "actor", label: lastActorName }];
+  bfsResult.path.forEach((step) => {
+    nodes.push({ type: "movie", label: formatMovieTitle(step.movie) });
+    nodes.push({ type: "actor", label: step.actor });
+  });
+
+  const rows = nodes.map((node, index) => {
+    const side  = index % 2 === 0 ? "left" : "right";
+    const emoji = node.type === "actor" ? "🎭" : "🎬";
+    const cardClass = node.type === "actor"
+      ? "path-node path-node--actor"
+      : "path-node path-node--movie";
+    const delay = (index * 140) + 150;
+    return (
+      `<div class="path-item path-item--${side}" style="animation-delay:${delay}ms">` +
+      `<div class="${cardClass}">${emoji} ${escapeHtml(node.label)}</div>` +
+      `<span class="path-item__dot"></span>` +
+      `</div>`
+    );
+  });
+
+  return `<div class="result-path-timeline">${rows.join("")}</div>`;
+}
 
 function getShortestPathMovieKeys(entry) {
   if (!entry) return [];
@@ -862,6 +994,7 @@ submitStepBtn.addEventListener("click", () => {
   // Advance state
   currentActorName = selectedActor;
   currentActorDisplay.textContent = currentActorName;
+  syncMobileHud();
 
   // Reset inputs
   movieInput.value = "";
@@ -887,6 +1020,7 @@ undoStepBtn.addEventListener("click", () => {
     ? chainSteps[chainSteps.length - 1].actor
     : (puzzle?.start?.name || startNameEl.textContent || "Unknown Actor");
   currentActorDisplay.textContent = currentActorName;
+  syncMobileHud();
 
   selectedMovie = "";
   selectedActor = "";
@@ -995,7 +1129,33 @@ function endGame(won, timedOut = false, gaveUp = false) {
     resultMeta.innerHTML = metaParts.join("");
     resultMeta.classList.remove("hidden");
   } else {
-    gameRoundScores.push(0);
+    // --- Compute how close the player got ---
+    const endActorName = endNameEl.textContent;
+    const lastActorName = currentActorName; // where they left off
+    const playerMadeProgress = chainSteps.length > 0;
+
+    let proximityResult = null;
+    let partialCredit = 0;
+    let proximityLabel = "";
+
+    if (playerMadeProgress) {
+      proximityResult = bfsFromActor(lastActorName, endActorName, 3);
+      if (proximityResult && (currentStep + proximityResult.distance) <= MAX_STEPS) {
+        const hintPenalty = (hintsUsed.start ? HINT_PENALTY_POINTS : 0) + (hintsUsed.end ? HINT_PENALTY_POINTS : 0);
+        if (proximityResult.distance === 1) {
+          partialCredit = Math.max(0, PARTIAL_CREDIT_1_AWAY - hintPenalty);
+          proximityLabel = "So close! 1 step away 🔥";
+        } else if (proximityResult.distance === 2) {
+          partialCredit = Math.max(0, PARTIAL_CREDIT_2_AWAY - hintPenalty);
+          proximityLabel = "Almost there — 2 steps away";
+        }
+      }
+    }
+
+    const roundScore = partialCredit;
+    gameRoundScores.push(roundScore);
+    gameCumulativeScore += roundScore;
+
     resultEmoji.textContent = gaveUp ? "🏳️" : (timedOut ? "⏰" : "😔");
     if (timedOut) {
       resultTitle.textContent = "Time's up!";
@@ -1005,12 +1165,21 @@ function endGame(won, timedOut = false, gaveUp = false) {
       resultSub.textContent   = `Round ${currentRoundNumber}: Ended after ${currentStep} step${currentStep !== 1 ? "s" : ""}.`;
     } else {
       resultTitle.textContent = "Better luck next time!";
-      resultSub.textContent   = `Round ${currentRoundNumber}: You used all ${MAX_STEPS} steps without reaching ${endNameEl.textContent}.`;
+      resultSub.textContent   = `Round ${currentRoundNumber}: You used all ${MAX_STEPS} steps without reaching ${endActorName}.`;
     }
+
     const metaParts = [
-      `<span class="result-pill">Round score: 0</span>`,
+      `<span class="result-pill">Round score: ${roundScore}</span>`,
       `<span class="result-pill">Game score: ${gameCumulativeScore}</span>`,
     ];
+    if (proximityLabel) {
+      metaParts.push(`<span class="result-pill result-pill--proximity">${proximityLabel}</span>`);
+    }
+    if (proximityResult && proximityResult.distance > 0) {
+      metaParts.push(`<span class="result-pill">${proximityResult.distance} hop${proximityResult.distance !== 1 ? "s" : ""} from ${endActorName}</span>`);
+    } else if (playerMadeProgress && !proximityResult) {
+      metaParts.push(`<span class="result-pill">Far from ${endActorName}</span>`);
+    }
     resultMeta.innerHTML = metaParts.join("");
     resultMeta.classList.remove("hidden");
   }
@@ -1020,6 +1189,29 @@ function endGame(won, timedOut = false, gaveUp = false) {
     ${renderShortestPathMarkup(puzzle)}
   `;
   resultPath.classList.remove("hidden");
+  observePathTimeline(resultPath);
+
+  // For non-wins where the player made at least one step: show how to finish their path.
+  if (!won && resultCompletionPath) {
+    const lastActorName = chainSteps.length > 0 ? chainSteps[chainSteps.length - 1].actor : null;
+    if (lastActorName) {
+      const completionBfs = bfsFromActor(lastActorName, endNameEl.textContent, 3);
+      if (completionBfs && completionBfs.distance > 0) {
+        resultCompletionPath.innerHTML = `
+          <div class="result-path__label result-path__label--completion">🔗 How to finish from where you left off</div>
+          ${renderCompletionPathMarkup(lastActorName, completionBfs)}
+        `;
+        resultCompletionPath.classList.remove("hidden");
+        observePathTimeline(resultCompletionPath);
+      } else {
+        resultCompletionPath.classList.add("hidden");
+      }
+    } else {
+      resultCompletionPath.classList.add("hidden");
+    }
+  } else if (resultCompletionPath) {
+    resultCompletionPath.classList.add("hidden");
+  }
 
   // Handle game progression
   if (currentRoundNumber < ROUNDS_PER_GAME) {
@@ -1048,6 +1240,24 @@ function hideError() {
   errorMsg.textContent = "";
 }
 
+// Trigger path animations when the timeline scrolls into view.
+function observePathTimeline(containerEl) {
+  const timeline = containerEl.querySelector(".result-path-timeline");
+  if (!timeline) return;
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-revealed");
+          obs.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.05 },
+  );
+  observer.observe(timeline);
+}
+
 // ── Timer ──────────────────────────────────────────────────────────────────────
 function formatTimeDisplay(seconds) {
   const mins = Math.floor(seconds / 60);
@@ -1058,6 +1268,7 @@ function formatTimeDisplay(seconds) {
 function updateTimerDisplay() {
   const display = formatTimeDisplay(gameTimeRemaining);
   timerValue.textContent = display;
+  syncMobileTimerDisplay(display);
   
   // Add color coding
   if (gameTimeRemaining <= 10) {
@@ -1143,6 +1354,7 @@ document.querySelectorAll('.btn-option[data-actor-mode]').forEach(btn => {
 });
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
+setupMobileCardToggles();
 updateDifficultyButtons();
 updateActorModeButtons();
 updateSetupDifficultyButtons();
