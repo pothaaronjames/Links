@@ -13,11 +13,6 @@
         <p class="tagline">Connect the actors through the movies</p>
       </div>
       <div class="header-actions">
-        <div class="timer-display" id="timerDisplay">
-          <span class="timer-label">Time</span>
-          <span class="timer-value" id="timerValue">1:00</span>
-        </div>
-        
         <div class="button-group">
           <span class="button-group-label">Difficulty</span>
           <div class="button-options">
@@ -53,8 +48,7 @@
             <li>Your goal is to connect them through a chain of <strong>shared movies</strong>.</li>
             <li>Each step, enter a movie that the <em>current actor</em> appeared in.</li>
             <li>Then pick another actor from that movie to continue the chain.</li>
-              <li>Each round has a <strong>1-minute timer</strong>, so move quickly.</li>
-              <li>Reach the End Actor in as few steps as possible!</li>
+            <li>Reach the End Actor in as few steps as possible!</li>
           </ol>
         </div>
         <div class="instructions-section">
@@ -102,10 +96,6 @@
 
     <main class="game-wrap">
       <div class="mobile-game-hud" id="mobileGameHud" aria-live="polite">
-        <div class="mobile-game-hud__item">
-          <span class="mobile-game-hud__label">Time</span>
-          <span class="mobile-game-hud__value" id="mobileTimerValue">1:00</span>
-        </div>
         <div class="mobile-game-hud__item">
           <span class="mobile-game-hud__label">Round</span>
           <span class="mobile-game-hud__value" id="mobileRoundValue">1 / 5</span>
@@ -167,7 +157,7 @@
         </div>
       </div>
 
-      <div class="hint-penalty-note" id="hintPenaltyInfo">Hint penalty: -150 points each. Hints lock in the final 10 seconds.</div>
+      <div class="hint-penalty-note" id="hintPenaltyInfo">Hint penalty: -150 points each.</div>
 
       <!-- Chain display -->
       <div class="chain-area" id="chainArea">
